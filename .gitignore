@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# Local Spark & Windows runtime artifacts
+*.crc
+*.tmp
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Active pipeline runtime lock
+state/pipeline.lock
+
+# Redundant binary archives (extracted binaries in tools/hadoop-3.4.1/ are tracked)
+tools/downloads/*.zip
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
