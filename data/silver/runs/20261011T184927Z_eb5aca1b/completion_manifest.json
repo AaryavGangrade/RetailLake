@@ -1,0 +1,226 @@
+{
+  "run_id": "20261011T184927Z_eb5aca1b",
+  "status": "complete",
+  "source": "verified S3 Bronze download",
+  "tables": {
+    "orders": {
+      "rows": 99441,
+      "conversion_failures": {
+        "order_purchase_timestamp": 0,
+        "order_approved_at": 0,
+        "order_delivered_carrier_date": 0,
+        "order_delivered_customer_date": 0,
+        "order_estimated_delivery_date": 0
+      },
+      "missing_required": {
+        "order_id": 0,
+        "customer_id": 0,
+        "order_status": 0,
+        "order_purchase_timestamp": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "customer_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_approved_at",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184927Z_eb5aca1b\\orders"
+    },
+    "order_items": {
+      "rows": 112650,
+      "conversion_failures": {
+        "order_item_id": 0,
+        "shipping_limit_date": 0,
+        "price": 0,
+        "freight_value": 0
+      },
+      "missing_required": {
+        "order_id": 0,
+        "order_item_id": 0,
+        "product_id": 0,
+        "seller_id": 0,
+        "shipping_limit_date": 0,
+        "price": 0,
+        "freight_value": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_item_id",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "seller_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "price",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "freight_value",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184927Z_eb5aca1b\\order_items"
+    },
+    "products": {
+      "rows": 32951,
+      "conversion_failures": {
+        "product_name_lenght": 0,
+        "product_description_lenght": 0,
+        "product_photos_qty": 0,
+        "product_weight_g": 0,
+        "product_length_cm": 0,
+        "product_height_cm": 0,
+        "product_width_cm": 0
+      },
+      "missing_required": {
+        "product_id": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_category_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_name_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_description_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_weight_g",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_length_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_height_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_width_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184927Z_eb5aca1b\\products"
+    }
+  },
+  "unmatched_item_orders": 0,
+  "unmatched_item_products": 0,
+  "orders_without_items": 775,
+  "products_without_category": 610,
+  "completed_at_utc": "2026-10-11T18:50:07.016974+00:00"
+}
