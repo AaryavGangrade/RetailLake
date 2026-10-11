@@ -1,0 +1,351 @@
+{
+  "batch_id": "ea23d41a00728ae8b14e7712bbc3b0f7305030bc26c6a7ce184c3e42ce002899",
+  "status": "complete",
+  "layer": "gold",
+  "run_id": "20261012T090455Z_31673efe",
+  "bucket": "retaillake-dev-037315459859-mumbai",
+  "region": "ap-south-1",
+  "prefix": "gold/runs/20261012T090455Z_31673efe/",
+  "published_at_utc": "2026-10-12T09:06:41.297502+00:00",
+  "tables": {
+    "product_dim": {
+      "rows": 32951,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_category_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_name_length",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_description_length",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_weight_g",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_length_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_height_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_width_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T090455Z_31673efe/product_dim/"
+    },
+    "item_facts": {
+      "rows": 112650,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_item_id",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "seller_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "price",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "freight_value",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "customer_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_approved_at",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "purchase_month",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "is_delivered",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T090455Z_31673efe/item_facts/"
+    },
+    "category_sales": {
+      "rows": 74,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "items_sold",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "orders",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "item_sales",
+            "type": "decimal(22,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T090455Z_31673efe/category_sales/"
+    },
+    "monthly_sales": {
+      "rows": 23,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "purchase_month",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "orders",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "items_sold",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "item_sales",
+            "type": "decimal(22,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T090455Z_31673efe/monthly_sales/"
+    }
+  },
+  "files": [
+    {
+      "relative_path": "category_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1950,
+      "sha256": "0eafa261f06ee94f5e47fc9945a0ac241dc46904e199e71e6c790ffa4e17ff94"
+    },
+    {
+      "relative_path": "category_sales/part-00000-7a9aacce-43e8-4842-98a8-8175e4808008-c000.snappy.parquet",
+      "size_bytes": 2751,
+      "sha256": "18a229bc97ea46b80a2d726784261bcbbce2b92d7a47ab6f0e84a9b10b23c524"
+    },
+    {
+      "relative_path": "category_sales/part-00001-4c6239c5-0229-45ef-bf57-b17e373dc72a-c000.snappy.parquet",
+      "size_bytes": 2497,
+      "sha256": "3dd690c2aadd6dca504e147b519ee2bb762df60a45730ca0e5e5fe8d116b0f21"
+    },
+    {
+      "relative_path": "category_sales.csv",
+      "size_bytes": 2712,
+      "sha256": "6587886018b1aa9d0e6edb36f613274d62828f9bcd27479f068a470603f249eb"
+    },
+    {
+      "relative_path": "item_facts/_delta_log/00000000000000000000.json",
+      "size_bytes": 6356,
+      "sha256": "76b45f7c5129b523134ceca5edd55c0af984ee27ff5fe1d9d8c1e22ca764a2a2"
+    },
+    {
+      "relative_path": "item_facts/part-00000-d42a2120-8778-4403-ba06-ed0f6dc0cca3-c000.snappy.parquet",
+      "size_bytes": 8101665,
+      "sha256": "96ddc0436ec4eb481208b64d64da8bb42f714916b7be9fa37ae791aee9d299d7"
+    },
+    {
+      "relative_path": "item_facts/part-00001-d49997c2-1332-42db-bb21-7ac2b3276bf8-c000.snappy.parquet",
+      "size_bytes": 4873690,
+      "sha256": "2a499253af012aa1e20a66e2995fc0fef50618ef43d2c11d3f3d9a2e8bf02d46"
+    },
+    {
+      "relative_path": "monthly_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1949,
+      "sha256": "41d80065791c1a3d1c99cf14bc462fb2b731b208ea1245860bcd32456f68373e"
+    },
+    {
+      "relative_path": "monthly_sales/part-00000-3ff4f255-1b8b-431c-a074-4fcfd4895036-c000.snappy.parquet",
+      "size_bytes": 1635,
+      "sha256": "261364302147e74691de61ae39e198936ee0f75d1ef37f5f1d5697e61f7a91e0"
+    },
+    {
+      "relative_path": "monthly_sales/part-00001-7698a0dc-6ee0-41c1-b54d-3cf838115c27-c000.snappy.parquet",
+      "size_bytes": 1661,
+      "sha256": "4d57e501ec87a7d5e8a64cf94931bd530e3a58a9f2afe855d46bd79d2f4cb9b6"
+    },
+    {
+      "relative_path": "monthly_sales.csv",
+      "size_bytes": 688,
+      "sha256": "09a3c3a1068de76d1276f7c729ca8c3207fdf3c56b2edff7d3a995af793d62b4"
+    },
+    {
+      "relative_path": "product_dim/_delta_log/00000000000000000000.json",
+      "size_bytes": 2672,
+      "sha256": "99032fbb07a4e14f6856be225a64d94df351b2f75fba3a815804c427268236fa"
+    },
+    {
+      "relative_path": "product_dim/part-00000-6aca6151-367e-40bc-ba2c-9d2130fe435f-c000.snappy.parquet",
+      "size_bytes": 1393994,
+      "sha256": "3f8cc8d1bd89ffcced7cc7bf1383879dca026b3d88e00f3a660a107c0cebf038"
+    }
+  ],
+  "object_count_including_manifest": 14,
+  "artifact_bytes": 14394220,
+  "encryption": "SSE-S3 / AES256",
+  "validation": {
+    "fact_rows": 112650,
+    "duplicate_fact_keys": 0,
+    "unmatched_fact_rows": 0,
+    "delivered_items": 110197,
+    "delivered_orders_with_items": 96478,
+    "item_level_sales": "13221498.11",
+    "category_sales_total": "13221498.11",
+    "monthly_sales_total": "13221498.11",
+    "databricks_baseline_sales": "13221498.11",
+    "totals_match": true,
+    "summary_item_counts_match": true,
+    "monthly_order_counts_match": true
+  },
+  "metrics": {
+    "item_sales": "Sum of item price for delivered orders; excludes freight; BRL",
+    "items_sold": "Number of order-item rows belonging to delivered orders",
+    "orders": "Distinct order IDs within each group; category counts are not additive",
+    "purchase_month": "Month of purchase in source wall-clock time, not delivery month"
+  },
+  "source_silver_run_id": "20261012T090424Z_ff68d722",
+  "immutable_by_publisher": true,
+  "note": "Publisher uses conditional writes; bucket Object Lock is not enabled."
+}

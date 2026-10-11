@@ -1,0 +1,232 @@
+{
+  "status": "complete",
+  "layer": "silver",
+  "run_id": "20261011T184927Z_eb5aca1b",
+  "bucket": "retaillake-dev-037315459859-mumbai",
+  "region": "ap-south-1",
+  "prefix": "silver/runs/20261011T184927Z_eb5aca1b/",
+  "published_at_utc": "2026-10-11T19:04:45.818738+00:00",
+  "tables": {
+    "orders": {
+      "rows": 99441,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "customer_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_approved_at",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261011T184927Z_eb5aca1b/orders/"
+    },
+    "order_items": {
+      "rows": 112650,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_item_id",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "seller_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "price",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "freight_value",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261011T184927Z_eb5aca1b/order_items/"
+    },
+    "products": {
+      "rows": 32951,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_category_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_name_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_description_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_weight_g",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_length_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_height_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_width_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261011T184927Z_eb5aca1b/products/"
+    }
+  },
+  "files": [
+    {
+      "relative_path": "order_items/_delta_log/00000000000000000000.json",
+      "size_bytes": 3159,
+      "sha256": "7f27fd6970dfd46998c188af697d0c61dc6193dd1b4596044027ef446679f6e4"
+    },
+    {
+      "relative_path": "order_items/part-00000-24b8c52e-9fde-47a7-9c41-645441ec3291-c000.snappy.parquet",
+      "size_bytes": 3884526,
+      "sha256": "7cecfcad9da4749303709e75ab3434ccd5b0e292bf1ea6a0a30c688425764975"
+    },
+    {
+      "relative_path": "order_items/part-00001-4135e7b3-92d9-4789-85ea-1a23689b0807-c000.snappy.parquet",
+      "size_bytes": 2406246,
+      "sha256": "d26797a598c418baeabe2e2470230f921eca5e22c478e508b9516c197ce553f5"
+    },
+    {
+      "relative_path": "orders/_delta_log/00000000000000000000.json",
+      "size_bytes": 4154,
+      "sha256": "b44411f02af71ad0b795d4a3e67d4f6dc2454bc62a97a4d7ce38c5a6aff02149"
+    },
+    {
+      "relative_path": "orders/part-00000-6a559964-06fd-4ae7-ad1a-06975aa2c321-c000.snappy.parquet",
+      "size_bytes": 5914096,
+      "sha256": "a2f405db8c6f0c5d6da6d2bba94682682a41af402f34d90ee835e059325a77d4"
+    },
+    {
+      "relative_path": "orders/part-00001-34663e7b-fe82-408f-b56a-8811d31c092b-c000.snappy.parquet",
+      "size_bytes": 3650295,
+      "sha256": "09b9b1a1ea6cc571dd1582a7001278c61daf3fd21e1b62265ff1af588fcdc36a"
+    },
+    {
+      "relative_path": "products/_delta_log/00000000000000000000.json",
+      "size_bytes": 2515,
+      "sha256": "b93d55798b8cd3e1337012ec5bc309af991ae1d561bf45506eff126dba80d921"
+    },
+    {
+      "relative_path": "products/part-00000-809c10d4-1ee4-41ce-a231-a2a15fb4833e-c000.snappy.parquet",
+      "size_bytes": 1363520,
+      "sha256": "b16d1d5c603700f6905c60ef2f05b19c0024fd4d42ad9ce65027dc3e180fa0d2"
+    }
+  ],
+  "object_count_including_manifest": 9,
+  "artifact_bytes": 17228511,
+  "encryption": "SSE-S3 / AES256",
+  "validation": {},
+  "metrics": {},
+  "source_silver_run_id": null,
+  "immutable_by_publisher": true,
+  "note": "Publisher uses conditional writes; bucket Object Lock is not enabled."
+}
