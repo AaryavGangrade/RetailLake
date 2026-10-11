@@ -1,0 +1,443 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+:: loading settings :: url = jar:file:/C:/Users/HP5CD/Desktop/Aaryav/RetailLake/.venv/Lib/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\cache
+The jars for the packages stored in: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\jars
+io.delta#delta-spark_2.13 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-5264ea7a-a832-464c-8d11-cba04254e4d4;1.0
+	confs: [default]
+	found io.delta#delta-spark_2.13;4.0.1 in central
+	found io.delta#delta-storage;4.0.1 in central
+	found org.antlr#antlr4-runtime;4.13.1 in central
+:: resolution report :: resolve 244ms :: artifacts dl 11ms
+	:: modules in use:
+	io.delta#delta-spark_2.13;4.0.1 from central in [default]
+	io.delta#delta-storage;4.0.1 from central in [default]
+	org.antlr#antlr4-runtime;4.13.1 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-5264ea7a-a832-464c-8d11-cba04254e4d4
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/9ms)
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/12 00:26:03 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+
+[Stage 0:>                                                          (0 + 1) / 1]
+
+[Stage 2:>                                                         (0 + 2) / 50]
+
+[Stage 2:==>                                                       (2 + 2) / 50]
+
+[Stage 2:===>                                                      (3 + 2) / 50]
+
+[Stage 2:====>                                                     (4 + 2) / 50]
+
+[Stage 2:=====>                                                    (5 + 2) / 50]
+
+[Stage 2:======>                                                   (6 + 2) / 50]
+
+[Stage 2:=========>                                                (8 + 2) / 50]
+
+[Stage 2:==========>                                               (9 + 2) / 50]
+
+[Stage 2:===========>                                             (10 + 2) / 50]
+
+[Stage 2:=============>                                           (12 + 2) / 50]
+
+[Stage 2:==============>                                          (13 + 2) / 50]
+
+[Stage 2:===============>                                         (14 + 2) / 50]
+
+[Stage 2:=================>                                       (15 + 2) / 50]
+
+[Stage 2:===================>                                     (17 + 2) / 50]
+
+[Stage 2:====================>                                    (18 + 2) / 50]
+
+[Stage 2:=====================>                                   (19 + 2) / 50]
+
+[Stage 2:======================>                                  (20 + 2) / 50]
+
+[Stage 2:=======================>                                 (21 + 2) / 50]
+
+[Stage 2:==========================>                              (23 + 2) / 50]
+
+[Stage 2:============================>                            (25 + 2) / 50]
+
+[Stage 2:==============================>                          (27 + 2) / 50]
+
+[Stage 2:=================================>                       (29 + 2) / 50]
+
+[Stage 2:==================================>                      (30 + 2) / 50]
+
+[Stage 2:===================================>                     (31 + 2) / 50]
+
+[Stage 2:=======================================>                 (35 + 2) / 50]
+
+[Stage 2:=========================================>               (36 + 2) / 50]
+
+[Stage 2:============================================>            (39 + 2) / 50]
+
+[Stage 2:=============================================>           (40 + 2) / 50]
+
+[Stage 2:===============================================>         (42 + 2) / 50]
+
+[Stage 2:===================================================>     (45 + 2) / 50]
+
+[Stage 2:=====================================================>   (47 + 2) / 50]
+
+                                                                                
+
+[Stage 8:=========>                                                (8 + 2) / 50]
+
+[Stage 8:===========>                                             (10 + 2) / 50]
+
+[Stage 8:============>                                            (11 + 2) / 50]
+
+[Stage 8:===============>                                         (14 + 2) / 50]
+
+[Stage 8:=================>                                       (15 + 2) / 50]
+
+[Stage 8:====================>                                    (18 + 2) / 50]
+
+[Stage 8:=========================>                               (22 + 2) / 50]
+
+[Stage 8:===========================>                             (24 + 2) / 50]
+
+[Stage 8:=============================>                           (26 + 2) / 50]
+
+[Stage 8:===============================>                         (28 + 2) / 50]
+
+[Stage 8:==================================>                      (30 + 2) / 50]
+
+[Stage 8:===================================>                     (31 + 2) / 50]
+
+[Stage 8:======================================>                  (34 + 2) / 50]
+
+[Stage 8:==========================================>              (37 + 2) / 50]
+
+[Stage 8:==============================================>          (41 + 2) / 50]
+
+[Stage 8:=================================================>       (43 + 2) / 50]
+
+[Stage 8:====================================================>    (46 + 2) / 50]
+
+[Stage 8:=======================================================> (49 + 1) / 50]
+
+                                                                                
+
+[Stage 14:====>                                                    (4 + 2) / 50]
+
+[Stage 14:=========>                                               (8 + 2) / 50]
+
+[Stage 14:===============>                                        (14 + 2) / 50]
+
+[Stage 14:====================>                                   (18 + 2) / 50]
+
+[Stage 14:======================>                                 (20 + 2) / 50]
+
+[Stage 14:=============================>                          (26 + 2) / 50]
+
+[Stage 14:=================================>                      (30 + 2) / 50]
+
+[Stage 14:========================================>               (36 + 2) / 50]
+
+[Stage 14:===========================================>            (39 + 2) / 50]
+
+[Stage 14:=================================================>      (44 + 2) / 50]
+
+[Stage 14:======================================================> (49 + 1) / 50]
+
+                                                                                
+
+[Stage 19:====>                                                    (4 + 2) / 50]
+
+[Stage 19:======>                                                  (6 + 2) / 50]
+
+[Stage 19:=============>                                          (12 + 2) / 50]
+
+[Stage 19:===================>                                    (17 + 2) / 50]
+
+[Stage 19:======================>                                 (20 + 2) / 50]
+
+[Stage 19:==========================>                             (24 + 2) / 50]
+
+[Stage 19:==============================>                         (27 + 2) / 50]
+
+[Stage 19:=================================>                      (30 + 2) / 50]
+
+[Stage 19:===================================>                    (32 + 2) / 50]
+
+[Stage 19:======================================>                 (34 + 2) / 50]
+
+[Stage 19:==========================================>             (38 + 2) / 50]
+
+[Stage 19:=================================================>      (44 + 2) / 50]
+
+[Stage 19:===================================================>    (46 + 2) / 50]
+
+[Stage 19:=====================================================>  (48 + 2) / 50]
+
+                                                                                
+
+[Stage 24:==================================================>     (45 + 2) / 50]
+
+                                                                                
+
+[Stage 26:=================>                                      (16 + 2) / 50]
+
+[Stage 26:=========================>                              (23 + 2) / 50]
+
+[Stage 26:===============================>                        (28 + 2) / 50]
+
+[Stage 26:=======================================>                (35 + 2) / 50]
+
+[Stage 26:===============================================>        (42 + 2) / 50]
+
+                                                                                
+
+[Stage 34:>                 (0 + 1) / 1][Stage 35:>                 (0 + 1) / 2]
+
+[Stage 34:>                 (0 + 1) / 1][Stage 35:>                 (0 + 2) / 2]
+
+                                                                                
+
+[Stage 37:>                                                         (0 + 2) / 2]
+
+[Stage 37:=============================>                            (1 + 1) / 2]
+
+                                                                                
+
+[Stage 41:=============================>                            (1 + 1) / 2]
+
+                                                                                
+
+[Stage 50:>                                                         (0 + 2) / 2]
+
+[Stage 50:=============================>                            (1 + 1) / 2]
+
+                                                                                
+
+[Stage 54:>                                                         (0 + 2) / 2]
+
+                                                                                
+Joins preserved 112,650 item rows. Delivered-item sales: 13221498.11
+
+[Stage 113:>                                                        (0 + 1) / 1]
+
+                                                                                
+
+[Stage 116:>                                                       (0 + 3) / 50]
+
+[Stage 116:=============>                                         (12 + 2) / 50]
+
+[Stage 116:===================>                                   (18 + 2) / 50]
+
+[Stage 116:==============================>                        (28 + 2) / 50]
+
+[Stage 116:=========================================>             (38 + 2) / 50]
+
+[Stage 116:==============================================>        (42 + 2) / 50]
+
+                                                                                
+
+[Stage 118:==========================>                            (24 + 2) / 50]
+
+[Stage 118:==================================>                    (31 + 2) / 50]
+
+[Stage 118:========================================>              (37 + 2) / 50]
+
+[Stage 118:============================================>          (40 + 2) / 50]
+
+[Stage 118:=================================================>     (45 + 2) / 50]
+
+                                                                                
+product_dim: 32,951 rows saved and verified
+
+[Stage 125:>                                                        (0 + 2) / 2]
+
+[Stage 125:============================>                            (1 + 1) / 2]
+
+                                                                                
+
+[Stage 128:==============================>                        (28 + 2) / 50]
+
+[Stage 128:=========================================>             (38 + 2) / 50]
+
+[Stage 128:====================================================>  (48 + 2) / 50]
+
+                                                                                
+
+[Stage 130:==============================>                        (28 + 2) / 50]
+
+[Stage 130:=====================================>                 (34 + 2) / 50]
+
+[Stage 130:=========================================>             (38 + 2) / 50]
+
+[Stage 130:=============================================>         (41 + 2) / 50]
+
+[Stage 130:===============================================>       (43 + 2) / 50]
+
+[Stage 130:==================================================>    (46 + 2) / 50]
+
+                                                                                
+item_facts: 112,650 rows saved and verified
+
+[Stage 151:========================>                              (22 + 2) / 50]
+
+[Stage 151:=====================================>                 (34 + 2) / 50]
+
+[Stage 151:================================================>      (44 + 2) / 50]
+
+                                                                                
+
+[Stage 153:=================================>                     (30 + 2) / 50]
+
+[Stage 153:=========================================>             (38 + 2) / 50]
+
+[Stage 153:===============================================>       (43 + 2) / 50]
+
+                                                                                
+
+[Stage 158:===============>                                       (14 + 2) / 50]
+
+[Stage 158:=================>                                     (16 + 2) / 50]
+
+[Stage 158:======================>                                (20 + 2) / 50]
+
+[Stage 158:========================>                              (22 + 2) / 50]
+
+[Stage 158:==============================>                        (28 + 2) / 50]
+
+[Stage 158:==================================>                    (31 + 2) / 50]
+
+[Stage 158:========================================>              (37 + 2) / 50]
+
+[Stage 158:===============================================>       (43 + 2) / 50]
+
+[Stage 158:==================================================>    (46 + 2) / 50]
+
+                                                                                
+category_sales: 74 rows saved and verified
+
+[Stage 207:===================>                                   (18 + 2) / 50]
+
+[Stage 207:==============================>                        (28 + 2) / 50]
+
+[Stage 207:=======================================>               (36 + 2) / 50]
+
+[Stage 207:==================================================>    (46 + 2) / 50]
+
+                                                                                
+
+[Stage 209:============================>                          (26 + 2) / 50]
+
+[Stage 209:=============================================>         (41 + 3) / 50]
+
+                                                                                
+
+[Stage 214:============================>                          (26 + 2) / 50]
+
+[Stage 214:=====================================>                 (34 + 2) / 50]
+
+[Stage 214:==============================================>        (42 + 2) / 50]
+
+[Stage 214:=====================================================> (49 + 1) / 50]
+
+                                                                                
+monthly_sales: 23 rows saved and verified
+Completed Gold snapshot: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\data\gold\runs\20261011T185542Z_b894d4ac
+26/10/12 00:27:36 WARN SparkEnv: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f\userFiles-9bba2a03-d698-4365-8b71-9040873f935b
+java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f\userFiles-9bba2a03-d698-4365-8b71-9040873f935b\org.antlr_antlr4-runtime-4.13.1.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:131)
+	at org.apache.spark.SparkContext.$anonfun$stop$25(SparkContext.scala:2395)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1300)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2395)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2297)
+	at org.apache.spark.api.java.JavaSparkContext.stop(JavaSparkContext.scala:552)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26/10/12 00:27:37 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f
+java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f\userFiles-9bba2a03-d698-4365-8b71-9040873f935b\org.antlr_antlr4-runtime-4.13.1.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26/10/12 00:27:37 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f\userFiles-9bba2a03-d698-4365-8b71-9040873f935b
+java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-cdc33e5f-163c-46d7-a83c-134577e4336f\userFiles-9bba2a03-d698-4365-8b71-9040873f935b\org.antlr_antlr4-runtime-4.13.1.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.Try$.apply(Try.scala:217)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+SUCCESS: The process with PID 13556 (child process of PID 23328) has been terminated.
+SUCCESS: The process with PID 23328 (child process of PID 21968) has been terminated.
+SUCCESS: The process with PID 21968 (child process of PID 21604) has been terminated.

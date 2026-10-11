@@ -1,0 +1,279 @@
+{
+  "batch_id": "ea23d41a00728ae8b14e7712bbc3b0f7305030bc26c6a7ce184c3e42ce002899",
+  "run_id": "20261012T084905Z_3830941f",
+  "silver_run_id": "20261012T084829Z_b88491c1",
+  "status": "complete",
+  "tables": {
+    "product_dim": {
+      "rows": 32951,
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\gold\\runs\\20261012T084905Z_3830941f\\product_dim",
+      "readback_passed": true,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_category_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_name_length",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_description_length",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_weight_g",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_length_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_height_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_width_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      }
+    },
+    "item_facts": {
+      "rows": 112650,
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\gold\\runs\\20261012T084905Z_3830941f\\item_facts",
+      "readback_passed": true,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_item_id",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "seller_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "price",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "freight_value",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "customer_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_approved_at",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "purchase_month",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "is_delivered",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      }
+    },
+    "category_sales": {
+      "rows": 74,
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\gold\\runs\\20261012T084905Z_3830941f\\category_sales",
+      "readback_passed": true,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "category",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "items_sold",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "orders",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "item_sales",
+            "type": "decimal(22,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      }
+    },
+    "monthly_sales": {
+      "rows": 23,
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\gold\\runs\\20261012T084905Z_3830941f\\monthly_sales",
+      "readback_passed": true,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "purchase_month",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "orders",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "items_sold",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "item_sales",
+            "type": "decimal(22,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "item_sales": "Sum of item price for delivered orders; excludes freight; BRL",
+    "items_sold": "Number of order-item rows belonging to delivered orders",
+    "orders": "Distinct order IDs within each group; category counts are not additive",
+    "purchase_month": "Month of purchase in source wall-clock time, not delivery month"
+  },
+  "validation": {
+    "fact_rows": 112650,
+    "duplicate_fact_keys": 0,
+    "unmatched_fact_rows": 0,
+    "delivered_items": 110197,
+    "delivered_orders_with_items": 96478,
+    "item_level_sales": "13221498.11",
+    "category_sales_total": "13221498.11",
+    "monthly_sales_total": "13221498.11",
+    "databricks_baseline_sales": "13221498.11",
+    "totals_match": true,
+    "summary_item_counts_match": true,
+    "monthly_order_counts_match": true
+  },
+  "completed_at_utc": "2026-10-12T08:49:55.199343+00:00"
+}
