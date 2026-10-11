@@ -1,0 +1,37 @@
+{
+  "dataset": "Olist Brazilian E-Commerce",
+  "source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "bucket": "retaillake-dev-037315459859-mumbai",
+  "region": "ap-south-1",
+  "prefix": "bronze/olist/",
+  "row_count_method": "User checked local CSVs in Excel; header excluded",
+  "files": [
+    {
+      "name": "olist_orders_dataset.csv",
+      "data_rows": 99441,
+      "size_bytes": 17654914,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_type": "FULL_OBJECT",
+      "checksum_base64": "LQkjziOObt0=",
+      "matches_zip_original": true
+    },
+    {
+      "name": "olist_order_items_dataset.csv",
+      "data_rows": 112650,
+      "size_bytes": 15438671,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_type": "FULL_OBJECT",
+      "checksum_base64": "EbgYRwtQD7c=",
+      "matches_zip_original": true
+    },
+    {
+      "name": "olist_products_dataset.csv",
+      "data_rows": 32951,
+      "size_bytes": 2379446,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_type": "FULL_OBJECT",
+      "checksum_base64": "PUUAxjGU1iI=",
+      "matches_zip_original": true
+    }
+  ]
+}

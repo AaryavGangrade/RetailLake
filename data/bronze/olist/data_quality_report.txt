@@ -1,0 +1,29 @@
+RetailLake — Initial Data Quality Report
+
+Source: Original CSVs inside archive.zip
+S3 location: s3://retaillake-dev-037315459859-mumbai/bronze/olist/
+
+Data rows:
+- Orders: 99,441
+- Order items: 112,650
+- Products: 32,951
+
+Passed:
+- All three uploaded CSV checksums match the ZIP originals.
+- No missing or duplicate order IDs.
+- No missing or duplicate product IDs.
+- No missing or duplicate order_id + order_item_id keys.
+- No missing product IDs in order items.
+- All order items reference existing orders and products.
+
+Findings:
+- 775 orders have no items:
+  unavailable 603, canceled 164, created 5, shipped 1, invoiced 2.
+- 610 products have a blank category.
+
+Planned handling:
+- Preserve the original data.
+- Account for orders without items when calculating metrics.
+- Label blank categories as Unknown in reporting data.
+
+These are initial checks, not a complete data quality audit.
