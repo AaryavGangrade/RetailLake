@@ -1,0 +1,75 @@
+{
+  "run_id": "20261012T090359Z_60d54a11",
+  "started_at": "2026-10-12T09:03:59.946870+00:00",
+  "status": "completed",
+  "log_file": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\logs\\20261012T090359Z_60d54a11.log",
+  "steps": [
+    {
+      "name": "download_bronze.ps1",
+      "status": "completed",
+      "started_at": "2026-10-12T09:03:59.949390+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:04:20.915701+00:00",
+      "duration_seconds": 20.96
+    },
+    {
+      "name": "identify_batch.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:04:20.917926+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:04:21.060900+00:00",
+      "duration_seconds": 0.14
+    },
+    {
+      "name": "build_silver.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:04:21.068411+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:04:55.043339+00:00",
+      "duration_seconds": 33.97
+    },
+    {
+      "name": "build_gold.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:04:55.045726+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:05:43.963054+00:00",
+      "duration_seconds": 48.92
+    },
+    {
+      "name": "publish_snapshots.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:05:43.967072+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:06:49.196604+00:00",
+      "duration_seconds": 65.23
+    },
+    {
+      "name": "verify_published.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:06:49.198899+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:07:21.729338+00:00",
+      "duration_seconds": 32.53
+    },
+    {
+      "name": "build_dashboard.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:07:21.737819+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:07:42.334618+00:00",
+      "duration_seconds": 20.59
+    },
+    {
+      "name": "record_batch.py",
+      "status": "completed",
+      "started_at": "2026-10-12T09:07:42.336716+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-12T09:07:46.170952+00:00",
+      "duration_seconds": 3.83
+    }
+  ],
+  "batch_id": "ea23d41a00728ae8b14e7712bbc3b0f7305030bc26c6a7ce184c3e42ce002899",
+  "finished_at": "2026-10-12T09:07:46.172908+00:00",
+  "duration_seconds": 226.23
+}

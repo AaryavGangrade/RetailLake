@@ -1,0 +1,10 @@
+{
+  "run_id": "20261012T085703Z_5b4b9715",
+  "started_at": "2026-10-12T08:57:03.373240+00:00",
+  "status": "failed",
+  "log_file": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\logs\\20261012T085703Z_5b4b9715.log",
+  "steps": [],
+  "error": "Another pipeline run is active; wait for it to finish.",
+  "finished_at": "2026-10-12T08:57:03.377561+00:00",
+  "duration_seconds": 0.0
+}

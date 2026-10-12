@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "runner_status": "failed",
+  "runner_exit_code": 1,
+  "run_id": "20261011T194146Z_2b396279",
+  "steps_executed": 1,
+  "aws_steps_executed": 0,
+  "data_state_outputs_unchanged": true,
+  "protected_files_checked": 117,
+  "run_report": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\logs\\20261011T194146Z_2b396279.json",
+  "log_file": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\logs\\20261011T194146Z_2b396279.log"
+}

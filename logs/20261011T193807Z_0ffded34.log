@@ -1,0 +1,18 @@
+
+STEP: download_bronze.ps1
+COMMAND: ['powershell.exe', '-NoProfile', '-File', 'C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\scripts\\download_bronze.ps1']
+download: s3://retaillake-dev-037315459859-mumbai/bronze/olist/ingestion_manifest.json to data\bronze\olist\ingestion_manifest.json
+download: s3://retaillake-dev-037315459859-mumbai/bronze/olist/data_quality_report.txt to data\bronze\olist\data_quality_report.txt
+download: s3://retaillake-dev-037315459859-mumbai/bronze/olist/olist_products_dataset.csv to data\bronze\olist\olist_products_dataset.csv
+download: s3://retaillake-dev-037315459859-mumbai/bronze/olist/olist_order_items_dataset.csv to data\bronze\olist\olist_order_items_dataset.csv
+download: s3://retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv to data\bronze\olist\olist_orders_dataset.csv
+olist_orders_dataset.csv: rows=99,441, bytes=17,654,914, checksum=LQkjziOObt0=, passed=True
+olist_order_items_dataset.csv: rows=112,650, bytes=15,438,671, checksum=EbgYRwtQD7c=, passed=True
+olist_products_dataset.csv: rows=32,951, bytes=2,379,446, checksum=PUUAxjGU1iI=, passed=True
+All three files match the ingestion manifest.
+
+STEP: identify_batch.py
+COMMAND: ['C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\.venv\\Scripts\\python.exe', 'C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\scripts\\identify_batch.py']
+Batch ID: ea23d41a00728ae8b14e7712bbc3b0f7305030bc26c6a7ce184c3e42ce002899
+
+Batch already completed. Processing skipped.
