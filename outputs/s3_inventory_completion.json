@@ -1,0 +1,324 @@
+{
+  "total_objects": 76,
+  "total_bytes": 130396925,
+  "by_layer": {
+    "bronze": {
+      "objects": 7,
+      "bytes": 35475111
+    },
+    "gold": {
+      "objects": 42,
+      "bytes": 43215151
+    },
+    "silver": {
+      "objects": 27,
+      "bytes": 51706663
+    }
+  },
+  "keys": [
+    {
+      "key": "bronze/",
+      "size_bytes": 0
+    },
+    {
+      "key": "bronze/olist/",
+      "size_bytes": 0
+    },
+    {
+      "key": "bronze/olist/data_quality_report.txt",
+      "size_bytes": 922
+    },
+    {
+      "key": "bronze/olist/ingestion_manifest.json",
+      "size_bytes": 1158
+    },
+    {
+      "key": "bronze/olist/olist_order_items_dataset.csv",
+      "size_bytes": 15438671
+    },
+    {
+      "key": "bronze/olist/olist_orders_dataset.csv",
+      "size_bytes": 17654914
+    },
+    {
+      "key": "bronze/olist/olist_products_dataset.csv",
+      "size_bytes": 2379446
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/category_sales.csv",
+      "size_bytes": 2712
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/category_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1950
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/category_sales/part-00000-04c0201e-f0d7-4ac3-a046-8603fd1a289c-c000.snappy.parquet",
+      "size_bytes": 2751
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/category_sales/part-00001-14d34326-dda5-4c59-88cf-dad8890c9368-c000.snappy.parquet",
+      "size_bytes": 2497
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/completion_manifest.json",
+      "size_bytes": 10775
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/item_facts/_delta_log/00000000000000000000.json",
+      "size_bytes": 6356
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/item_facts/part-00000-65cc2d25-b7dd-4cb3-8671-823c11469803-c000.snappy.parquet",
+      "size_bytes": 8101665
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/item_facts/part-00001-4987a6dd-d30f-4b41-920b-9abe9c3939be-c000.snappy.parquet",
+      "size_bytes": 4873690
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/monthly_sales.csv",
+      "size_bytes": 688
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/monthly_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1949
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/monthly_sales/part-00000-67e4da0a-ac64-4b6d-a5dd-f385f8262add-c000.snappy.parquet",
+      "size_bytes": 1635
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/monthly_sales/part-00001-94d0944f-22f3-4e82-aa3e-6a68a1cc2243-c000.snappy.parquet",
+      "size_bytes": 1661
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/product_dim/_delta_log/00000000000000000000.json",
+      "size_bytes": 2672
+    },
+    {
+      "key": "gold/runs/20261011T185542Z_b894d4ac/product_dim/part-00000-04977601-10b2-4aad-af17-2fb5c3274222-c000.snappy.parquet",
+      "size_bytes": 1393994
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/category_sales.csv",
+      "size_bytes": 2712
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/category_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1950
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/category_sales/part-00000-19cd999e-48c2-4564-a205-50b4214670be-c000.snappy.parquet",
+      "size_bytes": 2751
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/category_sales/part-00001-08dbde84-940e-4501-a8e7-abd1acb692de-c000.snappy.parquet",
+      "size_bytes": 2497
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/completion_manifest.json",
+      "size_bytes": 10858
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/item_facts/_delta_log/00000000000000000000.json",
+      "size_bytes": 6356
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/item_facts/part-00000-3a5da485-2017-4f0e-893b-febfa665fa7e-c000.snappy.parquet",
+      "size_bytes": 8101665
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/item_facts/part-00001-b6deea2c-f596-4e42-a73b-b97463a71ba6-c000.snappy.parquet",
+      "size_bytes": 4873690
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/monthly_sales.csv",
+      "size_bytes": 688
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/monthly_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1949
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/monthly_sales/part-00000-c57eba03-5504-4ddc-b8bc-709a4d6a76bd-c000.snappy.parquet",
+      "size_bytes": 1635
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/monthly_sales/part-00001-aa3b536b-994d-4603-86af-cca9a4294600-c000.snappy.parquet",
+      "size_bytes": 1661
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/product_dim/_delta_log/00000000000000000000.json",
+      "size_bytes": 2672
+    },
+    {
+      "key": "gold/runs/20261012T084905Z_3830941f/product_dim/part-00000-03c91649-ade6-4178-a189-1540e3f327a3-c000.snappy.parquet",
+      "size_bytes": 1393994
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/category_sales.csv",
+      "size_bytes": 2712
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/category_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1950
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/category_sales/part-00000-7a9aacce-43e8-4842-98a8-8175e4808008-c000.snappy.parquet",
+      "size_bytes": 2751
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/category_sales/part-00001-4c6239c5-0229-45ef-bf57-b17e373dc72a-c000.snappy.parquet",
+      "size_bytes": 2497
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/completion_manifest.json",
+      "size_bytes": 10858
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/item_facts/_delta_log/00000000000000000000.json",
+      "size_bytes": 6356
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/item_facts/part-00000-d42a2120-8778-4403-ba06-ed0f6dc0cca3-c000.snappy.parquet",
+      "size_bytes": 8101665
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/item_facts/part-00001-d49997c2-1332-42db-bb21-7ac2b3276bf8-c000.snappy.parquet",
+      "size_bytes": 4873690
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/monthly_sales.csv",
+      "size_bytes": 688
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/monthly_sales/_delta_log/00000000000000000000.json",
+      "size_bytes": 1949
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/monthly_sales/part-00000-3ff4f255-1b8b-431c-a074-4fcfd4895036-c000.snappy.parquet",
+      "size_bytes": 1635
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/monthly_sales/part-00001-7698a0dc-6ee0-41c1-b54d-3cf838115c27-c000.snappy.parquet",
+      "size_bytes": 1661
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/product_dim/_delta_log/00000000000000000000.json",
+      "size_bytes": 2672
+    },
+    {
+      "key": "gold/runs/20261012T090455Z_31673efe/product_dim/part-00000-6aca6151-367e-40bc-ba2c-9d2130fe435f-c000.snappy.parquet",
+      "size_bytes": 1393994
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/completion_manifest.json",
+      "size_bytes": 6988
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/order_items/_delta_log/00000000000000000000.json",
+      "size_bytes": 3159
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/order_items/part-00000-24b8c52e-9fde-47a7-9c41-645441ec3291-c000.snappy.parquet",
+      "size_bytes": 3884526
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/order_items/part-00001-4135e7b3-92d9-4789-85ea-1a23689b0807-c000.snappy.parquet",
+      "size_bytes": 2406246
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/orders/_delta_log/00000000000000000000.json",
+      "size_bytes": 4154
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/orders/part-00000-6a559964-06fd-4ae7-ad1a-06975aa2c321-c000.snappy.parquet",
+      "size_bytes": 5914096
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/orders/part-00001-34663e7b-fe82-408f-b56a-8811d31c092b-c000.snappy.parquet",
+      "size_bytes": 3650295
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/products/_delta_log/00000000000000000000.json",
+      "size_bytes": 2515
+    },
+    {
+      "key": "silver/runs/20261011T184927Z_eb5aca1b/products/part-00000-809c10d4-1ee4-41ce-a231-a2a15fb4833e-c000.snappy.parquet",
+      "size_bytes": 1363520
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/completion_manifest.json",
+      "size_bytes": 7071
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/order_items/_delta_log/00000000000000000000.json",
+      "size_bytes": 3159
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/order_items/part-00000-53802581-a039-4560-8fe8-91296a5e182b-c000.snappy.parquet",
+      "size_bytes": 3884526
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/order_items/part-00001-738006f3-f47b-4ce4-92b5-bc27d910b0c3-c000.snappy.parquet",
+      "size_bytes": 2406246
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/orders/_delta_log/00000000000000000000.json",
+      "size_bytes": 4154
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/orders/part-00000-7743e130-5658-47b5-81a2-b883e5dad859-c000.snappy.parquet",
+      "size_bytes": 5914096
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/orders/part-00001-7361988f-9d89-44e7-b51b-53604def5735-c000.snappy.parquet",
+      "size_bytes": 3650295
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/products/_delta_log/00000000000000000000.json",
+      "size_bytes": 2515
+    },
+    {
+      "key": "silver/runs/20261012T084829Z_b88491c1/products/part-00000-c4e6413b-5765-428a-b068-eef84ac3d036-c000.snappy.parquet",
+      "size_bytes": 1363520
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/completion_manifest.json",
+      "size_bytes": 7071
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/order_items/_delta_log/00000000000000000000.json",
+      "size_bytes": 3159
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/order_items/part-00000-5b5ce44e-9687-4fbd-8dac-f3676eb0407e-c000.snappy.parquet",
+      "size_bytes": 3884526
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/order_items/part-00001-2aa7f709-c441-456f-9eeb-1a24e66fb0cc-c000.snappy.parquet",
+      "size_bytes": 2406246
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/orders/_delta_log/00000000000000000000.json",
+      "size_bytes": 4154
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/orders/part-00000-bb606ae7-0dfb-47a0-9f45-fd100f7f09c4-c000.snappy.parquet",
+      "size_bytes": 5914096
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/orders/part-00001-27ee5727-500e-4340-922b-a3abbb144d55-c000.snappy.parquet",
+      "size_bytes": 3650295
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/products/_delta_log/00000000000000000000.json",
+      "size_bytes": 2515
+    },
+    {
+      "key": "silver/runs/20261012T090424Z_ff68d722/products/part-00000-723492a4-ebda-49ae-899c-ffbd370248f1-c000.snappy.parquet",
+      "size_bytes": 1363520
+    }
+  ]
+}

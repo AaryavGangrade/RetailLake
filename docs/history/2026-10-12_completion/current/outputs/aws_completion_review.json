@@ -1,0 +1,160 @@
+{
+  "account_plan": {
+    "status": "blocked",
+    "error": "aws: [ERROR]: An error occurred (ResourceNotFoundException) when calling the GetAccountPlanState operation: Missing data for account: 037315459859"
+  },
+  "free_tier_usage": {
+    "status": "read",
+    "data": {
+      "freeTierUsages": []
+    }
+  },
+  "budget": {
+    "status": "read",
+    "data": {
+      "Budget": {
+        "BudgetName": "RetailLake monthly cost budget",
+        "BudgetLimit": {
+          "Amount": "5.0",
+          "Unit": "USD"
+        },
+        "TimeUnit": "MONTHLY",
+        "TimePeriod": {
+          "Start": "2026-10-01T05:30:00+05:30",
+          "End": "2087-06-15T05:30:00+05:30"
+        },
+        "CalculatedSpend": {
+          "ActualSpend": {
+            "Amount": "0.0",
+            "Unit": "USD"
+          }
+        },
+        "BudgetType": "COST",
+        "LastUpdatedTime": "2026-10-12T11:16:54.375000+05:30",
+        "Metrics": [
+          "UnblendedCost"
+        ],
+        "HealthStatus": {
+          "Status": "HEALTHY",
+          "LastUpdatedTime": "2026-10-12T11:16:52.832000+05:30"
+        }
+      }
+    }
+  },
+  "budget_alerts": {
+    "status": "read",
+    "data": {
+      "Notifications": [
+        {
+          "NotificationType": "ACTUAL",
+          "ComparisonOperator": "GREATER_THAN",
+          "Threshold": 1.0,
+          "ThresholdType": "ABSOLUTE_VALUE",
+          "NotificationState": "OK"
+        },
+        {
+          "NotificationType": "ACTUAL",
+          "ComparisonOperator": "GREATER_THAN",
+          "Threshold": 2.0,
+          "ThresholdType": "ABSOLUTE_VALUE",
+          "NotificationState": "OK"
+        },
+        {
+          "NotificationType": "ACTUAL",
+          "ComparisonOperator": "GREATER_THAN",
+          "Threshold": 5.0,
+          "ThresholdType": "ABSOLUTE_VALUE",
+          "NotificationState": "OK"
+        }
+      ]
+    }
+  },
+  "public_access": {
+    "status": "read",
+    "data": {
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+      }
+    }
+  },
+  "encryption": {
+    "status": "read",
+    "data": {
+      "ServerSideEncryptionConfiguration": {
+        "Rules": [
+          {
+            "ApplyServerSideEncryptionByDefault": {
+              "SSEAlgorithm": "AES256"
+            },
+            "BucketKeyEnabled": true,
+            "BlockedEncryptionTypes": {
+              "EncryptionType": [
+                "SSE-C"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "databricks_role": {
+    "status": "read",
+    "data": {
+      "Role": {
+        "Path": "/",
+        "RoleName": "RetailLakeDatabricksBronzeReadRole",
+        "RoleId": "AROAQRMBMXMJ52ZXWLICW",
+        "Arn": "arn:aws:iam::037315459859:role/RetailLakeDatabricksBronzeReadRole",
+        "CreateDate": "2026-10-11T13:54:11+00:00",
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "AWS": [
+                  "arn:aws:iam::414351767826:role/unity-catalog-prod-UCMasterRole-14S5ZJVKOTYTL",
+                  "arn:aws:iam::037315459859:role/RetailLakeDatabricksBronzeReadRole"
+                ]
+              },
+              "Action": "sts:AssumeRole",
+              "Condition": {
+                "StringEquals": {
+                  "sts:ExternalId": "195ac705-d8af-4081-9cd3-3e679d9888ea"
+                }
+              }
+            }
+          ]
+        },
+        "Description": "Read-only access to RetailLake bronze/olist for Databricks Unity Catalog.",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {}
+      }
+    }
+  },
+  "organization": {
+    "status": "read",
+    "data": {
+      "Organization": {
+        "Id": "o-t9zg9ipuin",
+        "Arn": "arn:aws:organizations::209766594914:organization/o-t9zg9ipuin",
+        "FeatureSet": "ALL",
+        "MasterAccountArn": "arn:aws:organizations::209766594914:account/o-t9zg9ipuin/209766594914",
+        "MasterAccountId": "209766594914",
+        "AvailablePolicyTypes": [
+          {
+            "Type": "SERVICE_CONTROL_POLICY",
+            "Status": "ENABLED"
+          }
+        ]
+      }
+    }
+  },
+  "pipeline_role": {
+    "status": "blocked",
+    "error": "aws: [ERROR]: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name RetailLakeLocalPipelineRole cannot be found."
+  }
+}

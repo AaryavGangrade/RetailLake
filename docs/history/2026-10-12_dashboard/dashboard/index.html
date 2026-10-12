@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RetailLake · Retail performance</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+<a class="brand" href="#overview" aria-label="RetailLake home"><span class="brand-icon">≋</span><span>RetailLake<small>RETAIL ANALYTICS</small></span></a>
+<div class="nav-label">WORKSPACE</div>
+<nav aria-label="Main navigation"><a class="active" href="#overview"><span>▦</span>Overview</a><a href="#categories"><span>▤</span>Categories</a><button class="notes-open"><span>ⓘ</span>Data notes</button></nav>
+<div class="sidebar-bottom"><span class="dot"></span> Local dashboard<small>Historical Olist dataset<br>Amounts in Brazilian reais</small></div>
+</aside>
+<main id="overview">
+<header class="topbar"><span class="breadcrumb">RetailLake <span>/</span> Overview</span><span class="verified"><span class="dot"></span> Verified snapshot</span></header>
+<section class="heading"><div><div class="eyebrow">COMMERCE OVERVIEW</div><h1>Retail performance</h1><p>Explore delivered-order sales across months and product categories.</p></div><button id="export" class="button">↓ Export categories</button></section>
+<section class="filters" aria-label="Dashboard filters">
+<div class="field"><label for="start">From</label><select id="start"></select></div>
+<div class="field"><label for="end">Through</label><select id="end"></select></div>
+<div class="field category-field"><label for="category">Category</label><select id="category"><option value="__all__">All categories</option></select></div>
+<button id="reset" class="reset">Reset filters</button><span id="period" class="period"></span>
+</section>
+<div id="error" class="error" hidden></div>
+<section class="kpis" aria-label="Sales indicators">
+<article class="kpi primary"><div class="kpi-label">Item sales <span title="Delivered item prices, excluding freight">ⓘ</span></div><div id="sales" class="kpi-value">—</div><div class="kpi-foot">BRL · freight excluded</div></article>
+<article class="kpi"><div class="kpi-label">Delivered orders <span title="Distinct delivered orders containing at least one item in the selected category and period">ⓘ</span></div><div id="orders" class="kpi-value">—</div><div class="kpi-foot">Distinct orders with items</div></article>
+<article class="kpi"><div class="kpi-label">Items sold</div><div id="items" class="kpi-value">—</div><div class="kpi-foot">One record per order item</div></article>
+<article class="kpi"><div class="kpi-label">Sales per order <span title="Item sales divided by distinct delivered orders; excludes freight">ⓘ</span></div><div id="average" class="kpi-value">—</div><div class="kpi-foot">Item sales ÷ delivered orders</div></article>
+</section>
+<section class="chart-grid">
+<article class="panel trend-panel"><div class="panel-heading"><div><h2>Sales over time</h2><p id="trend-subtitle">By purchase month</p></div><div class="segmented" role="group" aria-label="Trend measure"><button data-metric="salesCents" class="selected" aria-pressed="true">Sales</button><button data-metric="orders" aria-pressed="false">Orders</button><button data-metric="items" aria-pressed="false">Items</button></div></div><div id="trend" class="chart" aria-label="Monthly trend chart"></div><div class="chart-note"><span class="legend-line"></span> Delivered orders <span>Missing months are not filled with zeros.</span></div></article>
+<article class="panel categories-panel"><div class="panel-heading"><div><h2>Leading categories</h2><p>Ranked by item sales</p></div><select id="top" aria-label="Number of leading categories"><option value="5">Top 5</option><option value="10" selected>Top 10</option><option value="20">Top 20</option></select></div><div id="bars" class="bars"></div></article>
+</section>
+<section class="insights" aria-label="Period insights"><div><span class="insight-icon">↗</span><div><small>PEAK PURCHASE MONTH</small><strong id="peak">—</strong><span id="peak-sales"></span></div></div><div><span class="insight-icon">◈</span><div><small>LEADING CATEGORY</small><strong id="leader">—</strong><span id="leader-share"></span></div></div><div><span class="insight-icon">✓</span><div><small>DATA COVERAGE</small><strong id="coverage">—</strong><span>Delivered items only · no synthetic updates</span></div></div></section>
+<section id="categories" class="panel table-panel"><div class="panel-heading"><div><h2>Category breakdown</h2><p id="table-subtitle">Sales and orders within the selected period</p></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find a category…" aria-label="Search category table"></label></div><div class="table-scroll"><table><thead><tr><th>Category</th><th><button data-sort="salesCents">Item sales <span>↓</span></button></th><th>Sales share</th><th><button data-sort="items">Items sold</button></th><th><button data-sort="orders">Orders</button></th></tr></thead><tbody id="rows"></tbody></table></div><div class="table-footer"><span id="table-count"></span><div><button id="previous" aria-label="Previous page">←</button><span id="page"></span><button id="next" aria-label="Next page">→</button></div></div><p class="table-note">An order can contain multiple categories. Category order counts should not be added together.</p></section>
+<footer><span>Olist Brazilian E-Commerce · Historical data · BRL</span><button class="notes-open">Metric definitions & source ↗</button></footer>
+</main>
+<div id="tooltip" class="tooltip" role="status" hidden></div>
+<dialog id="notes"><div class="dialog-heading"><div><div class="eyebrow">READING THIS DASHBOARD</div><h2>Data notes & definitions</h2></div><button id="close-notes" aria-label="Close data notes">×</button></div><div class="dialog-content"><h3>What the numbers mean</h3><p><strong>Item sales:</strong> sum of prices for delivered order items, excluding freight. This is not net revenue or profit. No currency conversion is performed.</p><p><strong>Delivered orders:</strong> distinct orders with an item in the selected category and purchase period. <strong>Sales per order:</strong> item sales divided by that order count.</p><p><strong>Time:</strong> purchase month using the original source timestamps. Missing activity months are not shown as zero sales.</p><h3>Categories and missing records</h3><p>Missing product categories are labeled “Unknown.” The source includes 610 products without categories and 775 orders without items. Those no-item orders are retained in the cleaned data but do not appear in this item-based dashboard.</p><p>Category order counts overlap because one order can contain several categories. For all-category totals, this dashboard uses distinct-order monthly totals.</p><h3>Source and verification</h3><p>This is a local snapshot of the verified Gold outputs. The separate incremental simulation, including its artificial price changes, is excluded. Changing a filter does not contact AWS or run Spark.</p><dl><dt>Gold snapshot</dt><dd id="source-run"></dd><dt>Verified</dt><dd id="source-date"></dd><dt>Full-dataset check</dt><dd>Item, category, and monthly sales reconcile to R$13,221,498.11.</dd></dl><p><a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" rel="noopener noreferrer">Original Olist dataset ↗</a></p></div></dialog>
+</body></html>

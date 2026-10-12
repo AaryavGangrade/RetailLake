@@ -1,0 +1,80 @@
+{
+  "scp": {
+    "status": "blocked",
+    "error": "aws: [ERROR]: An error occurred (AccessDeniedException) when calling the DescribePolicy operation: You don't have permissions to access this resource."
+  },
+  "rcp": {
+    "status": "blocked",
+    "error": "aws: [ERROR]: An error occurred (AccessDeniedException) when calling the DescribePolicy operation: You don't have permissions to access this resource."
+  },
+  "role_simulation": {
+    "status": "read",
+    "data": {
+      "EvaluationResults": [
+        {
+          "EvalActionName": "s3:GetObject",
+          "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+          "EvalDecision": "explicitDeny",
+          "MatchedStatements": [],
+          "MissingContextValues": [],
+          "OrganizationsDecisionDetail": {
+            "AllowedByOrganizations": false
+          },
+          "EvalDecisionDetails": {},
+          "ResourceSpecificResults": [
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+              "EvalResourceDecision": "explicitDeny"
+            },
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+              "EvalResourceDecision": "explicitDeny"
+            }
+          ]
+        },
+        {
+          "EvalActionName": "s3:PutObject",
+          "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+          "EvalDecision": "explicitDeny",
+          "MatchedStatements": [],
+          "MissingContextValues": [],
+          "OrganizationsDecisionDetail": {
+            "AllowedByOrganizations": false
+          },
+          "EvalDecisionDetails": {},
+          "ResourceSpecificResults": [
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+              "EvalResourceDecision": "explicitDeny"
+            },
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+              "EvalResourceDecision": "explicitDeny"
+            }
+          ]
+        },
+        {
+          "EvalActionName": "s3:DeleteObject",
+          "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+          "EvalDecision": "explicitDeny",
+          "MatchedStatements": [],
+          "MissingContextValues": [],
+          "OrganizationsDecisionDetail": {
+            "AllowedByOrganizations": false
+          },
+          "EvalDecisionDetails": {},
+          "ResourceSpecificResults": [
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+              "EvalResourceDecision": "explicitDeny"
+            },
+            {
+              "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+              "EvalResourceDecision": "explicitDeny"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

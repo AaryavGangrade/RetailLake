@@ -1,0 +1,7 @@
+{
+  "overlapping_runner_rejected": true,
+  "cleanup_refuses_active_runner": true,
+  "lock_released_and_failure_logged": true,
+  "atomic_json_replaced": true,
+  "scripts_compile": true
+}

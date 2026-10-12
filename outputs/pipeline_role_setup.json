@@ -1,0 +1,8 @@
+{
+  "status": "created_and_assumed",
+  "role_arn": "arn:aws:iam::037315459859:role/RetailLakeLocalPipelineRole",
+  "trust_principal": "arn:aws:iam::037315459859:role/managed/AccountFullAccessRole",
+  "policy": "RetailLakeScopedS3Pipeline",
+  "profile": "retaillake-pipeline",
+  "account": "037315459859"
+}

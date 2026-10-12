@@ -1,0 +1,9072 @@
+{
+  "meta": {
+    "dataset": "Olist Brazilian E-Commerce",
+    "currency": "BRL",
+    "goldRunId": "20261011T185542Z_b894d4ac",
+    "verifiedAt": "2026-10-11T19:08:45.667234+00:00",
+    "exportedAt": "2026-10-11T19:58:07.504838+00:00",
+    "source": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261011T185542Z_b894d4ac/",
+    "simulation": false,
+    "salesDefinition": "Delivered item prices, excluding freight",
+    "missingCategoryProducts": 610,
+    "ordersWithoutItems": 775
+  },
+  "monthly": [
+    {
+      "month": "2016-09",
+      "orders": 1,
+      "items": 3,
+      "salesCents": 13497
+    },
+    {
+      "month": "2016-10",
+      "orders": 265,
+      "items": 313,
+      "salesCents": 4032511
+    },
+    {
+      "month": "2016-12",
+      "orders": 1,
+      "items": 1,
+      "salesCents": 1090
+    },
+    {
+      "month": "2017-01",
+      "orders": 750,
+      "items": 913,
+      "salesCents": 11179836
+    },
+    {
+      "month": "2017-02",
+      "orders": 1653,
+      "items": 1858,
+      "salesCents": 23422340
+    },
+    {
+      "month": "2017-03",
+      "orders": 2546,
+      "items": 2897,
+      "salesCents": 35919885
+    },
+    {
+      "month": "2017-04",
+      "orders": 2303,
+      "items": 2569,
+      "salesCents": 34066968
+    },
+    {
+      "month": "2017-05",
+      "orders": 3546,
+      "items": 4004,
+      "salesCents": 48933825
+    },
+    {
+      "month": "2017-06",
+      "orders": 3135,
+      "items": 3489,
+      "salesCents": 42192337
+    },
+    {
+      "month": "2017-07",
+      "orders": 3872,
+      "items": 4416,
+      "salesCents": 48160452
+    },
+    {
+      "month": "2017-08",
+      "orders": 4193,
+      "items": 4797,
+      "salesCents": 55469970
+    },
+    {
+      "month": "2017-09",
+      "orders": 4150,
+      "items": 4737,
+      "salesCents": 60739967
+    },
+    {
+      "month": "2017-10",
+      "orders": 4478,
+      "items": 5214,
+      "salesCents": 64824765
+    },
+    {
+      "month": "2017-11",
+      "orders": 7289,
+      "items": 8475,
+      "salesCents": 98776537
+    },
+    {
+      "month": "2017-12",
+      "orders": 5513,
+      "items": 6187,
+      "salesCents": 72603319
+    },
+    {
+      "month": "2018-01",
+      "orders": 7069,
+      "items": 8037,
+      "salesCents": 92464500
+    },
+    {
+      "month": "2018-02",
+      "orders": 6555,
+      "items": 7518,
+      "salesCents": 82643713
+    },
+    {
+      "month": "2018-03",
+      "orders": 7003,
+      "items": 8017,
+      "salesCents": 95335625
+    },
+    {
+      "month": "2018-04",
+      "orders": 6798,
+      "items": 7827,
+      "salesCents": 97353409
+    },
+    {
+      "month": "2018-05",
+      "orders": 6749,
+      "items": 7810,
+      "salesCents": 97754469
+    },
+    {
+      "month": "2018-06",
+      "orders": 6099,
+      "items": 7010,
+      "salesCents": 85607786
+    },
+    {
+      "month": "2018-07",
+      "orders": 6159,
+      "items": 6963,
+      "salesCents": 86795346
+    },
+    {
+      "month": "2018-08",
+      "orders": 6351,
+      "items": 7142,
+      "salesCents": 83857664
+    }
+  ],
+  "categoryMonthly": [
+    {
+      "month": "2016-09",
+      "category": "beleza_saude",
+      "items": 3,
+      "orders": 1,
+      "salesCents": 13497
+    },
+    {
+      "month": "2016-10",
+      "category": "Unknown",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 6589
+    },
+    {
+      "month": "2016-10",
+      "category": "alimentos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7990
+    },
+    {
+      "month": "2016-10",
+      "category": "audio",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 15699
+    },
+    {
+      "month": "2016-10",
+      "category": "automotivo",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 112826
+    },
+    {
+      "month": "2016-10",
+      "category": "bebes",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 137117
+    },
+    {
+      "month": "2016-10",
+      "category": "beleza_saude",
+      "items": 40,
+      "orders": 36,
+      "salesCents": 343925
+    },
+    {
+      "month": "2016-10",
+      "category": "brinquedos",
+      "items": 24,
+      "orders": 22,
+      "salesCents": 410650
+    },
+    {
+      "month": "2016-10",
+      "category": "cama_mesa_banho",
+      "items": 8,
+      "orders": 5,
+      "salesCents": 47899
+    },
+    {
+      "month": "2016-10",
+      "category": "climatizacao",
+      "items": 8,
+      "orders": 4,
+      "salesCents": 134929
+    },
+    {
+      "month": "2016-10",
+      "category": "consoles_games",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 361936
+    },
+    {
+      "month": "2016-10",
+      "category": "cool_stuff",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 104610
+    },
+    {
+      "month": "2016-10",
+      "category": "eletronicos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 10799
+    },
+    {
+      "month": "2016-10",
+      "category": "esporte_lazer",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 201215
+    },
+    {
+      "month": "2016-10",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 37330
+    },
+    {
+      "month": "2016-10",
+      "category": "fashion_calcados",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2999
+    },
+    {
+      "month": "2016-10",
+      "category": "fashion_roupa_feminina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5490
+    },
+    {
+      "month": "2016-10",
+      "category": "fashion_roupa_masculina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2490
+    },
+    {
+      "month": "2016-10",
+      "category": "ferramentas_jardim",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 135988
+    },
+    {
+      "month": "2016-10",
+      "category": "fraldas_higiene",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 13490
+    },
+    {
+      "month": "2016-10",
+      "category": "industria_comercio_e_negocios",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 35960
+    },
+    {
+      "month": "2016-10",
+      "category": "informatica_acessorios",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 66902
+    },
+    {
+      "month": "2016-10",
+      "category": "market_place",
+      "items": 11,
+      "orders": 5,
+      "salesCents": 91529
+    },
+    {
+      "month": "2016-10",
+      "category": "moveis_decoracao",
+      "items": 65,
+      "orders": 49,
+      "salesCents": 569052
+    },
+    {
+      "month": "2016-10",
+      "category": "moveis_escritorio",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 130088
+    },
+    {
+      "month": "2016-10",
+      "category": "perfumaria",
+      "items": 29,
+      "orders": 26,
+      "salesCents": 482910
+    },
+    {
+      "month": "2016-10",
+      "category": "pet_shop",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 68968
+    },
+    {
+      "month": "2016-10",
+      "category": "relogios_presentes",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 271107
+    },
+    {
+      "month": "2016-10",
+      "category": "telefonia",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 22829
+    },
+    {
+      "month": "2016-10",
+      "category": "telefonia_fixa",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 70488
+    },
+    {
+      "month": "2016-10",
+      "category": "utilidades_domesticas",
+      "items": 12,
+      "orders": 9,
+      "salesCents": 128707
+    },
+    {
+      "month": "2016-12",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1090
+    },
+    {
+      "month": "2017-01",
+      "category": "Unknown",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 160364
+    },
+    {
+      "month": "2017-01",
+      "category": "agro_industria_e_comercio",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 6597
+    },
+    {
+      "month": "2017-01",
+      "category": "alimentos",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 4282
+    },
+    {
+      "month": "2017-01",
+      "category": "automotivo",
+      "items": 31,
+      "orders": 27,
+      "salesCents": 482003
+    },
+    {
+      "month": "2017-01",
+      "category": "bebes",
+      "items": 40,
+      "orders": 31,
+      "salesCents": 621788
+    },
+    {
+      "month": "2017-01",
+      "category": "beleza_saude",
+      "items": 82,
+      "orders": 79,
+      "salesCents": 1236644
+    },
+    {
+      "month": "2017-01",
+      "category": "brinquedos",
+      "items": 41,
+      "orders": 41,
+      "salesCents": 456819
+    },
+    {
+      "month": "2017-01",
+      "category": "cama_mesa_banho",
+      "items": 46,
+      "orders": 43,
+      "salesCents": 380436
+    },
+    {
+      "month": "2017-01",
+      "category": "casa_conforto_2",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 7280
+    },
+    {
+      "month": "2017-01",
+      "category": "climatizacao",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 66370
+    },
+    {
+      "month": "2017-01",
+      "category": "consoles_games",
+      "items": 21,
+      "orders": 19,
+      "salesCents": 451444
+    },
+    {
+      "month": "2017-01",
+      "category": "cool_stuff",
+      "items": 37,
+      "orders": 30,
+      "salesCents": 685687
+    },
+    {
+      "month": "2017-01",
+      "category": "dvds_blu_ray",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 2980
+    },
+    {
+      "month": "2017-01",
+      "category": "eletrodomesticos_2",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 191678
+    },
+    {
+      "month": "2017-01",
+      "category": "eletronicos",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 61700
+    },
+    {
+      "month": "2017-01",
+      "category": "eletroportateis",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 166079
+    },
+    {
+      "month": "2017-01",
+      "category": "esporte_lazer",
+      "items": 74,
+      "orders": 57,
+      "salesCents": 921214
+    },
+    {
+      "month": "2017-01",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 35,
+      "orders": 30,
+      "salesCents": 167197
+    },
+    {
+      "month": "2017-01",
+      "category": "fashion_calcados",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 3490
+    },
+    {
+      "month": "2017-01",
+      "category": "fashion_roupa_feminina",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 7730
+    },
+    {
+      "month": "2017-01",
+      "category": "fashion_roupa_masculina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12690
+    },
+    {
+      "month": "2017-01",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 13725
+    },
+    {
+      "month": "2017-01",
+      "category": "ferramentas_jardim",
+      "items": 54,
+      "orders": 36,
+      "salesCents": 746695
+    },
+    {
+      "month": "2017-01",
+      "category": "informatica_acessorios",
+      "items": 31,
+      "orders": 24,
+      "salesCents": 392414
+    },
+    {
+      "month": "2017-01",
+      "category": "instrumentos_musicais",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 33974
+    },
+    {
+      "month": "2017-01",
+      "category": "livros_interesse_geral",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 23489
+    },
+    {
+      "month": "2017-01",
+      "category": "malas_acessorios",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 49250
+    },
+    {
+      "month": "2017-01",
+      "category": "market_place",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 41414
+    },
+    {
+      "month": "2017-01",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11000
+    },
+    {
+      "month": "2017-01",
+      "category": "moveis_decoracao",
+      "items": 177,
+      "orders": 132,
+      "salesCents": 1303663
+    },
+    {
+      "month": "2017-01",
+      "category": "moveis_escritorio",
+      "items": 8,
+      "orders": 6,
+      "salesCents": 115835
+    },
+    {
+      "month": "2017-01",
+      "category": "moveis_quarto",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 7320
+    },
+    {
+      "month": "2017-01",
+      "category": "moveis_sala",
+      "items": 10,
+      "orders": 8,
+      "salesCents": 124190
+    },
+    {
+      "month": "2017-01",
+      "category": "musica",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 1980
+    },
+    {
+      "month": "2017-01",
+      "category": "papelaria",
+      "items": 14,
+      "orders": 7,
+      "salesCents": 156199
+    },
+    {
+      "month": "2017-01",
+      "category": "pcs",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 219999
+    },
+    {
+      "month": "2017-01",
+      "category": "perfumaria",
+      "items": 34,
+      "orders": 29,
+      "salesCents": 511260
+    },
+    {
+      "month": "2017-01",
+      "category": "pet_shop",
+      "items": 14,
+      "orders": 12,
+      "salesCents": 79912
+    },
+    {
+      "month": "2017-01",
+      "category": "relogios_presentes",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 808652
+    },
+    {
+      "month": "2017-01",
+      "category": "seguros_e_servicos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 18329
+    },
+    {
+      "month": "2017-01",
+      "category": "telefonia",
+      "items": 22,
+      "orders": 17,
+      "salesCents": 75594
+    },
+    {
+      "month": "2017-01",
+      "category": "telefonia_fixa",
+      "items": 22,
+      "orders": 19,
+      "salesCents": 67712
+    },
+    {
+      "month": "2017-01",
+      "category": "utilidades_domesticas",
+      "items": 28,
+      "orders": 21,
+      "salesCents": 282758
+    },
+    {
+      "month": "2017-02",
+      "category": "Unknown",
+      "items": 56,
+      "orders": 50,
+      "salesCents": 852111
+    },
+    {
+      "month": "2017-02",
+      "category": "agro_industria_e_comercio",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 22484
+    },
+    {
+      "month": "2017-02",
+      "category": "alimentos",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 67673
+    },
+    {
+      "month": "2017-02",
+      "category": "audio",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 16380
+    },
+    {
+      "month": "2017-02",
+      "category": "automotivo",
+      "items": 83,
+      "orders": 75,
+      "salesCents": 1235878
+    },
+    {
+      "month": "2017-02",
+      "category": "bebes",
+      "items": 32,
+      "orders": 31,
+      "salesCents": 283758
+    },
+    {
+      "month": "2017-02",
+      "category": "beleza_saude",
+      "items": 154,
+      "orders": 143,
+      "salesCents": 2205992
+    },
+    {
+      "month": "2017-02",
+      "category": "brinquedos",
+      "items": 66,
+      "orders": 61,
+      "salesCents": 935344
+    },
+    {
+      "month": "2017-02",
+      "category": "cama_mesa_banho",
+      "items": 157,
+      "orders": 140,
+      "salesCents": 1557213
+    },
+    {
+      "month": "2017-02",
+      "category": "casa_conforto",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 41466
+    },
+    {
+      "month": "2017-02",
+      "category": "casa_construcao",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 69560
+    },
+    {
+      "month": "2017-02",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5900
+    },
+    {
+      "month": "2017-02",
+      "category": "climatizacao",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 240530
+    },
+    {
+      "month": "2017-02",
+      "category": "consoles_games",
+      "items": 18,
+      "orders": 18,
+      "salesCents": 429477
+    },
+    {
+      "month": "2017-02",
+      "category": "construcao_ferramentas_construcao",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 33679
+    },
+    {
+      "month": "2017-02",
+      "category": "construcao_ferramentas_jardim",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 57998
+    },
+    {
+      "month": "2017-02",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 37900
+    },
+    {
+      "month": "2017-02",
+      "category": "cool_stuff",
+      "items": 69,
+      "orders": 68,
+      "salesCents": 1245460
+    },
+    {
+      "month": "2017-02",
+      "category": "dvds_blu_ray",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1490
+    },
+    {
+      "month": "2017-02",
+      "category": "eletrodomesticos",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 74090
+    },
+    {
+      "month": "2017-02",
+      "category": "eletrodomesticos_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1599
+    },
+    {
+      "month": "2017-02",
+      "category": "eletronicos",
+      "items": 19,
+      "orders": 14,
+      "salesCents": 121885
+    },
+    {
+      "month": "2017-02",
+      "category": "eletroportateis",
+      "items": 28,
+      "orders": 25,
+      "salesCents": 725158
+    },
+    {
+      "month": "2017-02",
+      "category": "esporte_lazer",
+      "items": 149,
+      "orders": 134,
+      "salesCents": 1562998
+    },
+    {
+      "month": "2017-02",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 36,
+      "orders": 32,
+      "salesCents": 217031
+    },
+    {
+      "month": "2017-02",
+      "category": "fashion_calcados",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 10705
+    },
+    {
+      "month": "2017-02",
+      "category": "fashion_roupa_feminina",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 36390
+    },
+    {
+      "month": "2017-02",
+      "category": "fashion_roupa_masculina",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 54595
+    },
+    {
+      "month": "2017-02",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 8,
+      "orders": 6,
+      "salesCents": 39697
+    },
+    {
+      "month": "2017-02",
+      "category": "ferramentas_jardim",
+      "items": 69,
+      "orders": 60,
+      "salesCents": 1173462
+    },
+    {
+      "month": "2017-02",
+      "category": "industria_comercio_e_negocios",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11900
+    },
+    {
+      "month": "2017-02",
+      "category": "informatica_acessorios",
+      "items": 100,
+      "orders": 92,
+      "salesCents": 1131909
+    },
+    {
+      "month": "2017-02",
+      "category": "instrumentos_musicais",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 222128
+    },
+    {
+      "month": "2017-02",
+      "category": "livros_interesse_geral",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 77271
+    },
+    {
+      "month": "2017-02",
+      "category": "livros_tecnicos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 15900
+    },
+    {
+      "month": "2017-02",
+      "category": "malas_acessorios",
+      "items": 20,
+      "orders": 19,
+      "salesCents": 165919
+    },
+    {
+      "month": "2017-02",
+      "category": "market_place",
+      "items": 20,
+      "orders": 17,
+      "salesCents": 157422
+    },
+    {
+      "month": "2017-02",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 13990
+    },
+    {
+      "month": "2017-02",
+      "category": "moveis_decoracao",
+      "items": 257,
+      "orders": 213,
+      "salesCents": 1992641
+    },
+    {
+      "month": "2017-02",
+      "category": "moveis_escritorio",
+      "items": 62,
+      "orders": 52,
+      "salesCents": 1084598
+    },
+    {
+      "month": "2017-02",
+      "category": "moveis_quarto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 45000
+    },
+    {
+      "month": "2017-02",
+      "category": "moveis_sala",
+      "items": 21,
+      "orders": 12,
+      "salesCents": 340964
+    },
+    {
+      "month": "2017-02",
+      "category": "papelaria",
+      "items": 19,
+      "orders": 19,
+      "salesCents": 234140
+    },
+    {
+      "month": "2017-02",
+      "category": "pcs",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 354900
+    },
+    {
+      "month": "2017-02",
+      "category": "perfumaria",
+      "items": 49,
+      "orders": 47,
+      "salesCents": 804038
+    },
+    {
+      "month": "2017-02",
+      "category": "pet_shop",
+      "items": 39,
+      "orders": 36,
+      "salesCents": 358487
+    },
+    {
+      "month": "2017-02",
+      "category": "relogios_presentes",
+      "items": 33,
+      "orders": 32,
+      "salesCents": 1099239
+    },
+    {
+      "month": "2017-02",
+      "category": "tablets_impressao_imagem",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 79200
+    },
+    {
+      "month": "2017-02",
+      "category": "telefonia",
+      "items": 106,
+      "orders": 95,
+      "salesCents": 669334
+    },
+    {
+      "month": "2017-02",
+      "category": "telefonia_fixa",
+      "items": 22,
+      "orders": 18,
+      "salesCents": 75923
+    },
+    {
+      "month": "2017-02",
+      "category": "utilidades_domesticas",
+      "items": 69,
+      "orders": 61,
+      "salesCents": 1129534
+    },
+    {
+      "month": "2017-03",
+      "category": "Unknown",
+      "items": 60,
+      "orders": 54,
+      "salesCents": 645717
+    },
+    {
+      "month": "2017-03",
+      "category": "agro_industria_e_comercio",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 8199
+    },
+    {
+      "month": "2017-03",
+      "category": "alimentos",
+      "items": 21,
+      "orders": 19,
+      "salesCents": 241266
+    },
+    {
+      "month": "2017-03",
+      "category": "alimentos_bebidas",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 8580
+    },
+    {
+      "month": "2017-03",
+      "category": "artes",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 17460
+    },
+    {
+      "month": "2017-03",
+      "category": "audio",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 113477
+    },
+    {
+      "month": "2017-03",
+      "category": "automotivo",
+      "items": 78,
+      "orders": 67,
+      "salesCents": 1327293
+    },
+    {
+      "month": "2017-03",
+      "category": "bebes",
+      "items": 42,
+      "orders": 41,
+      "salesCents": 359228
+    },
+    {
+      "month": "2017-03",
+      "category": "bebidas",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 46387
+    },
+    {
+      "month": "2017-03",
+      "category": "beleza_saude",
+      "items": 208,
+      "orders": 190,
+      "salesCents": 2565245
+    },
+    {
+      "month": "2017-03",
+      "category": "brinquedos",
+      "items": 102,
+      "orders": 99,
+      "salesCents": 1233957
+    },
+    {
+      "month": "2017-03",
+      "category": "cama_mesa_banho",
+      "items": 279,
+      "orders": 239,
+      "salesCents": 2512002
+    },
+    {
+      "month": "2017-03",
+      "category": "casa_conforto",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 212340
+    },
+    {
+      "month": "2017-03",
+      "category": "casa_conforto_2",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 34288
+    },
+    {
+      "month": "2017-03",
+      "category": "casa_construcao",
+      "items": 10,
+      "orders": 5,
+      "salesCents": 59196
+    },
+    {
+      "month": "2017-03",
+      "category": "climatizacao",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 410381
+    },
+    {
+      "month": "2017-03",
+      "category": "consoles_games",
+      "items": 47,
+      "orders": 45,
+      "salesCents": 983404
+    },
+    {
+      "month": "2017-03",
+      "category": "construcao_ferramentas_construcao",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 3890
+    },
+    {
+      "month": "2017-03",
+      "category": "cool_stuff",
+      "items": 118,
+      "orders": 116,
+      "salesCents": 2058333
+    },
+    {
+      "month": "2017-03",
+      "category": "dvds_blu_ray",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 45370
+    },
+    {
+      "month": "2017-03",
+      "category": "eletrodomesticos",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 31330
+    },
+    {
+      "month": "2017-03",
+      "category": "eletrodomesticos_2",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 50090
+    },
+    {
+      "month": "2017-03",
+      "category": "eletronicos",
+      "items": 37,
+      "orders": 32,
+      "salesCents": 398600
+    },
+    {
+      "month": "2017-03",
+      "category": "eletroportateis",
+      "items": 31,
+      "orders": 31,
+      "salesCents": 1117106
+    },
+    {
+      "month": "2017-03",
+      "category": "esporte_lazer",
+      "items": 190,
+      "orders": 164,
+      "salesCents": 2547289
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 66,
+      "orders": 60,
+      "salesCents": 478636
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_calcados",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 151500
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 3990
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_roupa_feminina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1990
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_roupa_masculina",
+      "items": 9,
+      "orders": 7,
+      "salesCents": 58080
+    },
+    {
+      "month": "2017-03",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 39414
+    },
+    {
+      "month": "2017-03",
+      "category": "ferramentas_jardim",
+      "items": 146,
+      "orders": 117,
+      "salesCents": 2350876
+    },
+    {
+      "month": "2017-03",
+      "category": "industria_comercio_e_negocios",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 23800
+    },
+    {
+      "month": "2017-03",
+      "category": "informatica_acessorios",
+      "items": 171,
+      "orders": 147,
+      "salesCents": 2807880
+    },
+    {
+      "month": "2017-03",
+      "category": "instrumentos_musicais",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 166733
+    },
+    {
+      "month": "2017-03",
+      "category": "livros_interesse_geral",
+      "items": 24,
+      "orders": 19,
+      "salesCents": 253396
+    },
+    {
+      "month": "2017-03",
+      "category": "livros_tecnicos",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 7500
+    },
+    {
+      "month": "2017-03",
+      "category": "malas_acessorios",
+      "items": 38,
+      "orders": 35,
+      "salesCents": 592401
+    },
+    {
+      "month": "2017-03",
+      "category": "market_place",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 180859
+    },
+    {
+      "month": "2017-03",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 11398
+    },
+    {
+      "month": "2017-03",
+      "category": "moveis_decoracao",
+      "items": 315,
+      "orders": 253,
+      "salesCents": 2213347
+    },
+    {
+      "month": "2017-03",
+      "category": "moveis_escritorio",
+      "items": 74,
+      "orders": 58,
+      "salesCents": 1079385
+    },
+    {
+      "month": "2017-03",
+      "category": "moveis_sala",
+      "items": 24,
+      "orders": 17,
+      "salesCents": 332400
+    },
+    {
+      "month": "2017-03",
+      "category": "musica",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2799
+    },
+    {
+      "month": "2017-03",
+      "category": "papelaria",
+      "items": 56,
+      "orders": 56,
+      "salesCents": 590262
+    },
+    {
+      "month": "2017-03",
+      "category": "perfumaria",
+      "items": 105,
+      "orders": 103,
+      "salesCents": 1960814
+    },
+    {
+      "month": "2017-03",
+      "category": "pet_shop",
+      "items": 44,
+      "orders": 40,
+      "salesCents": 824006
+    },
+    {
+      "month": "2017-03",
+      "category": "relogios_presentes",
+      "items": 79,
+      "orders": 74,
+      "salesCents": 2489238
+    },
+    {
+      "month": "2017-03",
+      "category": "sinalizacao_e_seguranca",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7500
+    },
+    {
+      "month": "2017-03",
+      "category": "tablets_impressao_imagem",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 49500
+    },
+    {
+      "month": "2017-03",
+      "category": "telefonia",
+      "items": 165,
+      "orders": 153,
+      "salesCents": 787712
+    },
+    {
+      "month": "2017-03",
+      "category": "telefonia_fixa",
+      "items": 20,
+      "orders": 14,
+      "salesCents": 133345
+    },
+    {
+      "month": "2017-03",
+      "category": "utilidades_domesticas",
+      "items": 196,
+      "orders": 170,
+      "salesCents": 1290696
+    },
+    {
+      "month": "2017-04",
+      "category": "Unknown",
+      "items": 69,
+      "orders": 61,
+      "salesCents": 844819
+    },
+    {
+      "month": "2017-04",
+      "category": "alimentos",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 49130
+    },
+    {
+      "month": "2017-04",
+      "category": "alimentos_bebidas",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 4790
+    },
+    {
+      "month": "2017-04",
+      "category": "artes",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11990
+    },
+    {
+      "month": "2017-04",
+      "category": "artigos_de_natal",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6900
+    },
+    {
+      "month": "2017-04",
+      "category": "audio",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 94220
+    },
+    {
+      "month": "2017-04",
+      "category": "automotivo",
+      "items": 84,
+      "orders": 77,
+      "salesCents": 1514932
+    },
+    {
+      "month": "2017-04",
+      "category": "bebes",
+      "items": 50,
+      "orders": 47,
+      "salesCents": 393055
+    },
+    {
+      "month": "2017-04",
+      "category": "beleza_saude",
+      "items": 180,
+      "orders": 168,
+      "salesCents": 2215634
+    },
+    {
+      "month": "2017-04",
+      "category": "brinquedos",
+      "items": 113,
+      "orders": 103,
+      "salesCents": 1303943
+    },
+    {
+      "month": "2017-04",
+      "category": "cama_mesa_banho",
+      "items": 271,
+      "orders": 231,
+      "salesCents": 2409289
+    },
+    {
+      "month": "2017-04",
+      "category": "casa_conforto",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 241110
+    },
+    {
+      "month": "2017-04",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1290
+    },
+    {
+      "month": "2017-04",
+      "category": "casa_construcao",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 160269
+    },
+    {
+      "month": "2017-04",
+      "category": "cine_foto",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 11800
+    },
+    {
+      "month": "2017-04",
+      "category": "climatizacao",
+      "items": 15,
+      "orders": 13,
+      "salesCents": 249223
+    },
+    {
+      "month": "2017-04",
+      "category": "consoles_games",
+      "items": 17,
+      "orders": 15,
+      "salesCents": 377288
+    },
+    {
+      "month": "2017-04",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 72900
+    },
+    {
+      "month": "2017-04",
+      "category": "construcao_ferramentas_jardim",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 149021
+    },
+    {
+      "month": "2017-04",
+      "category": "cool_stuff",
+      "items": 114,
+      "orders": 112,
+      "salesCents": 2090239
+    },
+    {
+      "month": "2017-04",
+      "category": "dvds_blu_ray",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 143490
+    },
+    {
+      "month": "2017-04",
+      "category": "eletrodomesticos",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 49940
+    },
+    {
+      "month": "2017-04",
+      "category": "eletrodomesticos_2",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 79980
+    },
+    {
+      "month": "2017-04",
+      "category": "eletronicos",
+      "items": 48,
+      "orders": 47,
+      "salesCents": 482224
+    },
+    {
+      "month": "2017-04",
+      "category": "eletroportateis",
+      "items": 20,
+      "orders": 20,
+      "salesCents": 2311498
+    },
+    {
+      "month": "2017-04",
+      "category": "esporte_lazer",
+      "items": 203,
+      "orders": 184,
+      "salesCents": 2299706
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 48,
+      "orders": 44,
+      "salesCents": 309590
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_calcados",
+      "items": 23,
+      "orders": 20,
+      "salesCents": 152650
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_esporte",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 18978
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_roupa_feminina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6490
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_roupa_masculina",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 36689
+    },
+    {
+      "month": "2017-04",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 9289
+    },
+    {
+      "month": "2017-04",
+      "category": "ferramentas_jardim",
+      "items": 108,
+      "orders": 93,
+      "salesCents": 1764893
+    },
+    {
+      "month": "2017-04",
+      "category": "informatica_acessorios",
+      "items": 132,
+      "orders": 116,
+      "salesCents": 1835346
+    },
+    {
+      "month": "2017-04",
+      "category": "instrumentos_musicais",
+      "items": 16,
+      "orders": 16,
+      "salesCents": 381843
+    },
+    {
+      "month": "2017-04",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2400
+    },
+    {
+      "month": "2017-04",
+      "category": "livros_importados",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1999
+    },
+    {
+      "month": "2017-04",
+      "category": "livros_interesse_geral",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 92338
+    },
+    {
+      "month": "2017-04",
+      "category": "livros_tecnicos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7500
+    },
+    {
+      "month": "2017-04",
+      "category": "malas_acessorios",
+      "items": 48,
+      "orders": 46,
+      "salesCents": 709030
+    },
+    {
+      "month": "2017-04",
+      "category": "market_place",
+      "items": 19,
+      "orders": 19,
+      "salesCents": 404528
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_colchao_e_estofado",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 10940
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 103340
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_decoracao",
+      "items": 191,
+      "orders": 162,
+      "salesCents": 1921123
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_escritorio",
+      "items": 58,
+      "orders": 48,
+      "salesCents": 941130
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_quarto",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 62898
+    },
+    {
+      "month": "2017-04",
+      "category": "moveis_sala",
+      "items": 12,
+      "orders": 11,
+      "salesCents": 207334
+    },
+    {
+      "month": "2017-04",
+      "category": "musica",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 5980
+    },
+    {
+      "month": "2017-04",
+      "category": "papelaria",
+      "items": 35,
+      "orders": 35,
+      "salesCents": 455144
+    },
+    {
+      "month": "2017-04",
+      "category": "pc_gamer",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 25998
+    },
+    {
+      "month": "2017-04",
+      "category": "perfumaria",
+      "items": 101,
+      "orders": 97,
+      "salesCents": 1943651
+    },
+    {
+      "month": "2017-04",
+      "category": "pet_shop",
+      "items": 51,
+      "orders": 46,
+      "salesCents": 618289
+    },
+    {
+      "month": "2017-04",
+      "category": "relogios_presentes",
+      "items": 95,
+      "orders": 88,
+      "salesCents": 2333609
+    },
+    {
+      "month": "2017-04",
+      "category": "sinalizacao_e_seguranca",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 12806
+    },
+    {
+      "month": "2017-04",
+      "category": "tablets_impressao_imagem",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 111288
+    },
+    {
+      "month": "2017-04",
+      "category": "telefonia",
+      "items": 142,
+      "orders": 138,
+      "salesCents": 713394
+    },
+    {
+      "month": "2017-04",
+      "category": "telefonia_fixa",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 50583
+    },
+    {
+      "month": "2017-04",
+      "category": "utilidades_domesticas",
+      "items": 169,
+      "orders": 134,
+      "salesCents": 1247218
+    },
+    {
+      "month": "2017-05",
+      "category": "Unknown",
+      "items": 91,
+      "orders": 82,
+      "salesCents": 1081834
+    },
+    {
+      "month": "2017-05",
+      "category": "agro_industria_e_comercio",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 157994
+    },
+    {
+      "month": "2017-05",
+      "category": "alimentos",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 38790
+    },
+    {
+      "month": "2017-05",
+      "category": "alimentos_bebidas",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 34549
+    },
+    {
+      "month": "2017-05",
+      "category": "artes",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 692725
+    },
+    {
+      "month": "2017-05",
+      "category": "artes_e_artesanato",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2199
+    },
+    {
+      "month": "2017-05",
+      "category": "audio",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 208118
+    },
+    {
+      "month": "2017-05",
+      "category": "automotivo",
+      "items": 113,
+      "orders": 99,
+      "salesCents": 1750125
+    },
+    {
+      "month": "2017-05",
+      "category": "bebes",
+      "items": 102,
+      "orders": 96,
+      "salesCents": 893372
+    },
+    {
+      "month": "2017-05",
+      "category": "bebidas",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 9000
+    },
+    {
+      "month": "2017-05",
+      "category": "beleza_saude",
+      "items": 284,
+      "orders": 261,
+      "salesCents": 4634006
+    },
+    {
+      "month": "2017-05",
+      "category": "brinquedos",
+      "items": 196,
+      "orders": 192,
+      "salesCents": 2217925
+    },
+    {
+      "month": "2017-05",
+      "category": "cama_mesa_banho",
+      "items": 361,
+      "orders": 323,
+      "salesCents": 3268460
+    },
+    {
+      "month": "2017-05",
+      "category": "casa_conforto",
+      "items": 35,
+      "orders": 32,
+      "salesCents": 511407
+    },
+    {
+      "month": "2017-05",
+      "category": "casa_construcao",
+      "items": 7,
+      "orders": 5,
+      "salesCents": 162050
+    },
+    {
+      "month": "2017-05",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5900
+    },
+    {
+      "month": "2017-05",
+      "category": "climatizacao",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 91487
+    },
+    {
+      "month": "2017-05",
+      "category": "consoles_games",
+      "items": 29,
+      "orders": 26,
+      "salesCents": 250720
+    },
+    {
+      "month": "2017-05",
+      "category": "construcao_ferramentas_construcao",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 9999
+    },
+    {
+      "month": "2017-05",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 80390
+    },
+    {
+      "month": "2017-05",
+      "category": "construcao_ferramentas_jardim",
+      "items": 7,
+      "orders": 5,
+      "salesCents": 144734
+    },
+    {
+      "month": "2017-05",
+      "category": "cool_stuff",
+      "items": 241,
+      "orders": 230,
+      "salesCents": 3248160
+    },
+    {
+      "month": "2017-05",
+      "category": "dvds_blu_ray",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 8960
+    },
+    {
+      "month": "2017-05",
+      "category": "eletrodomesticos",
+      "items": 28,
+      "orders": 28,
+      "salesCents": 191279
+    },
+    {
+      "month": "2017-05",
+      "category": "eletrodomesticos_2",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 130605
+    },
+    {
+      "month": "2017-05",
+      "category": "eletronicos",
+      "items": 65,
+      "orders": 59,
+      "salesCents": 614911
+    },
+    {
+      "month": "2017-05",
+      "category": "eletroportateis",
+      "items": 18,
+      "orders": 16,
+      "salesCents": 524144
+    },
+    {
+      "month": "2017-05",
+      "category": "esporte_lazer",
+      "items": 305,
+      "orders": 256,
+      "salesCents": 3410173
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 104,
+      "orders": 91,
+      "salesCents": 719200
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_calcados",
+      "items": 22,
+      "orders": 22,
+      "salesCents": 166954
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_esporte",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 12484
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_roupa_feminina",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 36750
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11000
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_roupa_masculina",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 60890
+    },
+    {
+      "month": "2017-05",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 28350
+    },
+    {
+      "month": "2017-05",
+      "category": "ferramentas_jardim",
+      "items": 138,
+      "orders": 121,
+      "salesCents": 2037257
+    },
+    {
+      "month": "2017-05",
+      "category": "industria_comercio_e_negocios",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 51980
+    },
+    {
+      "month": "2017-05",
+      "category": "informatica_acessorios",
+      "items": 309,
+      "orders": 253,
+      "salesCents": 4475939
+    },
+    {
+      "month": "2017-05",
+      "category": "instrumentos_musicais",
+      "items": 20,
+      "orders": 18,
+      "salesCents": 963944
+    },
+    {
+      "month": "2017-05",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 19300
+    },
+    {
+      "month": "2017-05",
+      "category": "livros_interesse_geral",
+      "items": 20,
+      "orders": 19,
+      "salesCents": 184157
+    },
+    {
+      "month": "2017-05",
+      "category": "livros_tecnicos",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 26200
+    },
+    {
+      "month": "2017-05",
+      "category": "malas_acessorios",
+      "items": 70,
+      "orders": 64,
+      "salesCents": 1253962
+    },
+    {
+      "month": "2017-05",
+      "category": "market_place",
+      "items": 22,
+      "orders": 21,
+      "salesCents": 247698
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_colchao_e_estofado",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 59589
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 130448
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_decoracao",
+      "items": 271,
+      "orders": 226,
+      "salesCents": 2231254
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_escritorio",
+      "items": 56,
+      "orders": 42,
+      "salesCents": 840343
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_quarto",
+      "items": 9,
+      "orders": 6,
+      "salesCents": 236997
+    },
+    {
+      "month": "2017-05",
+      "category": "moveis_sala",
+      "items": 32,
+      "orders": 27,
+      "salesCents": 447945
+    },
+    {
+      "month": "2017-05",
+      "category": "papelaria",
+      "items": 64,
+      "orders": 60,
+      "salesCents": 560018
+    },
+    {
+      "month": "2017-05",
+      "category": "pc_gamer",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12999
+    },
+    {
+      "month": "2017-05",
+      "category": "perfumaria",
+      "items": 143,
+      "orders": 132,
+      "salesCents": 1998206
+    },
+    {
+      "month": "2017-05",
+      "category": "pet_shop",
+      "items": 73,
+      "orders": 66,
+      "salesCents": 815102
+    },
+    {
+      "month": "2017-05",
+      "category": "relogios_presentes",
+      "items": 129,
+      "orders": 120,
+      "salesCents": 3661948
+    },
+    {
+      "month": "2017-05",
+      "category": "sinalizacao_e_seguranca",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 50885
+    },
+    {
+      "month": "2017-05",
+      "category": "tablets_impressao_imagem",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 151498
+    },
+    {
+      "month": "2017-05",
+      "category": "telefonia",
+      "items": 214,
+      "orders": 196,
+      "salesCents": 884439
+    },
+    {
+      "month": "2017-05",
+      "category": "telefonia_fixa",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 44583
+    },
+    {
+      "month": "2017-05",
+      "category": "utilidades_domesticas",
+      "items": 302,
+      "orders": 259,
+      "salesCents": 2137490
+    },
+    {
+      "month": "2017-06",
+      "category": "Unknown",
+      "items": 58,
+      "orders": 50,
+      "salesCents": 490240
+    },
+    {
+      "month": "2017-06",
+      "category": "agro_industria_e_comercio",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 139000
+    },
+    {
+      "month": "2017-06",
+      "category": "alimentos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 14990
+    },
+    {
+      "month": "2017-06",
+      "category": "alimentos_bebidas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 5740
+    },
+    {
+      "month": "2017-06",
+      "category": "artes",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 20030
+    },
+    {
+      "month": "2017-06",
+      "category": "artigos_de_natal",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 18470
+    },
+    {
+      "month": "2017-06",
+      "category": "audio",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 167100
+    },
+    {
+      "month": "2017-06",
+      "category": "automotivo",
+      "items": 110,
+      "orders": 101,
+      "salesCents": 2933571
+    },
+    {
+      "month": "2017-06",
+      "category": "bebes",
+      "items": 78,
+      "orders": 72,
+      "salesCents": 786474
+    },
+    {
+      "month": "2017-06",
+      "category": "bebidas",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 4999
+    },
+    {
+      "month": "2017-06",
+      "category": "beleza_saude",
+      "items": 254,
+      "orders": 233,
+      "salesCents": 3167681
+    },
+    {
+      "month": "2017-06",
+      "category": "brinquedos",
+      "items": 156,
+      "orders": 150,
+      "salesCents": 1533755
+    },
+    {
+      "month": "2017-06",
+      "category": "cama_mesa_banho",
+      "items": 369,
+      "orders": 324,
+      "salesCents": 3380323
+    },
+    {
+      "month": "2017-06",
+      "category": "casa_conforto",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 281820
+    },
+    {
+      "month": "2017-06",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1290
+    },
+    {
+      "month": "2017-06",
+      "category": "casa_construcao",
+      "items": 8,
+      "orders": 4,
+      "salesCents": 199230
+    },
+    {
+      "month": "2017-06",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7900
+    },
+    {
+      "month": "2017-06",
+      "category": "climatizacao",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 208448
+    },
+    {
+      "month": "2017-06",
+      "category": "consoles_games",
+      "items": 29,
+      "orders": 26,
+      "salesCents": 530903
+    },
+    {
+      "month": "2017-06",
+      "category": "construcao_ferramentas_construcao",
+      "items": 8,
+      "orders": 4,
+      "salesCents": 37637
+    },
+    {
+      "month": "2017-06",
+      "category": "construcao_ferramentas_jardim",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 43469
+    },
+    {
+      "month": "2017-06",
+      "category": "cool_stuff",
+      "items": 199,
+      "orders": 195,
+      "salesCents": 3810961
+    },
+    {
+      "month": "2017-06",
+      "category": "dvds_blu_ray",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 12669
+    },
+    {
+      "month": "2017-06",
+      "category": "eletrodomesticos",
+      "items": 43,
+      "orders": 42,
+      "salesCents": 250719
+    },
+    {
+      "month": "2017-06",
+      "category": "eletrodomesticos_2",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 121387
+    },
+    {
+      "month": "2017-06",
+      "category": "eletronicos",
+      "items": 41,
+      "orders": 39,
+      "salesCents": 206004
+    },
+    {
+      "month": "2017-06",
+      "category": "eletroportateis",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 969881
+    },
+    {
+      "month": "2017-06",
+      "category": "esporte_lazer",
+      "items": 269,
+      "orders": 245,
+      "salesCents": 3206693
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 81,
+      "orders": 75,
+      "salesCents": 672213
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_calcados",
+      "items": 19,
+      "orders": 16,
+      "salesCents": 127938
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_esporte",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 47050
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_roupa_feminina",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 15480
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11000
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_roupa_masculina",
+      "items": 9,
+      "orders": 7,
+      "salesCents": 51979
+    },
+    {
+      "month": "2017-06",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 390
+    },
+    {
+      "month": "2017-06",
+      "category": "ferramentas_jardim",
+      "items": 110,
+      "orders": 98,
+      "salesCents": 1544709
+    },
+    {
+      "month": "2017-06",
+      "category": "industria_comercio_e_negocios",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 27697
+    },
+    {
+      "month": "2017-06",
+      "category": "informatica_acessorios",
+      "items": 254,
+      "orders": 212,
+      "salesCents": 3619370
+    },
+    {
+      "month": "2017-06",
+      "category": "instrumentos_musicais",
+      "items": 20,
+      "orders": 17,
+      "salesCents": 499305
+    },
+    {
+      "month": "2017-06",
+      "category": "livros_importados",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 9900
+    },
+    {
+      "month": "2017-06",
+      "category": "livros_interesse_geral",
+      "items": 20,
+      "orders": 19,
+      "salesCents": 192218
+    },
+    {
+      "month": "2017-06",
+      "category": "livros_tecnicos",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 14590
+    },
+    {
+      "month": "2017-06",
+      "category": "malas_acessorios",
+      "items": 60,
+      "orders": 59,
+      "salesCents": 814219
+    },
+    {
+      "month": "2017-06",
+      "category": "market_place",
+      "items": 16,
+      "orders": 15,
+      "salesCents": 125895
+    },
+    {
+      "month": "2017-06",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 37480
+    },
+    {
+      "month": "2017-06",
+      "category": "moveis_decoracao",
+      "items": 230,
+      "orders": 177,
+      "salesCents": 1661429
+    },
+    {
+      "month": "2017-06",
+      "category": "moveis_escritorio",
+      "items": 50,
+      "orders": 45,
+      "salesCents": 727913
+    },
+    {
+      "month": "2017-06",
+      "category": "moveis_quarto",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 30899
+    },
+    {
+      "month": "2017-06",
+      "category": "moveis_sala",
+      "items": 15,
+      "orders": 12,
+      "salesCents": 171330
+    },
+    {
+      "month": "2017-06",
+      "category": "musica",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 106690
+    },
+    {
+      "month": "2017-06",
+      "category": "papelaria",
+      "items": 38,
+      "orders": 37,
+      "salesCents": 349357
+    },
+    {
+      "month": "2017-06",
+      "category": "pc_gamer",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12999
+    },
+    {
+      "month": "2017-06",
+      "category": "perfumaria",
+      "items": 148,
+      "orders": 140,
+      "salesCents": 2395432
+    },
+    {
+      "month": "2017-06",
+      "category": "pet_shop",
+      "items": 63,
+      "orders": 60,
+      "salesCents": 512357
+    },
+    {
+      "month": "2017-06",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7190
+    },
+    {
+      "month": "2017-06",
+      "category": "relogios_presentes",
+      "items": 119,
+      "orders": 113,
+      "salesCents": 2733763
+    },
+    {
+      "month": "2017-06",
+      "category": "sinalizacao_e_seguranca",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 13400
+    },
+    {
+      "month": "2017-06",
+      "category": "tablets_impressao_imagem",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 59400
+    },
+    {
+      "month": "2017-06",
+      "category": "telefonia",
+      "items": 157,
+      "orders": 148,
+      "salesCents": 656173
+    },
+    {
+      "month": "2017-06",
+      "category": "telefonia_fixa",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 93367
+    },
+    {
+      "month": "2017-06",
+      "category": "utilidades_domesticas",
+      "items": 321,
+      "orders": 280,
+      "salesCents": 2297821
+    },
+    {
+      "month": "2017-07",
+      "category": "Unknown",
+      "items": 58,
+      "orders": 52,
+      "salesCents": 296786
+    },
+    {
+      "month": "2017-07",
+      "category": "agro_industria_e_comercio",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 118000
+    },
+    {
+      "month": "2017-07",
+      "category": "alimentos",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 58416
+    },
+    {
+      "month": "2017-07",
+      "category": "alimentos_bebidas",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 16820
+    },
+    {
+      "month": "2017-07",
+      "category": "artes",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 38675
+    },
+    {
+      "month": "2017-07",
+      "category": "artes_e_artesanato",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12990
+    },
+    {
+      "month": "2017-07",
+      "category": "artigos_de_festas",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6990
+    },
+    {
+      "month": "2017-07",
+      "category": "artigos_de_natal",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 6509
+    },
+    {
+      "month": "2017-07",
+      "category": "audio",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 67369
+    },
+    {
+      "month": "2017-07",
+      "category": "automotivo",
+      "items": 114,
+      "orders": 103,
+      "salesCents": 1388685
+    },
+    {
+      "month": "2017-07",
+      "category": "bebes",
+      "items": 125,
+      "orders": 121,
+      "salesCents": 1546141
+    },
+    {
+      "month": "2017-07",
+      "category": "bebidas",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 27397
+    },
+    {
+      "month": "2017-07",
+      "category": "beleza_saude",
+      "items": 308,
+      "orders": 270,
+      "salesCents": 3423945
+    },
+    {
+      "month": "2017-07",
+      "category": "brinquedos",
+      "items": 203,
+      "orders": 197,
+      "salesCents": 2395684
+    },
+    {
+      "month": "2017-07",
+      "category": "cama_mesa_banho",
+      "items": 569,
+      "orders": 503,
+      "salesCents": 6278696
+    },
+    {
+      "month": "2017-07",
+      "category": "casa_conforto",
+      "items": 43,
+      "orders": 36,
+      "salesCents": 456385
+    },
+    {
+      "month": "2017-07",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1290
+    },
+    {
+      "month": "2017-07",
+      "category": "casa_construcao",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 9360
+    },
+    {
+      "month": "2017-07",
+      "category": "cds_dvds_musicais",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 22500
+    },
+    {
+      "month": "2017-07",
+      "category": "climatizacao",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 139610
+    },
+    {
+      "month": "2017-07",
+      "category": "consoles_games",
+      "items": 47,
+      "orders": 45,
+      "salesCents": 541124
+    },
+    {
+      "month": "2017-07",
+      "category": "construcao_ferramentas_construcao",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 54944
+    },
+    {
+      "month": "2017-07",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 36000
+    },
+    {
+      "month": "2017-07",
+      "category": "construcao_ferramentas_jardim",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 34758
+    },
+    {
+      "month": "2017-07",
+      "category": "cool_stuff",
+      "items": 228,
+      "orders": 220,
+      "salesCents": 3665346
+    },
+    {
+      "month": "2017-07",
+      "category": "dvds_blu_ray",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 73280
+    },
+    {
+      "month": "2017-07",
+      "category": "eletrodomesticos",
+      "items": 37,
+      "orders": 37,
+      "salesCents": 367199
+    },
+    {
+      "month": "2017-07",
+      "category": "eletrodomesticos_2",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 103399
+    },
+    {
+      "month": "2017-07",
+      "category": "eletronicos",
+      "items": 94,
+      "orders": 84,
+      "salesCents": 726604
+    },
+    {
+      "month": "2017-07",
+      "category": "eletroportateis",
+      "items": 31,
+      "orders": 30,
+      "salesCents": 358723
+    },
+    {
+      "month": "2017-07",
+      "category": "esporte_lazer",
+      "items": 375,
+      "orders": 327,
+      "salesCents": 3661883
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 86,
+      "orders": 80,
+      "salesCents": 506321
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_calcados",
+      "items": 19,
+      "orders": 18,
+      "salesCents": 128302
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6990
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_roupa_feminina",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 31070
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_roupa_masculina",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 71999
+    },
+    {
+      "month": "2017-07",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 27480
+    },
+    {
+      "month": "2017-07",
+      "category": "ferramentas_jardim",
+      "items": 184,
+      "orders": 153,
+      "salesCents": 1895130
+    },
+    {
+      "month": "2017-07",
+      "category": "industria_comercio_e_negocios",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 24596
+    },
+    {
+      "month": "2017-07",
+      "category": "informatica_acessorios",
+      "items": 320,
+      "orders": 268,
+      "salesCents": 3817622
+    },
+    {
+      "month": "2017-07",
+      "category": "instrumentos_musicais",
+      "items": 30,
+      "orders": 26,
+      "salesCents": 728259
+    },
+    {
+      "month": "2017-07",
+      "category": "la_cuisine",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 46999
+    },
+    {
+      "month": "2017-07",
+      "category": "livros_interesse_geral",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 129240
+    },
+    {
+      "month": "2017-07",
+      "category": "livros_tecnicos",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 52800
+    },
+    {
+      "month": "2017-07",
+      "category": "malas_acessorios",
+      "items": 73,
+      "orders": 72,
+      "salesCents": 831171
+    },
+    {
+      "month": "2017-07",
+      "category": "market_place",
+      "items": 13,
+      "orders": 13,
+      "salesCents": 157338
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_colchao_e_estofado",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 10940
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 131650
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_decoracao",
+      "items": 314,
+      "orders": 249,
+      "salesCents": 2402812
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_escritorio",
+      "items": 115,
+      "orders": 97,
+      "salesCents": 1689261
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_quarto",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 107799
+    },
+    {
+      "month": "2017-07",
+      "category": "moveis_sala",
+      "items": 30,
+      "orders": 26,
+      "salesCents": 382612
+    },
+    {
+      "month": "2017-07",
+      "category": "musica",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 32900
+    },
+    {
+      "month": "2017-07",
+      "category": "papelaria",
+      "items": 77,
+      "orders": 72,
+      "salesCents": 690685
+    },
+    {
+      "month": "2017-07",
+      "category": "perfumaria",
+      "items": 121,
+      "orders": 115,
+      "salesCents": 1273425
+    },
+    {
+      "month": "2017-07",
+      "category": "pet_shop",
+      "items": 85,
+      "orders": 70,
+      "salesCents": 657597
+    },
+    {
+      "month": "2017-07",
+      "category": "relogios_presentes",
+      "items": 162,
+      "orders": 151,
+      "salesCents": 3370242
+    },
+    {
+      "month": "2017-07",
+      "category": "sinalizacao_e_seguranca",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 47591
+    },
+    {
+      "month": "2017-07",
+      "category": "tablets_impressao_imagem",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 19800
+    },
+    {
+      "month": "2017-07",
+      "category": "telefonia",
+      "items": 143,
+      "orders": 135,
+      "salesCents": 905287
+    },
+    {
+      "month": "2017-07",
+      "category": "telefonia_fixa",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 21873
+    },
+    {
+      "month": "2017-07",
+      "category": "utilidades_domesticas",
+      "items": 271,
+      "orders": 220,
+      "salesCents": 2025153
+    },
+    {
+      "month": "2017-08",
+      "category": "Unknown",
+      "items": 75,
+      "orders": 64,
+      "salesCents": 496845
+    },
+    {
+      "month": "2017-08",
+      "category": "agro_industria_e_comercio",
+      "items": 4,
+      "orders": 1,
+      "salesCents": 8800
+    },
+    {
+      "month": "2017-08",
+      "category": "alimentos",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 36450
+    },
+    {
+      "month": "2017-08",
+      "category": "alimentos_bebidas",
+      "items": 15,
+      "orders": 12,
+      "salesCents": 49481
+    },
+    {
+      "month": "2017-08",
+      "category": "artes",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 24470
+    },
+    {
+      "month": "2017-08",
+      "category": "artigos_de_natal",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5890
+    },
+    {
+      "month": "2017-08",
+      "category": "audio",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 105070
+    },
+    {
+      "month": "2017-08",
+      "category": "automotivo",
+      "items": 161,
+      "orders": 128,
+      "salesCents": 1892261
+    },
+    {
+      "month": "2017-08",
+      "category": "bebes",
+      "items": 127,
+      "orders": 120,
+      "salesCents": 1916010
+    },
+    {
+      "month": "2017-08",
+      "category": "bebidas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 11990
+    },
+    {
+      "month": "2017-08",
+      "category": "beleza_saude",
+      "items": 352,
+      "orders": 338,
+      "salesCents": 4903023
+    },
+    {
+      "month": "2017-08",
+      "category": "brinquedos",
+      "items": 182,
+      "orders": 168,
+      "salesCents": 1767537
+    },
+    {
+      "month": "2017-08",
+      "category": "cama_mesa_banho",
+      "items": 506,
+      "orders": 442,
+      "salesCents": 5658063
+    },
+    {
+      "month": "2017-08",
+      "category": "casa_conforto",
+      "items": 28,
+      "orders": 24,
+      "salesCents": 400019
+    },
+    {
+      "month": "2017-08",
+      "category": "casa_conforto_2",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 3870
+    },
+    {
+      "month": "2017-08",
+      "category": "casa_construcao",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12480
+    },
+    {
+      "month": "2017-08",
+      "category": "cds_dvds_musicais",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 13500
+    },
+    {
+      "month": "2017-08",
+      "category": "climatizacao",
+      "items": 15,
+      "orders": 12,
+      "salesCents": 427173
+    },
+    {
+      "month": "2017-08",
+      "category": "consoles_games",
+      "items": 84,
+      "orders": 79,
+      "salesCents": 805475
+    },
+    {
+      "month": "2017-08",
+      "category": "construcao_ferramentas_construcao",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 118000
+    },
+    {
+      "month": "2017-08",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 58900
+    },
+    {
+      "month": "2017-08",
+      "category": "construcao_ferramentas_jardim",
+      "items": 10,
+      "orders": 7,
+      "salesCents": 128619
+    },
+    {
+      "month": "2017-08",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 890
+    },
+    {
+      "month": "2017-08",
+      "category": "cool_stuff",
+      "items": 256,
+      "orders": 235,
+      "salesCents": 3826451
+    },
+    {
+      "month": "2017-08",
+      "category": "dvds_blu_ray",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 11340
+    },
+    {
+      "month": "2017-08",
+      "category": "eletrodomesticos",
+      "items": 42,
+      "orders": 42,
+      "salesCents": 392135
+    },
+    {
+      "month": "2017-08",
+      "category": "eletrodomesticos_2",
+      "items": 15,
+      "orders": 15,
+      "salesCents": 368655
+    },
+    {
+      "month": "2017-08",
+      "category": "eletronicos",
+      "items": 56,
+      "orders": 52,
+      "salesCents": 285415
+    },
+    {
+      "month": "2017-08",
+      "category": "eletroportateis",
+      "items": 36,
+      "orders": 32,
+      "salesCents": 429701
+    },
+    {
+      "month": "2017-08",
+      "category": "esporte_lazer",
+      "items": 417,
+      "orders": 375,
+      "salesCents": 4062477
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 95,
+      "orders": 85,
+      "salesCents": 643889
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_calcados",
+      "items": 22,
+      "orders": 18,
+      "salesCents": 149169
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_esporte",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 26580
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_roupa_feminina",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 18870
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_roupa_masculina",
+      "items": 14,
+      "orders": 12,
+      "salesCents": 117506
+    },
+    {
+      "month": "2017-08",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 13,
+      "orders": 13,
+      "salesCents": 111100
+    },
+    {
+      "month": "2017-08",
+      "category": "ferramentas_jardim",
+      "items": 233,
+      "orders": 194,
+      "salesCents": 2292093
+    },
+    {
+      "month": "2017-08",
+      "category": "industria_comercio_e_negocios",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 95690
+    },
+    {
+      "month": "2017-08",
+      "category": "informatica_acessorios",
+      "items": 341,
+      "orders": 290,
+      "salesCents": 3382647
+    },
+    {
+      "month": "2017-08",
+      "category": "instrumentos_musicais",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 708955
+    },
+    {
+      "month": "2017-08",
+      "category": "la_cuisine",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 31300
+    },
+    {
+      "month": "2017-08",
+      "category": "livros_importados",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6100
+    },
+    {
+      "month": "2017-08",
+      "category": "livros_interesse_geral",
+      "items": 27,
+      "orders": 27,
+      "salesCents": 227500
+    },
+    {
+      "month": "2017-08",
+      "category": "livros_tecnicos",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 119638
+    },
+    {
+      "month": "2017-08",
+      "category": "malas_acessorios",
+      "items": 62,
+      "orders": 57,
+      "salesCents": 653310
+    },
+    {
+      "month": "2017-08",
+      "category": "market_place",
+      "items": 23,
+      "orders": 22,
+      "salesCents": 193739
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_colchao_e_estofado",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 50939
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 100620
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_decoracao",
+      "items": 426,
+      "orders": 323,
+      "salesCents": 3359589
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_escritorio",
+      "items": 58,
+      "orders": 46,
+      "salesCents": 987736
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_quarto",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 61800
+    },
+    {
+      "month": "2017-08",
+      "category": "moveis_sala",
+      "items": 23,
+      "orders": 21,
+      "salesCents": 247807
+    },
+    {
+      "month": "2017-08",
+      "category": "papelaria",
+      "items": 80,
+      "orders": 75,
+      "salesCents": 636691
+    },
+    {
+      "month": "2017-08",
+      "category": "pcs",
+      "items": 28,
+      "orders": 28,
+      "salesCents": 3240000
+    },
+    {
+      "month": "2017-08",
+      "category": "perfumaria",
+      "items": 127,
+      "orders": 117,
+      "salesCents": 1308510
+    },
+    {
+      "month": "2017-08",
+      "category": "pet_shop",
+      "items": 89,
+      "orders": 75,
+      "salesCents": 1042579
+    },
+    {
+      "month": "2017-08",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2190
+    },
+    {
+      "month": "2017-08",
+      "category": "relogios_presentes",
+      "items": 211,
+      "orders": 194,
+      "salesCents": 3617095
+    },
+    {
+      "month": "2017-08",
+      "category": "sinalizacao_e_seguranca",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 37780
+    },
+    {
+      "month": "2017-08",
+      "category": "tablets_impressao_imagem",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 45089
+    },
+    {
+      "month": "2017-08",
+      "category": "telefonia",
+      "items": 132,
+      "orders": 127,
+      "salesCents": 1055331
+    },
+    {
+      "month": "2017-08",
+      "category": "telefonia_fixa",
+      "items": 20,
+      "orders": 14,
+      "salesCents": 334354
+    },
+    {
+      "month": "2017-08",
+      "category": "utilidades_domesticas",
+      "items": 280,
+      "orders": 245,
+      "salesCents": 2342784
+    },
+    {
+      "month": "2017-09",
+      "category": "Unknown",
+      "items": 73,
+      "orders": 61,
+      "salesCents": 577415
+    },
+    {
+      "month": "2017-09",
+      "category": "agro_industria_e_comercio",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 199399
+    },
+    {
+      "month": "2017-09",
+      "category": "alimentos",
+      "items": 17,
+      "orders": 13,
+      "salesCents": 99292
+    },
+    {
+      "month": "2017-09",
+      "category": "alimentos_bebidas",
+      "items": 9,
+      "orders": 6,
+      "salesCents": 31086
+    },
+    {
+      "month": "2017-09",
+      "category": "artes",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 38854
+    },
+    {
+      "month": "2017-09",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 26980
+    },
+    {
+      "month": "2017-09",
+      "category": "artigos_de_natal",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 25470
+    },
+    {
+      "month": "2017-09",
+      "category": "audio",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 104259
+    },
+    {
+      "month": "2017-09",
+      "category": "automotivo",
+      "items": 107,
+      "orders": 96,
+      "salesCents": 1412677
+    },
+    {
+      "month": "2017-09",
+      "category": "bebes",
+      "items": 170,
+      "orders": 161,
+      "salesCents": 2323245
+    },
+    {
+      "month": "2017-09",
+      "category": "bebidas",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 24498
+    },
+    {
+      "month": "2017-09",
+      "category": "beleza_saude",
+      "items": 376,
+      "orders": 356,
+      "salesCents": 5064916
+    },
+    {
+      "month": "2017-09",
+      "category": "brinquedos",
+      "items": 289,
+      "orders": 265,
+      "salesCents": 2960683
+    },
+    {
+      "month": "2017-09",
+      "category": "cama_mesa_banho",
+      "items": 528,
+      "orders": 456,
+      "salesCents": 5210561
+    },
+    {
+      "month": "2017-09",
+      "category": "casa_conforto",
+      "items": 33,
+      "orders": 26,
+      "salesCents": 459234
+    },
+    {
+      "month": "2017-09",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1290
+    },
+    {
+      "month": "2017-09",
+      "category": "casa_construcao",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 135781
+    },
+    {
+      "month": "2017-09",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6900
+    },
+    {
+      "month": "2017-09",
+      "category": "climatizacao",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 162915
+    },
+    {
+      "month": "2017-09",
+      "category": "consoles_games",
+      "items": 63,
+      "orders": 58,
+      "salesCents": 815057
+    },
+    {
+      "month": "2017-09",
+      "category": "construcao_ferramentas_construcao",
+      "items": 10,
+      "orders": 7,
+      "salesCents": 124030
+    },
+    {
+      "month": "2017-09",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 91689
+    },
+    {
+      "month": "2017-09",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 22900
+    },
+    {
+      "month": "2017-09",
+      "category": "construcao_ferramentas_jardim",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 25160
+    },
+    {
+      "month": "2017-09",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 112454
+    },
+    {
+      "month": "2017-09",
+      "category": "cool_stuff",
+      "items": 203,
+      "orders": 196,
+      "salesCents": 3754747
+    },
+    {
+      "month": "2017-09",
+      "category": "dvds_blu_ray",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 3980
+    },
+    {
+      "month": "2017-09",
+      "category": "eletrodomesticos",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 182019
+    },
+    {
+      "month": "2017-09",
+      "category": "eletrodomesticos_2",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 162780
+    },
+    {
+      "month": "2017-09",
+      "category": "eletronicos",
+      "items": 67,
+      "orders": 65,
+      "salesCents": 433896
+    },
+    {
+      "month": "2017-09",
+      "category": "eletroportateis",
+      "items": 30,
+      "orders": 29,
+      "salesCents": 1003074
+    },
+    {
+      "month": "2017-09",
+      "category": "esporte_lazer",
+      "items": 453,
+      "orders": 408,
+      "salesCents": 4897211
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 122,
+      "orders": 101,
+      "salesCents": 1177824
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_calcados",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 109970
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_esporte",
+      "items": 5,
+      "orders": 2,
+      "salesCents": 38460
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_roupa_feminina",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 35570
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8999
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_roupa_masculina",
+      "items": 16,
+      "orders": 10,
+      "salesCents": 117750
+    },
+    {
+      "month": "2017-09",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 16,
+      "orders": 14,
+      "salesCents": 161990
+    },
+    {
+      "month": "2017-09",
+      "category": "ferramentas_jardim",
+      "items": 222,
+      "orders": 176,
+      "salesCents": 2202843
+    },
+    {
+      "month": "2017-09",
+      "category": "industria_comercio_e_negocios",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 21998
+    },
+    {
+      "month": "2017-09",
+      "category": "informatica_acessorios",
+      "items": 247,
+      "orders": 211,
+      "salesCents": 2804065
+    },
+    {
+      "month": "2017-09",
+      "category": "instrumentos_musicais",
+      "items": 26,
+      "orders": 22,
+      "salesCents": 850740
+    },
+    {
+      "month": "2017-09",
+      "category": "livros_importados",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 29000
+    },
+    {
+      "month": "2017-09",
+      "category": "livros_interesse_geral",
+      "items": 14,
+      "orders": 14,
+      "salesCents": 93224
+    },
+    {
+      "month": "2017-09",
+      "category": "livros_tecnicos",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 100135
+    },
+    {
+      "month": "2017-09",
+      "category": "malas_acessorios",
+      "items": 42,
+      "orders": 41,
+      "salesCents": 388538
+    },
+    {
+      "month": "2017-09",
+      "category": "market_place",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 114721
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_colchao_e_estofado",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8650
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 40960
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_decoracao",
+      "items": 343,
+      "orders": 270,
+      "salesCents": 3055492
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_escritorio",
+      "items": 60,
+      "orders": 36,
+      "salesCents": 911867
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_quarto",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 70960
+    },
+    {
+      "month": "2017-09",
+      "category": "moveis_sala",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 127587
+    },
+    {
+      "month": "2017-09",
+      "category": "papelaria",
+      "items": 75,
+      "orders": 69,
+      "salesCents": 585152
+    },
+    {
+      "month": "2017-09",
+      "category": "pcs",
+      "items": 40,
+      "orders": 39,
+      "salesCents": 5122889
+    },
+    {
+      "month": "2017-09",
+      "category": "perfumaria",
+      "items": 153,
+      "orders": 135,
+      "salesCents": 1405130
+    },
+    {
+      "month": "2017-09",
+      "category": "pet_shop",
+      "items": 71,
+      "orders": 62,
+      "salesCents": 853492
+    },
+    {
+      "month": "2017-09",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 64099
+    },
+    {
+      "month": "2017-09",
+      "category": "relogios_presentes",
+      "items": 264,
+      "orders": 251,
+      "salesCents": 4474896
+    },
+    {
+      "month": "2017-09",
+      "category": "seguros_e_servicos",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 10000
+    },
+    {
+      "month": "2017-09",
+      "category": "sinalizacao_e_seguranca",
+      "items": 9,
+      "orders": 5,
+      "salesCents": 43840
+    },
+    {
+      "month": "2017-09",
+      "category": "tablets_impressao_imagem",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 23390
+    },
+    {
+      "month": "2017-09",
+      "category": "telefonia",
+      "items": 173,
+      "orders": 160,
+      "salesCents": 1827837
+    },
+    {
+      "month": "2017-09",
+      "category": "telefonia_fixa",
+      "items": 13,
+      "orders": 6,
+      "salesCents": 1369291
+    },
+    {
+      "month": "2017-09",
+      "category": "utilidades_domesticas",
+      "items": 249,
+      "orders": 217,
+      "salesCents": 1994156
+    },
+    {
+      "month": "2017-10",
+      "category": "Unknown",
+      "items": 68,
+      "orders": 58,
+      "salesCents": 1632127
+    },
+    {
+      "month": "2017-10",
+      "category": "agro_industria_e_comercio",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 335028
+    },
+    {
+      "month": "2017-10",
+      "category": "alimentos",
+      "items": 17,
+      "orders": 12,
+      "salesCents": 80606
+    },
+    {
+      "month": "2017-10",
+      "category": "alimentos_bebidas",
+      "items": 17,
+      "orders": 15,
+      "salesCents": 229723
+    },
+    {
+      "month": "2017-10",
+      "category": "artes",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 34905
+    },
+    {
+      "month": "2017-10",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 13780
+    },
+    {
+      "month": "2017-10",
+      "category": "artigos_de_natal",
+      "items": 12,
+      "orders": 7,
+      "salesCents": 38805
+    },
+    {
+      "month": "2017-10",
+      "category": "audio",
+      "items": 31,
+      "orders": 31,
+      "salesCents": 232858
+    },
+    {
+      "month": "2017-10",
+      "category": "automotivo",
+      "items": 148,
+      "orders": 130,
+      "salesCents": 2141939
+    },
+    {
+      "month": "2017-10",
+      "category": "bebes",
+      "items": 138,
+      "orders": 134,
+      "salesCents": 1649750
+    },
+    {
+      "month": "2017-10",
+      "category": "bebidas",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 59698
+    },
+    {
+      "month": "2017-10",
+      "category": "beleza_saude",
+      "items": 350,
+      "orders": 322,
+      "salesCents": 4069899
+    },
+    {
+      "month": "2017-10",
+      "category": "brinquedos",
+      "items": 283,
+      "orders": 272,
+      "salesCents": 3332442
+    },
+    {
+      "month": "2017-10",
+      "category": "cama_mesa_banho",
+      "items": 542,
+      "orders": 442,
+      "salesCents": 4600770
+    },
+    {
+      "month": "2017-10",
+      "category": "casa_conforto",
+      "items": 27,
+      "orders": 26,
+      "salesCents": 361980
+    },
+    {
+      "month": "2017-10",
+      "category": "casa_conforto_2",
+      "items": 5,
+      "orders": 3,
+      "salesCents": 6450
+    },
+    {
+      "month": "2017-10",
+      "category": "casa_construcao",
+      "items": 18,
+      "orders": 15,
+      "salesCents": 420117
+    },
+    {
+      "month": "2017-10",
+      "category": "cds_dvds_musicais",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 4500
+    },
+    {
+      "month": "2017-10",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6900
+    },
+    {
+      "month": "2017-10",
+      "category": "climatizacao",
+      "items": 12,
+      "orders": 9,
+      "salesCents": 256242
+    },
+    {
+      "month": "2017-10",
+      "category": "consoles_games",
+      "items": 105,
+      "orders": 99,
+      "salesCents": 1038072
+    },
+    {
+      "month": "2017-10",
+      "category": "construcao_ferramentas_construcao",
+      "items": 19,
+      "orders": 15,
+      "salesCents": 257618
+    },
+    {
+      "month": "2017-10",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 101860
+    },
+    {
+      "month": "2017-10",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 50000
+    },
+    {
+      "month": "2017-10",
+      "category": "construcao_ferramentas_jardim",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 74690
+    },
+    {
+      "month": "2017-10",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 12,
+      "orders": 9,
+      "salesCents": 166885
+    },
+    {
+      "month": "2017-10",
+      "category": "cool_stuff",
+      "items": 254,
+      "orders": 242,
+      "salesCents": 4434823
+    },
+    {
+      "month": "2017-10",
+      "category": "dvds_blu_ray",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 17460
+    },
+    {
+      "month": "2017-10",
+      "category": "eletrodomesticos",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 183768
+    },
+    {
+      "month": "2017-10",
+      "category": "eletrodomesticos_2",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 210427
+    },
+    {
+      "month": "2017-10",
+      "category": "eletronicos",
+      "items": 62,
+      "orders": 55,
+      "salesCents": 337635
+    },
+    {
+      "month": "2017-10",
+      "category": "eletroportateis",
+      "items": 32,
+      "orders": 30,
+      "salesCents": 646485
+    },
+    {
+      "month": "2017-10",
+      "category": "esporte_lazer",
+      "items": 462,
+      "orders": 417,
+      "salesCents": 4856898
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 108,
+      "orders": 93,
+      "salesCents": 758466
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_calcados",
+      "items": 18,
+      "orders": 16,
+      "salesCents": 186092
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5990
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 3999
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_roupa_masculina",
+      "items": 10,
+      "orders": 8,
+      "salesCents": 97190
+    },
+    {
+      "month": "2017-10",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 18780
+    },
+    {
+      "month": "2017-10",
+      "category": "ferramentas_jardim",
+      "items": 280,
+      "orders": 213,
+      "salesCents": 2579875
+    },
+    {
+      "month": "2017-10",
+      "category": "industria_comercio_e_negocios",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 225669
+    },
+    {
+      "month": "2017-10",
+      "category": "informatica_acessorios",
+      "items": 309,
+      "orders": 253,
+      "salesCents": 4200938
+    },
+    {
+      "month": "2017-10",
+      "category": "instrumentos_musicais",
+      "items": 19,
+      "orders": 19,
+      "salesCents": 632926
+    },
+    {
+      "month": "2017-10",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 13700
+    },
+    {
+      "month": "2017-10",
+      "category": "livros_interesse_geral",
+      "items": 11,
+      "orders": 8,
+      "salesCents": 73450
+    },
+    {
+      "month": "2017-10",
+      "category": "livros_tecnicos",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 88000
+    },
+    {
+      "month": "2017-10",
+      "category": "malas_acessorios",
+      "items": 56,
+      "orders": 52,
+      "salesCents": 624034
+    },
+    {
+      "month": "2017-10",
+      "category": "market_place",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 101954
+    },
+    {
+      "month": "2017-10",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 16,
+      "orders": 14,
+      "salesCents": 342860
+    },
+    {
+      "month": "2017-10",
+      "category": "moveis_decoracao",
+      "items": 375,
+      "orders": 266,
+      "salesCents": 3000974
+    },
+    {
+      "month": "2017-10",
+      "category": "moveis_escritorio",
+      "items": 102,
+      "orders": 69,
+      "salesCents": 1789083
+    },
+    {
+      "month": "2017-10",
+      "category": "moveis_quarto",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 94390
+    },
+    {
+      "month": "2017-10",
+      "category": "moveis_sala",
+      "items": 19,
+      "orders": 13,
+      "salesCents": 153279
+    },
+    {
+      "month": "2017-10",
+      "category": "musica",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5490
+    },
+    {
+      "month": "2017-10",
+      "category": "papelaria",
+      "items": 96,
+      "orders": 89,
+      "salesCents": 769717
+    },
+    {
+      "month": "2017-10",
+      "category": "pcs",
+      "items": 27,
+      "orders": 26,
+      "salesCents": 4039392
+    },
+    {
+      "month": "2017-10",
+      "category": "perfumaria",
+      "items": 187,
+      "orders": 175,
+      "salesCents": 1687782
+    },
+    {
+      "month": "2017-10",
+      "category": "pet_shop",
+      "items": 76,
+      "orders": 64,
+      "salesCents": 824358
+    },
+    {
+      "month": "2017-10",
+      "category": "relogios_presentes",
+      "items": 308,
+      "orders": 282,
+      "salesCents": 6487463
+    },
+    {
+      "month": "2017-10",
+      "category": "sinalizacao_e_seguranca",
+      "items": 10,
+      "orders": 7,
+      "salesCents": 74400
+    },
+    {
+      "month": "2017-10",
+      "category": "tablets_impressao_imagem",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 9900
+    },
+    {
+      "month": "2017-10",
+      "category": "telefonia",
+      "items": 244,
+      "orders": 220,
+      "salesCents": 2085918
+    },
+    {
+      "month": "2017-10",
+      "category": "telefonia_fixa",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 375188
+    },
+    {
+      "month": "2017-10",
+      "category": "utilidades_domesticas",
+      "items": 229,
+      "orders": 188,
+      "salesCents": 1588368
+    },
+    {
+      "month": "2017-11",
+      "category": "Unknown",
+      "items": 118,
+      "orders": 111,
+      "salesCents": 1378655
+    },
+    {
+      "month": "2017-11",
+      "category": "agro_industria_e_comercio",
+      "items": 19,
+      "orders": 13,
+      "salesCents": 1393249
+    },
+    {
+      "month": "2017-11",
+      "category": "alimentos",
+      "items": 14,
+      "orders": 10,
+      "salesCents": 49809
+    },
+    {
+      "month": "2017-11",
+      "category": "alimentos_bebidas",
+      "items": 33,
+      "orders": 28,
+      "salesCents": 244557
+    },
+    {
+      "month": "2017-11",
+      "category": "artes",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 7500
+    },
+    {
+      "month": "2017-11",
+      "category": "artigos_de_festas",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 85070
+    },
+    {
+      "month": "2017-11",
+      "category": "artigos_de_natal",
+      "items": 22,
+      "orders": 18,
+      "salesCents": 131260
+    },
+    {
+      "month": "2017-11",
+      "category": "audio",
+      "items": 36,
+      "orders": 33,
+      "salesCents": 367723
+    },
+    {
+      "month": "2017-11",
+      "category": "automotivo",
+      "items": 260,
+      "orders": 242,
+      "salesCents": 3473649
+    },
+    {
+      "month": "2017-11",
+      "category": "bebes",
+      "items": 197,
+      "orders": 184,
+      "salesCents": 2104819
+    },
+    {
+      "month": "2017-11",
+      "category": "bebidas",
+      "items": 18,
+      "orders": 14,
+      "salesCents": 67412
+    },
+    {
+      "month": "2017-11",
+      "category": "beleza_saude",
+      "items": 573,
+      "orders": 519,
+      "salesCents": 7827440
+    },
+    {
+      "month": "2017-11",
+      "category": "brinquedos",
+      "items": 485,
+      "orders": 443,
+      "salesCents": 6261126
+    },
+    {
+      "month": "2017-11",
+      "category": "cama_mesa_banho",
+      "items": 961,
+      "orders": 804,
+      "salesCents": 8795763
+    },
+    {
+      "month": "2017-11",
+      "category": "casa_conforto",
+      "items": 45,
+      "orders": 40,
+      "salesCents": 535539
+    },
+    {
+      "month": "2017-11",
+      "category": "casa_conforto_2",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 3870
+    },
+    {
+      "month": "2017-11",
+      "category": "casa_construcao",
+      "items": 38,
+      "orders": 33,
+      "salesCents": 493672
+    },
+    {
+      "month": "2017-11",
+      "category": "cds_dvds_musicais",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 19500
+    },
+    {
+      "month": "2017-11",
+      "category": "cine_foto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 24200
+    },
+    {
+      "month": "2017-11",
+      "category": "climatizacao",
+      "items": 19,
+      "orders": 16,
+      "salesCents": 407662
+    },
+    {
+      "month": "2017-11",
+      "category": "consoles_games",
+      "items": 128,
+      "orders": 123,
+      "salesCents": 1177228
+    },
+    {
+      "month": "2017-11",
+      "category": "construcao_ferramentas_construcao",
+      "items": 47,
+      "orders": 36,
+      "salesCents": 699356
+    },
+    {
+      "month": "2017-11",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 26950
+    },
+    {
+      "month": "2017-11",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 219948
+    },
+    {
+      "month": "2017-11",
+      "category": "construcao_ferramentas_jardim",
+      "items": 17,
+      "orders": 14,
+      "salesCents": 121850
+    },
+    {
+      "month": "2017-11",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 14,
+      "orders": 12,
+      "salesCents": 328069
+    },
+    {
+      "month": "2017-11",
+      "category": "cool_stuff",
+      "items": 297,
+      "orders": 286,
+      "salesCents": 5569666
+    },
+    {
+      "month": "2017-11",
+      "category": "dvds_blu_ray",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 7979
+    },
+    {
+      "month": "2017-11",
+      "category": "eletrodomesticos",
+      "items": 25,
+      "orders": 25,
+      "salesCents": 451594
+    },
+    {
+      "month": "2017-11",
+      "category": "eletrodomesticos_2",
+      "items": 13,
+      "orders": 13,
+      "salesCents": 485493
+    },
+    {
+      "month": "2017-11",
+      "category": "eletronicos",
+      "items": 182,
+      "orders": 163,
+      "salesCents": 999299
+    },
+    {
+      "month": "2017-11",
+      "category": "eletroportateis",
+      "items": 28,
+      "orders": 27,
+      "salesCents": 678292
+    },
+    {
+      "month": "2017-11",
+      "category": "esporte_lazer",
+      "items": 597,
+      "orders": 542,
+      "salesCents": 6268624
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 193,
+      "orders": 178,
+      "salesCents": 1284933
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_calcados",
+      "items": 19,
+      "orders": 17,
+      "salesCents": 170780
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5990
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_roupa_feminina",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 5998
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_roupa_masculina",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 88099
+    },
+    {
+      "month": "2017-11",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 122160
+    },
+    {
+      "month": "2017-11",
+      "category": "ferramentas_jardim",
+      "items": 547,
+      "orders": 430,
+      "salesCents": 4427518
+    },
+    {
+      "month": "2017-11",
+      "category": "flores",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 18780
+    },
+    {
+      "month": "2017-11",
+      "category": "industria_comercio_e_negocios",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 199487
+    },
+    {
+      "month": "2017-11",
+      "category": "informatica_acessorios",
+      "items": 512,
+      "orders": 431,
+      "salesCents": 6967632
+    },
+    {
+      "month": "2017-11",
+      "category": "instrumentos_musicais",
+      "items": 42,
+      "orders": 41,
+      "salesCents": 1577689
+    },
+    {
+      "month": "2017-11",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 13700
+    },
+    {
+      "month": "2017-11",
+      "category": "livros_importados",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 24700
+    },
+    {
+      "month": "2017-11",
+      "category": "livros_interesse_geral",
+      "items": 37,
+      "orders": 37,
+      "salesCents": 263097
+    },
+    {
+      "month": "2017-11",
+      "category": "livros_tecnicos",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 76890
+    },
+    {
+      "month": "2017-11",
+      "category": "malas_acessorios",
+      "items": 70,
+      "orders": 63,
+      "salesCents": 830115
+    },
+    {
+      "month": "2017-11",
+      "category": "market_place",
+      "items": 16,
+      "orders": 11,
+      "salesCents": 135598
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_colchao_e_estofado",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 33400
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 33,
+      "orders": 28,
+      "salesCents": 500739
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_decoracao",
+      "items": 767,
+      "orders": 536,
+      "salesCents": 6209127
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_escritorio",
+      "items": 101,
+      "orders": 75,
+      "salesCents": 1791920
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_quarto",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 87300
+    },
+    {
+      "month": "2017-11",
+      "category": "moveis_sala",
+      "items": 39,
+      "orders": 29,
+      "salesCents": 621295
+    },
+    {
+      "month": "2017-11",
+      "category": "papelaria",
+      "items": 163,
+      "orders": 149,
+      "salesCents": 1640619
+    },
+    {
+      "month": "2017-11",
+      "category": "pcs",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 976800
+    },
+    {
+      "month": "2017-11",
+      "category": "perfumaria",
+      "items": 304,
+      "orders": 287,
+      "salesCents": 3161213
+    },
+    {
+      "month": "2017-11",
+      "category": "pet_shop",
+      "items": 97,
+      "orders": 82,
+      "salesCents": 1116779
+    },
+    {
+      "month": "2017-11",
+      "category": "relogios_presentes",
+      "items": 463,
+      "orders": 424,
+      "salesCents": 9529234
+    },
+    {
+      "month": "2017-11",
+      "category": "sinalizacao_e_seguranca",
+      "items": 5,
+      "orders": 3,
+      "salesCents": 59679
+    },
+    {
+      "month": "2017-11",
+      "category": "tablets_impressao_imagem",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 35040
+    },
+    {
+      "month": "2017-11",
+      "category": "telefonia",
+      "items": 371,
+      "orders": 343,
+      "salesCents": 2611763
+    },
+    {
+      "month": "2017-11",
+      "category": "telefonia_fixa",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 94398
+    },
+    {
+      "month": "2017-11",
+      "category": "utilidades_domesticas",
+      "items": 412,
+      "orders": 345,
+      "salesCents": 3387242
+    },
+    {
+      "month": "2017-12",
+      "category": "Unknown",
+      "items": 137,
+      "orders": 132,
+      "salesCents": 1549767
+    },
+    {
+      "month": "2017-12",
+      "category": "agro_industria_e_comercio",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 529170
+    },
+    {
+      "month": "2017-12",
+      "category": "alimentos",
+      "items": 13,
+      "orders": 11,
+      "salesCents": 93934
+    },
+    {
+      "month": "2017-12",
+      "category": "alimentos_bebidas",
+      "items": 21,
+      "orders": 18,
+      "salesCents": 103368
+    },
+    {
+      "month": "2017-12",
+      "category": "artes",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 11525
+    },
+    {
+      "month": "2017-12",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 51520
+    },
+    {
+      "month": "2017-12",
+      "category": "artigos_de_natal",
+      "items": 16,
+      "orders": 14,
+      "salesCents": 49390
+    },
+    {
+      "month": "2017-12",
+      "category": "audio",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 268693
+    },
+    {
+      "month": "2017-12",
+      "category": "automotivo",
+      "items": 263,
+      "orders": 238,
+      "salesCents": 3901996
+    },
+    {
+      "month": "2017-12",
+      "category": "bebes",
+      "items": 139,
+      "orders": 135,
+      "salesCents": 1965848
+    },
+    {
+      "month": "2017-12",
+      "category": "bebidas",
+      "items": 34,
+      "orders": 31,
+      "salesCents": 213284
+    },
+    {
+      "month": "2017-12",
+      "category": "beleza_saude",
+      "items": 460,
+      "orders": 426,
+      "salesCents": 6068875
+    },
+    {
+      "month": "2017-12",
+      "category": "brinquedos",
+      "items": 436,
+      "orders": 413,
+      "salesCents": 5506456
+    },
+    {
+      "month": "2017-12",
+      "category": "cama_mesa_banho",
+      "items": 546,
+      "orders": 476,
+      "salesCents": 5008116
+    },
+    {
+      "month": "2017-12",
+      "category": "casa_conforto",
+      "items": 14,
+      "orders": 14,
+      "salesCents": 225780
+    },
+    {
+      "month": "2017-12",
+      "category": "casa_construcao",
+      "items": 38,
+      "orders": 29,
+      "salesCents": 652530
+    },
+    {
+      "month": "2017-12",
+      "category": "cds_dvds_musicais",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6500
+    },
+    {
+      "month": "2017-12",
+      "category": "climatizacao",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 66880
+    },
+    {
+      "month": "2017-12",
+      "category": "consoles_games",
+      "items": 92,
+      "orders": 87,
+      "salesCents": 888501
+    },
+    {
+      "month": "2017-12",
+      "category": "construcao_ferramentas_construcao",
+      "items": 27,
+      "orders": 22,
+      "salesCents": 583035
+    },
+    {
+      "month": "2017-12",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 34940
+    },
+    {
+      "month": "2017-12",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 17600
+    },
+    {
+      "month": "2017-12",
+      "category": "construcao_ferramentas_jardim",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 92890
+    },
+    {
+      "month": "2017-12",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 138492
+    },
+    {
+      "month": "2017-12",
+      "category": "cool_stuff",
+      "items": 248,
+      "orders": 231,
+      "salesCents": 3751557
+    },
+    {
+      "month": "2017-12",
+      "category": "dvds_blu_ray",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11990
+    },
+    {
+      "month": "2017-12",
+      "category": "eletrodomesticos",
+      "items": 16,
+      "orders": 16,
+      "salesCents": 133100
+    },
+    {
+      "month": "2017-12",
+      "category": "eletrodomesticos_2",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 199016
+    },
+    {
+      "month": "2017-12",
+      "category": "eletronicos",
+      "items": 209,
+      "orders": 189,
+      "salesCents": 851861
+    },
+    {
+      "month": "2017-12",
+      "category": "eletroportateis",
+      "items": 27,
+      "orders": 26,
+      "salesCents": 753977
+    },
+    {
+      "month": "2017-12",
+      "category": "esporte_lazer",
+      "items": 484,
+      "orders": 431,
+      "salesCents": 5872248
+    },
+    {
+      "month": "2017-12",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 134,
+      "orders": 123,
+      "salesCents": 999976
+    },
+    {
+      "month": "2017-12",
+      "category": "fashion_calcados",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 109900
+    },
+    {
+      "month": "2017-12",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5990
+    },
+    {
+      "month": "2017-12",
+      "category": "fashion_roupa_masculina",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 45089
+    },
+    {
+      "month": "2017-12",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 13,
+      "orders": 13,
+      "salesCents": 117310
+    },
+    {
+      "month": "2017-12",
+      "category": "ferramentas_jardim",
+      "items": 323,
+      "orders": 243,
+      "salesCents": 2679569
+    },
+    {
+      "month": "2017-12",
+      "category": "flores",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 8270
+    },
+    {
+      "month": "2017-12",
+      "category": "fraldas_higiene",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 7600
+    },
+    {
+      "month": "2017-12",
+      "category": "industria_comercio_e_negocios",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 182850
+    },
+    {
+      "month": "2017-12",
+      "category": "informatica_acessorios",
+      "items": 284,
+      "orders": 249,
+      "salesCents": 3742867
+    },
+    {
+      "month": "2017-12",
+      "category": "instrumentos_musicais",
+      "items": 42,
+      "orders": 41,
+      "salesCents": 1082350
+    },
+    {
+      "month": "2017-12",
+      "category": "livros_importados",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 23100
+    },
+    {
+      "month": "2017-12",
+      "category": "livros_interesse_geral",
+      "items": 41,
+      "orders": 37,
+      "salesCents": 235220
+    },
+    {
+      "month": "2017-12",
+      "category": "livros_tecnicos",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 67069
+    },
+    {
+      "month": "2017-12",
+      "category": "malas_acessorios",
+      "items": 46,
+      "orders": 44,
+      "salesCents": 596921
+    },
+    {
+      "month": "2017-12",
+      "category": "market_place",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 70325
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_colchao_e_estofado",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 80370
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 20,
+      "orders": 16,
+      "salesCents": 427730
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_decoracao",
+      "items": 378,
+      "orders": 304,
+      "salesCents": 3107309
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_escritorio",
+      "items": 48,
+      "orders": 38,
+      "salesCents": 668437
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_quarto",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 18500
+    },
+    {
+      "month": "2017-12",
+      "category": "moveis_sala",
+      "items": 20,
+      "orders": 16,
+      "salesCents": 231601
+    },
+    {
+      "month": "2017-12",
+      "category": "papelaria",
+      "items": 248,
+      "orders": 229,
+      "salesCents": 2479310
+    },
+    {
+      "month": "2017-12",
+      "category": "pcs",
+      "items": 23,
+      "orders": 19,
+      "salesCents": 1674100
+    },
+    {
+      "month": "2017-12",
+      "category": "perfumaria",
+      "items": 233,
+      "orders": 225,
+      "salesCents": 2644894
+    },
+    {
+      "month": "2017-12",
+      "category": "pet_shop",
+      "items": 72,
+      "orders": 69,
+      "salesCents": 712674
+    },
+    {
+      "month": "2017-12",
+      "category": "relogios_presentes",
+      "items": 353,
+      "orders": 333,
+      "salesCents": 6955692
+    },
+    {
+      "month": "2017-12",
+      "category": "sinalizacao_e_seguranca",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 77000
+    },
+    {
+      "month": "2017-12",
+      "category": "tablets_impressao_imagem",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 41940
+    },
+    {
+      "month": "2017-12",
+      "category": "telefonia",
+      "items": 260,
+      "orders": 237,
+      "salesCents": 1278044
+    },
+    {
+      "month": "2017-12",
+      "category": "telefonia_fixa",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 99877
+    },
+    {
+      "month": "2017-12",
+      "category": "utilidades_domesticas",
+      "items": 288,
+      "orders": 243,
+      "salesCents": 2528596
+    },
+    {
+      "month": "2018-01",
+      "category": "Unknown",
+      "items": 193,
+      "orders": 171,
+      "salesCents": 2099363
+    },
+    {
+      "month": "2018-01",
+      "category": "agro_industria_e_comercio",
+      "items": 18,
+      "orders": 15,
+      "salesCents": 585344
+    },
+    {
+      "month": "2018-01",
+      "category": "alimentos",
+      "items": 19,
+      "orders": 18,
+      "salesCents": 82956
+    },
+    {
+      "month": "2018-01",
+      "category": "alimentos_bebidas",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 34117
+    },
+    {
+      "month": "2018-01",
+      "category": "artes",
+      "items": 19,
+      "orders": 19,
+      "salesCents": 254077
+    },
+    {
+      "month": "2018-01",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 13580
+    },
+    {
+      "month": "2018-01",
+      "category": "artigos_de_natal",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 85150
+    },
+    {
+      "month": "2018-01",
+      "category": "audio",
+      "items": 26,
+      "orders": 25,
+      "salesCents": 382028
+    },
+    {
+      "month": "2018-01",
+      "category": "automotivo",
+      "items": 267,
+      "orders": 243,
+      "salesCents": 3585502
+    },
+    {
+      "month": "2018-01",
+      "category": "bebes",
+      "items": 219,
+      "orders": 209,
+      "salesCents": 2983388
+    },
+    {
+      "month": "2018-01",
+      "category": "bebidas",
+      "items": 50,
+      "orders": 39,
+      "salesCents": 222761
+    },
+    {
+      "month": "2018-01",
+      "category": "beleza_saude",
+      "items": 619,
+      "orders": 563,
+      "salesCents": 7140560
+    },
+    {
+      "month": "2018-01",
+      "category": "brinquedos",
+      "items": 161,
+      "orders": 154,
+      "salesCents": 2138285
+    },
+    {
+      "month": "2018-01",
+      "category": "cama_mesa_banho",
+      "items": 836,
+      "orders": 689,
+      "salesCents": 7540813
+    },
+    {
+      "month": "2018-01",
+      "category": "casa_conforto",
+      "items": 18,
+      "orders": 18,
+      "salesCents": 302016
+    },
+    {
+      "month": "2018-01",
+      "category": "casa_construcao",
+      "items": 40,
+      "orders": 27,
+      "salesCents": 574778
+    },
+    {
+      "month": "2018-01",
+      "category": "cine_foto",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 19998
+    },
+    {
+      "month": "2018-01",
+      "category": "climatizacao",
+      "items": 29,
+      "orders": 22,
+      "salesCents": 467474
+    },
+    {
+      "month": "2018-01",
+      "category": "consoles_games",
+      "items": 51,
+      "orders": 50,
+      "salesCents": 731328
+    },
+    {
+      "month": "2018-01",
+      "category": "construcao_ferramentas_construcao",
+      "items": 48,
+      "orders": 40,
+      "salesCents": 966418
+    },
+    {
+      "month": "2018-01",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 53230
+    },
+    {
+      "month": "2018-01",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 239299
+    },
+    {
+      "month": "2018-01",
+      "category": "construcao_ferramentas_jardim",
+      "items": 24,
+      "orders": 21,
+      "salesCents": 392798
+    },
+    {
+      "month": "2018-01",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 222889
+    },
+    {
+      "month": "2018-01",
+      "category": "cool_stuff",
+      "items": 296,
+      "orders": 285,
+      "salesCents": 3894241
+    },
+    {
+      "month": "2018-01",
+      "category": "dvds_blu_ray",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 4980
+    },
+    {
+      "month": "2018-01",
+      "category": "eletrodomesticos",
+      "items": 27,
+      "orders": 26,
+      "salesCents": 172515
+    },
+    {
+      "month": "2018-01",
+      "category": "eletrodomesticos_2",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 863010
+    },
+    {
+      "month": "2018-01",
+      "category": "eletronicos",
+      "items": 348,
+      "orders": 319,
+      "salesCents": 1588428
+    },
+    {
+      "month": "2018-01",
+      "category": "eletroportateis",
+      "items": 53,
+      "orders": 50,
+      "salesCents": 1426181
+    },
+    {
+      "month": "2018-01",
+      "category": "esporte_lazer",
+      "items": 642,
+      "orders": 575,
+      "salesCents": 8617283
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 125,
+      "orders": 116,
+      "salesCents": 793172
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_calcados",
+      "items": 9,
+      "orders": 7,
+      "salesCents": 66670
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_esporte",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 11980
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_roupa_feminina",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 16179
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_roupa_masculina",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 55060
+    },
+    {
+      "month": "2018-01",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 75450
+    },
+    {
+      "month": "2018-01",
+      "category": "ferramentas_jardim",
+      "items": 236,
+      "orders": 202,
+      "salesCents": 2679306
+    },
+    {
+      "month": "2018-01",
+      "category": "flores",
+      "items": 10,
+      "orders": 7,
+      "salesCents": 28460
+    },
+    {
+      "month": "2018-01",
+      "category": "fraldas_higiene",
+      "items": 5,
+      "orders": 1,
+      "salesCents": 12500
+    },
+    {
+      "month": "2018-01",
+      "category": "industria_comercio_e_negocios",
+      "items": 18,
+      "orders": 15,
+      "salesCents": 268110
+    },
+    {
+      "month": "2018-01",
+      "category": "informatica_acessorios",
+      "items": 688,
+      "orders": 574,
+      "salesCents": 8050387
+    },
+    {
+      "month": "2018-01",
+      "category": "instrumentos_musicais",
+      "items": 51,
+      "orders": 49,
+      "salesCents": 1517858
+    },
+    {
+      "month": "2018-01",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 11200
+    },
+    {
+      "month": "2018-01",
+      "category": "livros_importados",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 58300
+    },
+    {
+      "month": "2018-01",
+      "category": "livros_interesse_geral",
+      "items": 44,
+      "orders": 40,
+      "salesCents": 216020
+    },
+    {
+      "month": "2018-01",
+      "category": "livros_tecnicos",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 117655
+    },
+    {
+      "month": "2018-01",
+      "category": "malas_acessorios",
+      "items": 126,
+      "orders": 121,
+      "salesCents": 1854632
+    },
+    {
+      "month": "2018-01",
+      "category": "market_place",
+      "items": 14,
+      "orders": 12,
+      "salesCents": 81872
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_colchao_e_estofado",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 86050
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 21,
+      "orders": 20,
+      "salesCents": 483850
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_decoracao",
+      "items": 595,
+      "orders": 467,
+      "salesCents": 5379881
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_escritorio",
+      "items": 142,
+      "orders": 104,
+      "salesCents": 1948542
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_quarto",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 91480
+    },
+    {
+      "month": "2018-01",
+      "category": "moveis_sala",
+      "items": 22,
+      "orders": 22,
+      "salesCents": 230810
+    },
+    {
+      "month": "2018-01",
+      "category": "musica",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2497
+    },
+    {
+      "month": "2018-01",
+      "category": "papelaria",
+      "items": 385,
+      "orders": 368,
+      "salesCents": 3952272
+    },
+    {
+      "month": "2018-01",
+      "category": "pcs",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 685100
+    },
+    {
+      "month": "2018-01",
+      "category": "perfumaria",
+      "items": 223,
+      "orders": 207,
+      "salesCents": 1955537
+    },
+    {
+      "month": "2018-01",
+      "category": "pet_shop",
+      "items": 89,
+      "orders": 76,
+      "salesCents": 1079606
+    },
+    {
+      "month": "2018-01",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 36999
+    },
+    {
+      "month": "2018-01",
+      "category": "relogios_presentes",
+      "items": 355,
+      "orders": 322,
+      "salesCents": 7352124
+    },
+    {
+      "month": "2018-01",
+      "category": "sinalizacao_e_seguranca",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 104879
+    },
+    {
+      "month": "2018-01",
+      "category": "tablets_impressao_imagem",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 16180
+    },
+    {
+      "month": "2018-01",
+      "category": "telefonia",
+      "items": 368,
+      "orders": 343,
+      "salesCents": 1470008
+    },
+    {
+      "month": "2018-01",
+      "category": "telefonia_fixa",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 244410
+    },
+    {
+      "month": "2018-01",
+      "category": "utilidades_domesticas",
+      "items": 351,
+      "orders": 317,
+      "salesCents": 3744674
+    },
+    {
+      "month": "2018-02",
+      "category": "Unknown",
+      "items": 117,
+      "orders": 107,
+      "salesCents": 1269197
+    },
+    {
+      "month": "2018-02",
+      "category": "agro_industria_e_comercio",
+      "items": 26,
+      "orders": 20,
+      "salesCents": 738530
+    },
+    {
+      "month": "2018-02",
+      "category": "alimentos",
+      "items": 38,
+      "orders": 30,
+      "salesCents": 178352
+    },
+    {
+      "month": "2018-02",
+      "category": "alimentos_bebidas",
+      "items": 23,
+      "orders": 20,
+      "salesCents": 101830
+    },
+    {
+      "month": "2018-02",
+      "category": "artes",
+      "items": 12,
+      "orders": 11,
+      "salesCents": 121671
+    },
+    {
+      "month": "2018-02",
+      "category": "artigos_de_natal",
+      "items": 24,
+      "orders": 17,
+      "salesCents": 205965
+    },
+    {
+      "month": "2018-02",
+      "category": "audio",
+      "items": 15,
+      "orders": 15,
+      "salesCents": 282849
+    },
+    {
+      "month": "2018-02",
+      "category": "automotivo",
+      "items": 315,
+      "orders": 299,
+      "salesCents": 4104851
+    },
+    {
+      "month": "2018-02",
+      "category": "bebes",
+      "items": 172,
+      "orders": 165,
+      "salesCents": 2585728
+    },
+    {
+      "month": "2018-02",
+      "category": "bebidas",
+      "items": 31,
+      "orders": 26,
+      "salesCents": 191995
+    },
+    {
+      "month": "2018-02",
+      "category": "beleza_saude",
+      "items": 650,
+      "orders": 595,
+      "salesCents": 8457655
+    },
+    {
+      "month": "2018-02",
+      "category": "brinquedos",
+      "items": 139,
+      "orders": 130,
+      "salesCents": 1420335
+    },
+    {
+      "month": "2018-02",
+      "category": "cama_mesa_banho",
+      "items": 685,
+      "orders": 588,
+      "salesCents": 6036629
+    },
+    {
+      "month": "2018-02",
+      "category": "casa_conforto",
+      "items": 21,
+      "orders": 20,
+      "salesCents": 301276
+    },
+    {
+      "month": "2018-02",
+      "category": "casa_conforto_2",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 3870
+    },
+    {
+      "month": "2018-02",
+      "category": "casa_construcao",
+      "items": 38,
+      "orders": 31,
+      "salesCents": 522590
+    },
+    {
+      "month": "2018-02",
+      "category": "cine_foto",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 22799
+    },
+    {
+      "month": "2018-02",
+      "category": "climatizacao",
+      "items": 12,
+      "orders": 11,
+      "salesCents": 262689
+    },
+    {
+      "month": "2018-02",
+      "category": "consoles_games",
+      "items": 51,
+      "orders": 50,
+      "salesCents": 1176383
+    },
+    {
+      "month": "2018-02",
+      "category": "construcao_ferramentas_construcao",
+      "items": 68,
+      "orders": 53,
+      "salesCents": 899107
+    },
+    {
+      "month": "2018-02",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 12,
+      "orders": 11,
+      "salesCents": 131820
+    },
+    {
+      "month": "2018-02",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 17,
+      "orders": 9,
+      "salesCents": 161080
+    },
+    {
+      "month": "2018-02",
+      "category": "construcao_ferramentas_jardim",
+      "items": 20,
+      "orders": 14,
+      "salesCents": 153825
+    },
+    {
+      "month": "2018-02",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 596575
+    },
+    {
+      "month": "2018-02",
+      "category": "cool_stuff",
+      "items": 180,
+      "orders": 176,
+      "salesCents": 2977225
+    },
+    {
+      "month": "2018-02",
+      "category": "dvds_blu_ray",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2490
+    },
+    {
+      "month": "2018-02",
+      "category": "eletrodomesticos",
+      "items": 48,
+      "orders": 47,
+      "salesCents": 554245
+    },
+    {
+      "month": "2018-02",
+      "category": "eletrodomesticos_2",
+      "items": 21,
+      "orders": 21,
+      "salesCents": 899883
+    },
+    {
+      "month": "2018-02",
+      "category": "eletronicos",
+      "items": 331,
+      "orders": 300,
+      "salesCents": 1476470
+    },
+    {
+      "month": "2018-02",
+      "category": "eletroportateis",
+      "items": 32,
+      "orders": 30,
+      "salesCents": 524516
+    },
+    {
+      "month": "2018-02",
+      "category": "esporte_lazer",
+      "items": 637,
+      "orders": 571,
+      "salesCents": 7454095
+    },
+    {
+      "month": "2018-02",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 107,
+      "orders": 102,
+      "salesCents": 978663
+    },
+    {
+      "month": "2018-02",
+      "category": "fashion_calcados",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 103370
+    },
+    {
+      "month": "2018-02",
+      "category": "fashion_roupa_feminina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 2999
+    },
+    {
+      "month": "2018-02",
+      "category": "fashion_roupa_masculina",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 38809
+    },
+    {
+      "month": "2018-02",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 39930
+    },
+    {
+      "month": "2018-02",
+      "category": "ferramentas_jardim",
+      "items": 293,
+      "orders": 229,
+      "salesCents": 2648913
+    },
+    {
+      "month": "2018-02",
+      "category": "flores",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 13448
+    },
+    {
+      "month": "2018-02",
+      "category": "fraldas_higiene",
+      "items": 4,
+      "orders": 1,
+      "salesCents": 10000
+    },
+    {
+      "month": "2018-02",
+      "category": "industria_comercio_e_negocios",
+      "items": 37,
+      "orders": 29,
+      "salesCents": 473559
+    },
+    {
+      "month": "2018-02",
+      "category": "informatica_acessorios",
+      "items": 971,
+      "orders": 791,
+      "salesCents": 10013199
+    },
+    {
+      "month": "2018-02",
+      "category": "instrumentos_musicais",
+      "items": 44,
+      "orders": 39,
+      "salesCents": 901573
+    },
+    {
+      "month": "2018-02",
+      "category": "livros_importados",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 32500
+    },
+    {
+      "month": "2018-02",
+      "category": "livros_interesse_geral",
+      "items": 28,
+      "orders": 28,
+      "salesCents": 188665
+    },
+    {
+      "month": "2018-02",
+      "category": "livros_tecnicos",
+      "items": 26,
+      "orders": 23,
+      "salesCents": 141121
+    },
+    {
+      "month": "2018-02",
+      "category": "malas_acessorios",
+      "items": 45,
+      "orders": 43,
+      "salesCents": 642355
+    },
+    {
+      "month": "2018-02",
+      "category": "market_place",
+      "items": 28,
+      "orders": 20,
+      "salesCents": 192092
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_colchao_e_estofado",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 34470
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 19,
+      "orders": 16,
+      "salesCents": 462116
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_decoracao",
+      "items": 422,
+      "orders": 336,
+      "salesCents": 3800236
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_escritorio",
+      "items": 107,
+      "orders": 70,
+      "salesCents": 1728789
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_quarto",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 89580
+    },
+    {
+      "month": "2018-02",
+      "category": "moveis_sala",
+      "items": 26,
+      "orders": 19,
+      "salesCents": 440278
+    },
+    {
+      "month": "2018-02",
+      "category": "musica",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 24497
+    },
+    {
+      "month": "2018-02",
+      "category": "papelaria",
+      "items": 145,
+      "orders": 131,
+      "salesCents": 1009053
+    },
+    {
+      "month": "2018-02",
+      "category": "pc_gamer",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12999
+    },
+    {
+      "month": "2018-02",
+      "category": "perfumaria",
+      "items": 211,
+      "orders": 194,
+      "salesCents": 2037200
+    },
+    {
+      "month": "2018-02",
+      "category": "pet_shop",
+      "items": 99,
+      "orders": 86,
+      "salesCents": 921824
+    },
+    {
+      "month": "2018-02",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 302490
+    },
+    {
+      "month": "2018-02",
+      "category": "relogios_presentes",
+      "items": 324,
+      "orders": 304,
+      "salesCents": 6072531
+    },
+    {
+      "month": "2018-02",
+      "category": "sinalizacao_e_seguranca",
+      "items": 15,
+      "orders": 10,
+      "salesCents": 71579
+    },
+    {
+      "month": "2018-02",
+      "category": "tablets_impressao_imagem",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 69497
+    },
+    {
+      "month": "2018-02",
+      "category": "telefonia",
+      "items": 354,
+      "orders": 328,
+      "salesCents": 1367238
+    },
+    {
+      "month": "2018-02",
+      "category": "telefonia_fixa",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 473868
+    },
+    {
+      "month": "2018-02",
+      "category": "utilidades_domesticas",
+      "items": 391,
+      "orders": 334,
+      "salesCents": 3487747
+    },
+    {
+      "month": "2018-03",
+      "category": "Unknown",
+      "items": 133,
+      "orders": 125,
+      "salesCents": 1662522
+    },
+    {
+      "month": "2018-03",
+      "category": "agro_industria_e_comercio",
+      "items": 26,
+      "orders": 24,
+      "salesCents": 516100
+    },
+    {
+      "month": "2018-03",
+      "category": "alimentos",
+      "items": 35,
+      "orders": 33,
+      "salesCents": 155990
+    },
+    {
+      "month": "2018-03",
+      "category": "alimentos_bebidas",
+      "items": 19,
+      "orders": 17,
+      "salesCents": 235077
+    },
+    {
+      "month": "2018-03",
+      "category": "artes",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 46150
+    },
+    {
+      "month": "2018-03",
+      "category": "artigos_de_festas",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 91390
+    },
+    {
+      "month": "2018-03",
+      "category": "artigos_de_natal",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 85495
+    },
+    {
+      "month": "2018-03",
+      "category": "audio",
+      "items": 34,
+      "orders": 33,
+      "salesCents": 1060669
+    },
+    {
+      "month": "2018-03",
+      "category": "automotivo",
+      "items": 336,
+      "orders": 317,
+      "salesCents": 4408196
+    },
+    {
+      "month": "2018-03",
+      "category": "bebes",
+      "items": 215,
+      "orders": 208,
+      "salesCents": 4081875
+    },
+    {
+      "month": "2018-03",
+      "category": "bebidas",
+      "items": 21,
+      "orders": 20,
+      "salesCents": 96270
+    },
+    {
+      "month": "2018-03",
+      "category": "beleza_saude",
+      "items": 656,
+      "orders": 605,
+      "salesCents": 8448857
+    },
+    {
+      "month": "2018-03",
+      "category": "brinquedos",
+      "items": 225,
+      "orders": 215,
+      "salesCents": 2281755
+    },
+    {
+      "month": "2018-03",
+      "category": "cama_mesa_banho",
+      "items": 777,
+      "orders": 652,
+      "salesCents": 6778635
+    },
+    {
+      "month": "2018-03",
+      "category": "casa_conforto",
+      "items": 21,
+      "orders": 21,
+      "salesCents": 252238
+    },
+    {
+      "month": "2018-03",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 3499
+    },
+    {
+      "month": "2018-03",
+      "category": "casa_construcao",
+      "items": 43,
+      "orders": 33,
+      "salesCents": 525051
+    },
+    {
+      "month": "2018-03",
+      "category": "cine_foto",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 71179
+    },
+    {
+      "month": "2018-03",
+      "category": "climatizacao",
+      "items": 24,
+      "orders": 23,
+      "salesCents": 250768
+    },
+    {
+      "month": "2018-03",
+      "category": "consoles_games",
+      "items": 57,
+      "orders": 53,
+      "salesCents": 1182622
+    },
+    {
+      "month": "2018-03",
+      "category": "construcao_ferramentas_construcao",
+      "items": 66,
+      "orders": 48,
+      "salesCents": 944658
+    },
+    {
+      "month": "2018-03",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 93130
+    },
+    {
+      "month": "2018-03",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 13,
+      "orders": 12,
+      "salesCents": 253670
+    },
+    {
+      "month": "2018-03",
+      "category": "construcao_ferramentas_jardim",
+      "items": 22,
+      "orders": 19,
+      "salesCents": 208723
+    },
+    {
+      "month": "2018-03",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 22,
+      "orders": 13,
+      "salesCents": 537487
+    },
+    {
+      "month": "2018-03",
+      "category": "cool_stuff",
+      "items": 253,
+      "orders": 239,
+      "salesCents": 3779124
+    },
+    {
+      "month": "2018-03",
+      "category": "dvds_blu_ray",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 4980
+    },
+    {
+      "month": "2018-03",
+      "category": "eletrodomesticos",
+      "items": 70,
+      "orders": 70,
+      "salesCents": 987659
+    },
+    {
+      "month": "2018-03",
+      "category": "eletrodomesticos_2",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 564820
+    },
+    {
+      "month": "2018-03",
+      "category": "eletronicos",
+      "items": 254,
+      "orders": 237,
+      "salesCents": 1239451
+    },
+    {
+      "month": "2018-03",
+      "category": "eletroportateis",
+      "items": 35,
+      "orders": 34,
+      "salesCents": 1395218
+    },
+    {
+      "month": "2018-03",
+      "category": "esporte_lazer",
+      "items": 732,
+      "orders": 645,
+      "salesCents": 8165696
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 137,
+      "orders": 129,
+      "salesCents": 1009651
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_calcados",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 105310
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8990
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_roupa_feminina",
+      "items": 4,
+      "orders": 1,
+      "salesCents": 11996
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 7998
+    },
+    {
+      "month": "2018-03",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 28940
+    },
+    {
+      "month": "2018-03",
+      "category": "ferramentas_jardim",
+      "items": 253,
+      "orders": 199,
+      "salesCents": 2677388
+    },
+    {
+      "month": "2018-03",
+      "category": "flores",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 8967
+    },
+    {
+      "month": "2018-03",
+      "category": "fraldas_higiene",
+      "items": 5,
+      "orders": 1,
+      "salesCents": 12500
+    },
+    {
+      "month": "2018-03",
+      "category": "industria_comercio_e_negocios",
+      "items": 29,
+      "orders": 26,
+      "salesCents": 292245
+    },
+    {
+      "month": "2018-03",
+      "category": "informatica_acessorios",
+      "items": 750,
+      "orders": 630,
+      "salesCents": 8470839
+    },
+    {
+      "month": "2018-03",
+      "category": "instrumentos_musicais",
+      "items": 53,
+      "orders": 49,
+      "salesCents": 893140
+    },
+    {
+      "month": "2018-03",
+      "category": "la_cuisine",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 38900
+    },
+    {
+      "month": "2018-03",
+      "category": "livros_importados",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 25900
+    },
+    {
+      "month": "2018-03",
+      "category": "livros_interesse_geral",
+      "items": 38,
+      "orders": 33,
+      "salesCents": 169194
+    },
+    {
+      "month": "2018-03",
+      "category": "livros_tecnicos",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 91347
+    },
+    {
+      "month": "2018-03",
+      "category": "malas_acessorios",
+      "items": 56,
+      "orders": 51,
+      "salesCents": 585177
+    },
+    {
+      "month": "2018-03",
+      "category": "market_place",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 154874
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_colchao_e_estofado",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 44000
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 284266
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_decoracao",
+      "items": 583,
+      "orders": 430,
+      "salesCents": 5131997
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_escritorio",
+      "items": 200,
+      "orders": 149,
+      "salesCents": 3086164
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_quarto",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 107180
+    },
+    {
+      "month": "2018-03",
+      "category": "moveis_sala",
+      "items": 19,
+      "orders": 19,
+      "salesCents": 352187
+    },
+    {
+      "month": "2018-03",
+      "category": "musica",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 32397
+    },
+    {
+      "month": "2018-03",
+      "category": "papelaria",
+      "items": 163,
+      "orders": 145,
+      "salesCents": 1299374
+    },
+    {
+      "month": "2018-03",
+      "category": "perfumaria",
+      "items": 198,
+      "orders": 182,
+      "salesCents": 2008188
+    },
+    {
+      "month": "2018-03",
+      "category": "pet_shop",
+      "items": 122,
+      "orders": 108,
+      "salesCents": 1340021
+    },
+    {
+      "month": "2018-03",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 789090
+    },
+    {
+      "month": "2018-03",
+      "category": "relogios_presentes",
+      "items": 421,
+      "orders": 407,
+      "salesCents": 9566118
+    },
+    {
+      "month": "2018-03",
+      "category": "sinalizacao_e_seguranca",
+      "items": 9,
+      "orders": 7,
+      "salesCents": 92190
+    },
+    {
+      "month": "2018-03",
+      "category": "tablets_impressao_imagem",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 25929
+    },
+    {
+      "month": "2018-03",
+      "category": "telefonia",
+      "items": 334,
+      "orders": 320,
+      "salesCents": 2475943
+    },
+    {
+      "month": "2018-03",
+      "category": "telefonia_fixa",
+      "items": 14,
+      "orders": 12,
+      "salesCents": 193059
+    },
+    {
+      "month": "2018-03",
+      "category": "utilidades_domesticas",
+      "items": 390,
+      "orders": 322,
+      "salesCents": 3505212
+    },
+    {
+      "month": "2018-04",
+      "category": "Unknown",
+      "items": 74,
+      "orders": 72,
+      "salesCents": 798790
+    },
+    {
+      "month": "2018-04",
+      "category": "agro_industria_e_comercio",
+      "items": 12,
+      "orders": 12,
+      "salesCents": 450070
+    },
+    {
+      "month": "2018-04",
+      "category": "alimentos",
+      "items": 40,
+      "orders": 36,
+      "salesCents": 166543
+    },
+    {
+      "month": "2018-04",
+      "category": "alimentos_bebidas",
+      "items": 18,
+      "orders": 16,
+      "salesCents": 60507
+    },
+    {
+      "month": "2018-04",
+      "category": "artes",
+      "items": 26,
+      "orders": 26,
+      "salesCents": 214028
+    },
+    {
+      "month": "2018-04",
+      "category": "artes_e_artesanato",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1599
+    },
+    {
+      "month": "2018-04",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 4380
+    },
+    {
+      "month": "2018-04",
+      "category": "artigos_de_natal",
+      "items": 12,
+      "orders": 9,
+      "salesCents": 27515
+    },
+    {
+      "month": "2018-04",
+      "category": "audio",
+      "items": 31,
+      "orders": 30,
+      "salesCents": 704507
+    },
+    {
+      "month": "2018-04",
+      "category": "automotivo",
+      "items": 348,
+      "orders": 328,
+      "salesCents": 4798941
+    },
+    {
+      "month": "2018-04",
+      "category": "bebes",
+      "items": 237,
+      "orders": 215,
+      "salesCents": 4720122
+    },
+    {
+      "month": "2018-04",
+      "category": "bebidas",
+      "items": 54,
+      "orders": 29,
+      "salesCents": 501644
+    },
+    {
+      "month": "2018-04",
+      "category": "beleza_saude",
+      "items": 685,
+      "orders": 619,
+      "salesCents": 9105845
+    },
+    {
+      "month": "2018-04",
+      "category": "brinquedos",
+      "items": 202,
+      "orders": 193,
+      "salesCents": 2314041
+    },
+    {
+      "month": "2018-04",
+      "category": "cama_mesa_banho",
+      "items": 736,
+      "orders": 600,
+      "salesCents": 7137961
+    },
+    {
+      "month": "2018-04",
+      "category": "casa_conforto",
+      "items": 18,
+      "orders": 15,
+      "salesCents": 193940
+    },
+    {
+      "month": "2018-04",
+      "category": "casa_conforto_2",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1290
+    },
+    {
+      "month": "2018-04",
+      "category": "casa_construcao",
+      "items": 75,
+      "orders": 58,
+      "salesCents": 920465
+    },
+    {
+      "month": "2018-04",
+      "category": "cds_dvds_musicais",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6500
+    },
+    {
+      "month": "2018-04",
+      "category": "cine_foto",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 52174
+    },
+    {
+      "month": "2018-04",
+      "category": "climatizacao",
+      "items": 23,
+      "orders": 22,
+      "salesCents": 326179
+    },
+    {
+      "month": "2018-04",
+      "category": "consoles_games",
+      "items": 40,
+      "orders": 37,
+      "salesCents": 551105
+    },
+    {
+      "month": "2018-04",
+      "category": "construcao_ferramentas_construcao",
+      "items": 90,
+      "orders": 76,
+      "salesCents": 1293383
+    },
+    {
+      "month": "2018-04",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 133299
+    },
+    {
+      "month": "2018-04",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 47,
+      "orders": 37,
+      "salesCents": 496267
+    },
+    {
+      "month": "2018-04",
+      "category": "construcao_ferramentas_jardim",
+      "items": 18,
+      "orders": 12,
+      "salesCents": 132679
+    },
+    {
+      "month": "2018-04",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 24,
+      "orders": 23,
+      "salesCents": 288726
+    },
+    {
+      "month": "2018-04",
+      "category": "cool_stuff",
+      "items": 206,
+      "orders": 194,
+      "salesCents": 3502541
+    },
+    {
+      "month": "2018-04",
+      "category": "dvds_blu_ray",
+      "items": 5,
+      "orders": 4,
+      "salesCents": 9250
+    },
+    {
+      "month": "2018-04",
+      "category": "eletrodomesticos",
+      "items": 104,
+      "orders": 104,
+      "salesCents": 1501963
+    },
+    {
+      "month": "2018-04",
+      "category": "eletrodomesticos_2",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 2074169
+    },
+    {
+      "month": "2018-04",
+      "category": "eletronicos",
+      "items": 212,
+      "orders": 201,
+      "salesCents": 1084023
+    },
+    {
+      "month": "2018-04",
+      "category": "eletroportateis",
+      "items": 66,
+      "orders": 60,
+      "salesCents": 1207176
+    },
+    {
+      "month": "2018-04",
+      "category": "esporte_lazer",
+      "items": 586,
+      "orders": 520,
+      "salesCents": 6579352
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 102,
+      "orders": 92,
+      "salesCents": 821885
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_calcados",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 143870
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8990
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_roupa_feminina",
+      "items": 5,
+      "orders": 1,
+      "salesCents": 17495
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_roupa_masculina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 19500
+    },
+    {
+      "month": "2018-04",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 35940
+    },
+    {
+      "month": "2018-04",
+      "category": "ferramentas_jardim",
+      "items": 282,
+      "orders": 232,
+      "salesCents": 3452604
+    },
+    {
+      "month": "2018-04",
+      "category": "flores",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 15840
+    },
+    {
+      "month": "2018-04",
+      "category": "fraldas_higiene",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 14900
+    },
+    {
+      "month": "2018-04",
+      "category": "industria_comercio_e_negocios",
+      "items": 53,
+      "orders": 48,
+      "salesCents": 569061
+    },
+    {
+      "month": "2018-04",
+      "category": "informatica_acessorios",
+      "items": 526,
+      "orders": 465,
+      "salesCents": 5737090
+    },
+    {
+      "month": "2018-04",
+      "category": "instrumentos_musicais",
+      "items": 60,
+      "orders": 57,
+      "salesCents": 1937531
+    },
+    {
+      "month": "2018-04",
+      "category": "la_cuisine",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 28000
+    },
+    {
+      "month": "2018-04",
+      "category": "livros_importados",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 31799
+    },
+    {
+      "month": "2018-04",
+      "category": "livros_interesse_geral",
+      "items": 49,
+      "orders": 42,
+      "salesCents": 627451
+    },
+    {
+      "month": "2018-04",
+      "category": "livros_tecnicos",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 117210
+    },
+    {
+      "month": "2018-04",
+      "category": "malas_acessorios",
+      "items": 57,
+      "orders": 53,
+      "salesCents": 868048
+    },
+    {
+      "month": "2018-04",
+      "category": "market_place",
+      "items": 15,
+      "orders": 15,
+      "salesCents": 62723
+    },
+    {
+      "month": "2018-04",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 19,
+      "orders": 18,
+      "salesCents": 311057
+    },
+    {
+      "month": "2018-04",
+      "category": "moveis_decoracao",
+      "items": 586,
+      "orders": 458,
+      "salesCents": 5621762
+    },
+    {
+      "month": "2018-04",
+      "category": "moveis_escritorio",
+      "items": 131,
+      "orders": 86,
+      "salesCents": 1999780
+    },
+    {
+      "month": "2018-04",
+      "category": "moveis_quarto",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 130190
+    },
+    {
+      "month": "2018-04",
+      "category": "moveis_sala",
+      "items": 33,
+      "orders": 24,
+      "salesCents": 504183
+    },
+    {
+      "month": "2018-04",
+      "category": "musica",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 169686
+    },
+    {
+      "month": "2018-04",
+      "category": "papelaria",
+      "items": 152,
+      "orders": 128,
+      "salesCents": 1126345
+    },
+    {
+      "month": "2018-04",
+      "category": "pcs",
+      "items": 15,
+      "orders": 13,
+      "salesCents": 1377492
+    },
+    {
+      "month": "2018-04",
+      "category": "perfumaria",
+      "items": 174,
+      "orders": 159,
+      "salesCents": 1743041
+    },
+    {
+      "month": "2018-04",
+      "category": "pet_shop",
+      "items": 166,
+      "orders": 150,
+      "salesCents": 1828297
+    },
+    {
+      "month": "2018-04",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 13,
+      "orders": 13,
+      "salesCents": 1321199
+    },
+    {
+      "month": "2018-04",
+      "category": "relogios_presentes",
+      "items": 494,
+      "orders": 462,
+      "salesCents": 8862307
+    },
+    {
+      "month": "2018-04",
+      "category": "sinalizacao_e_seguranca",
+      "items": 36,
+      "orders": 22,
+      "salesCents": 222230
+    },
+    {
+      "month": "2018-04",
+      "category": "tablets_impressao_imagem",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5200
+    },
+    {
+      "month": "2018-04",
+      "category": "telefonia",
+      "items": 279,
+      "orders": 245,
+      "salesCents": 1631206
+    },
+    {
+      "month": "2018-04",
+      "category": "telefonia_fixa",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 192194
+    },
+    {
+      "month": "2018-04",
+      "category": "utilidades_domesticas",
+      "items": 462,
+      "orders": 411,
+      "salesCents": 4436329
+    },
+    {
+      "month": "2018-05",
+      "category": "Unknown",
+      "items": 42,
+      "orders": 37,
+      "salesCents": 309704
+    },
+    {
+      "month": "2018-05",
+      "category": "agro_industria_e_comercio",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 327975
+    },
+    {
+      "month": "2018-05",
+      "category": "alimentos",
+      "items": 44,
+      "orders": 36,
+      "salesCents": 154293
+    },
+    {
+      "month": "2018-05",
+      "category": "alimentos_bebidas",
+      "items": 25,
+      "orders": 15,
+      "salesCents": 123944
+    },
+    {
+      "month": "2018-05",
+      "category": "artes",
+      "items": 34,
+      "orders": 33,
+      "salesCents": 249197
+    },
+    {
+      "month": "2018-05",
+      "category": "artes_e_artesanato",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8980
+    },
+    {
+      "month": "2018-05",
+      "category": "artigos_de_festas",
+      "items": 4,
+      "orders": 3,
+      "salesCents": 10070
+    },
+    {
+      "month": "2018-05",
+      "category": "artigos_de_natal",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 52453
+    },
+    {
+      "month": "2018-05",
+      "category": "audio",
+      "items": 21,
+      "orders": 20,
+      "salesCents": 269768
+    },
+    {
+      "month": "2018-05",
+      "category": "automotivo",
+      "items": 308,
+      "orders": 295,
+      "salesCents": 4085144
+    },
+    {
+      "month": "2018-05",
+      "category": "bebes",
+      "items": 239,
+      "orders": 218,
+      "salesCents": 3325365
+    },
+    {
+      "month": "2018-05",
+      "category": "bebidas",
+      "items": 47,
+      "orders": 33,
+      "salesCents": 250599
+    },
+    {
+      "month": "2018-05",
+      "category": "beleza_saude",
+      "items": 751,
+      "orders": 669,
+      "salesCents": 9453438
+    },
+    {
+      "month": "2018-05",
+      "category": "brinquedos",
+      "items": 218,
+      "orders": 211,
+      "salesCents": 3153841
+    },
+    {
+      "month": "2018-05",
+      "category": "cama_mesa_banho",
+      "items": 740,
+      "orders": 600,
+      "salesCents": 7126507
+    },
+    {
+      "month": "2018-05",
+      "category": "casa_conforto",
+      "items": 21,
+      "orders": 18,
+      "salesCents": 270870
+    },
+    {
+      "month": "2018-05",
+      "category": "casa_construcao",
+      "items": 79,
+      "orders": 63,
+      "salesCents": 1015528
+    },
+    {
+      "month": "2018-05",
+      "category": "cine_foto",
+      "items": 17,
+      "orders": 16,
+      "salesCents": 210829
+    },
+    {
+      "month": "2018-05",
+      "category": "climatizacao",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 185130
+    },
+    {
+      "month": "2018-05",
+      "category": "consoles_games",
+      "items": 52,
+      "orders": 38,
+      "salesCents": 527927
+    },
+    {
+      "month": "2018-05",
+      "category": "construcao_ferramentas_construcao",
+      "items": 125,
+      "orders": 89,
+      "salesCents": 2074860
+    },
+    {
+      "month": "2018-05",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 41790
+    },
+    {
+      "month": "2018-05",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 38,
+      "orders": 30,
+      "salesCents": 435481
+    },
+    {
+      "month": "2018-05",
+      "category": "construcao_ferramentas_jardim",
+      "items": 16,
+      "orders": 13,
+      "salesCents": 107328
+    },
+    {
+      "month": "2018-05",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 22,
+      "orders": 21,
+      "salesCents": 604501
+    },
+    {
+      "month": "2018-05",
+      "category": "cool_stuff",
+      "items": 175,
+      "orders": 168,
+      "salesCents": 2994912
+    },
+    {
+      "month": "2018-05",
+      "category": "dvds_blu_ray",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 43994
+    },
+    {
+      "month": "2018-05",
+      "category": "eletrodomesticos",
+      "items": 64,
+      "orders": 63,
+      "salesCents": 614967
+    },
+    {
+      "month": "2018-05",
+      "category": "eletrodomesticos_2",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 1444124
+    },
+    {
+      "month": "2018-05",
+      "category": "eletronicos",
+      "items": 231,
+      "orders": 219,
+      "salesCents": 1617679
+    },
+    {
+      "month": "2018-05",
+      "category": "eletroportateis",
+      "items": 48,
+      "orders": 39,
+      "salesCents": 1062099
+    },
+    {
+      "month": "2018-05",
+      "category": "esporte_lazer",
+      "items": 489,
+      "orders": 449,
+      "salesCents": 5920992
+    },
+    {
+      "month": "2018-05",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 110,
+      "orders": 104,
+      "salesCents": 1149017
+    },
+    {
+      "month": "2018-05",
+      "category": "fashion_calcados",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 158270
+    },
+    {
+      "month": "2018-05",
+      "category": "fashion_roupa_masculina",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12999
+    },
+    {
+      "month": "2018-05",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 20740
+    },
+    {
+      "month": "2018-05",
+      "category": "ferramentas_jardim",
+      "items": 288,
+      "orders": 227,
+      "salesCents": 3770079
+    },
+    {
+      "month": "2018-05",
+      "category": "flores",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 1640
+    },
+    {
+      "month": "2018-05",
+      "category": "fraldas_higiene",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 11700
+    },
+    {
+      "month": "2018-05",
+      "category": "industria_comercio_e_negocios",
+      "items": 40,
+      "orders": 34,
+      "salesCents": 378099
+    },
+    {
+      "month": "2018-05",
+      "category": "informatica_acessorios",
+      "items": 453,
+      "orders": 399,
+      "salesCents": 5063183
+    },
+    {
+      "month": "2018-05",
+      "category": "instrumentos_musicais",
+      "items": 61,
+      "orders": 59,
+      "salesCents": 1875707
+    },
+    {
+      "month": "2018-05",
+      "category": "livros_importados",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 41092
+    },
+    {
+      "month": "2018-05",
+      "category": "livros_interesse_geral",
+      "items": 50,
+      "orders": 48,
+      "salesCents": 592513
+    },
+    {
+      "month": "2018-05",
+      "category": "livros_tecnicos",
+      "items": 55,
+      "orders": 54,
+      "salesCents": 304053
+    },
+    {
+      "month": "2018-05",
+      "category": "malas_acessorios",
+      "items": 49,
+      "orders": 44,
+      "salesCents": 661846
+    },
+    {
+      "month": "2018-05",
+      "category": "market_place",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 95745
+    },
+    {
+      "month": "2018-05",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 13,
+      "orders": 10,
+      "salesCents": 231009
+    },
+    {
+      "month": "2018-05",
+      "category": "moveis_decoracao",
+      "items": 597,
+      "orders": 456,
+      "salesCents": 5370645
+    },
+    {
+      "month": "2018-05",
+      "category": "moveis_escritorio",
+      "items": 104,
+      "orders": 82,
+      "salesCents": 2083587
+    },
+    {
+      "month": "2018-05",
+      "category": "moveis_quarto",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 148498
+    },
+    {
+      "month": "2018-05",
+      "category": "moveis_sala",
+      "items": 16,
+      "orders": 13,
+      "salesCents": 272108
+    },
+    {
+      "month": "2018-05",
+      "category": "musica",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 72900
+    },
+    {
+      "month": "2018-05",
+      "category": "papelaria",
+      "items": 130,
+      "orders": 124,
+      "salesCents": 1292339
+    },
+    {
+      "month": "2018-05",
+      "category": "pcs",
+      "items": 13,
+      "orders": 6,
+      "salesCents": 869992
+    },
+    {
+      "month": "2018-05",
+      "category": "perfumaria",
+      "items": 197,
+      "orders": 179,
+      "salesCents": 2448270
+    },
+    {
+      "month": "2018-05",
+      "category": "pet_shop",
+      "items": 136,
+      "orders": 127,
+      "salesCents": 1170846
+    },
+    {
+      "month": "2018-05",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 1016160
+    },
+    {
+      "month": "2018-05",
+      "category": "portateis_cozinha_e_preparadores_de_alimentos",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 195800
+    },
+    {
+      "month": "2018-05",
+      "category": "relogios_presentes",
+      "items": 625,
+      "orders": 585,
+      "salesCents": 11936498
+    },
+    {
+      "month": "2018-05",
+      "category": "sinalizacao_e_seguranca",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 68350
+    },
+    {
+      "month": "2018-05",
+      "category": "tablets_impressao_imagem",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 4990
+    },
+    {
+      "month": "2018-05",
+      "category": "telefonia",
+      "items": 250,
+      "orders": 237,
+      "salesCents": 1894428
+    },
+    {
+      "month": "2018-05",
+      "category": "telefonia_fixa",
+      "items": 16,
+      "orders": 11,
+      "salesCents": 184620
+    },
+    {
+      "month": "2018-05",
+      "category": "utilidades_domesticas",
+      "items": 618,
+      "orders": 492,
+      "salesCents": 6282457
+    },
+    {
+      "month": "2018-06",
+      "category": "Unknown",
+      "items": 23,
+      "orders": 22,
+      "salesCents": 238713
+    },
+    {
+      "month": "2018-06",
+      "category": "agro_industria_e_comercio",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 351580
+    },
+    {
+      "month": "2018-06",
+      "category": "alimentos",
+      "items": 24,
+      "orders": 24,
+      "salesCents": 137118
+    },
+    {
+      "month": "2018-06",
+      "category": "alimentos_bebidas",
+      "items": 11,
+      "orders": 9,
+      "salesCents": 29385
+    },
+    {
+      "month": "2018-06",
+      "category": "artes",
+      "items": 28,
+      "orders": 28,
+      "salesCents": 250014
+    },
+    {
+      "month": "2018-06",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 8480
+    },
+    {
+      "month": "2018-06",
+      "category": "artigos_de_natal",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 30619
+    },
+    {
+      "month": "2018-06",
+      "category": "audio",
+      "items": 20,
+      "orders": 19,
+      "salesCents": 183069
+    },
+    {
+      "month": "2018-06",
+      "category": "automotivo",
+      "items": 295,
+      "orders": 268,
+      "salesCents": 4496259
+    },
+    {
+      "month": "2018-06",
+      "category": "bebes",
+      "items": 223,
+      "orders": 205,
+      "salesCents": 3055032
+    },
+    {
+      "month": "2018-06",
+      "category": "bebidas",
+      "items": 33,
+      "orders": 30,
+      "salesCents": 156707
+    },
+    {
+      "month": "2018-06",
+      "category": "beleza_saude",
+      "items": 875,
+      "orders": 790,
+      "salesCents": 10674572
+    },
+    {
+      "month": "2018-06",
+      "category": "brinquedos",
+      "items": 190,
+      "orders": 176,
+      "salesCents": 2109495
+    },
+    {
+      "month": "2018-06",
+      "category": "cama_mesa_banho",
+      "items": 764,
+      "orders": 649,
+      "salesCents": 7085708
+    },
+    {
+      "month": "2018-06",
+      "category": "casa_conforto",
+      "items": 16,
+      "orders": 16,
+      "salesCents": 238649
+    },
+    {
+      "month": "2018-06",
+      "category": "casa_conforto_2",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 2580
+    },
+    {
+      "month": "2018-06",
+      "category": "casa_construcao",
+      "items": 71,
+      "orders": 60,
+      "salesCents": 909459
+    },
+    {
+      "month": "2018-06",
+      "category": "cine_foto",
+      "items": 13,
+      "orders": 9,
+      "salesCents": 43585
+    },
+    {
+      "month": "2018-06",
+      "category": "climatizacao",
+      "items": 15,
+      "orders": 9,
+      "salesCents": 356790
+    },
+    {
+      "month": "2018-06",
+      "category": "consoles_games",
+      "items": 43,
+      "orders": 41,
+      "salesCents": 690301
+    },
+    {
+      "month": "2018-06",
+      "category": "construcao_ferramentas_construcao",
+      "items": 113,
+      "orders": 108,
+      "salesCents": 2294772
+    },
+    {
+      "month": "2018-06",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 52700
+    },
+    {
+      "month": "2018-06",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 44,
+      "orders": 35,
+      "salesCents": 458341
+    },
+    {
+      "month": "2018-06",
+      "category": "construcao_ferramentas_jardim",
+      "items": 11,
+      "orders": 11,
+      "salesCents": 79944
+    },
+    {
+      "month": "2018-06",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 16,
+      "orders": 16,
+      "salesCents": 256537
+    },
+    {
+      "month": "2018-06",
+      "category": "cool_stuff",
+      "items": 103,
+      "orders": 100,
+      "salesCents": 1931637
+    },
+    {
+      "month": "2018-06",
+      "category": "dvds_blu_ray",
+      "items": 6,
+      "orders": 5,
+      "salesCents": 38288
+    },
+    {
+      "month": "2018-06",
+      "category": "eletrodomesticos",
+      "items": 65,
+      "orders": 65,
+      "salesCents": 583038
+    },
+    {
+      "month": "2018-06",
+      "category": "eletrodomesticos_2",
+      "items": 19,
+      "orders": 18,
+      "salesCents": 831272
+    },
+    {
+      "month": "2018-06",
+      "category": "eletronicos",
+      "items": 191,
+      "orders": 174,
+      "salesCents": 966457
+    },
+    {
+      "month": "2018-06",
+      "category": "eletroportateis",
+      "items": 49,
+      "orders": 43,
+      "salesCents": 1543163
+    },
+    {
+      "month": "2018-06",
+      "category": "esporte_lazer",
+      "items": 419,
+      "orders": 371,
+      "salesCents": 4491601
+    },
+    {
+      "month": "2018-06",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 87,
+      "orders": 82,
+      "salesCents": 786995
+    },
+    {
+      "month": "2018-06",
+      "category": "fashion_calcados",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 123058
+    },
+    {
+      "month": "2018-06",
+      "category": "fashion_roupa_infanto_juvenil",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8999
+    },
+    {
+      "month": "2018-06",
+      "category": "fashion_roupa_masculina",
+      "items": 7,
+      "orders": 6,
+      "salesCents": 44780
+    },
+    {
+      "month": "2018-06",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 7,
+      "orders": 3,
+      "salesCents": 12930
+    },
+    {
+      "month": "2018-06",
+      "category": "ferramentas_jardim",
+      "items": 184,
+      "orders": 148,
+      "salesCents": 1794872
+    },
+    {
+      "month": "2018-06",
+      "category": "flores",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 10800
+    },
+    {
+      "month": "2018-06",
+      "category": "fraldas_higiene",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 32100
+    },
+    {
+      "month": "2018-06",
+      "category": "industria_comercio_e_negocios",
+      "items": 26,
+      "orders": 21,
+      "salesCents": 260990
+    },
+    {
+      "month": "2018-06",
+      "category": "informatica_acessorios",
+      "items": 401,
+      "orders": 352,
+      "salesCents": 4180637
+    },
+    {
+      "month": "2018-06",
+      "category": "instrumentos_musicais",
+      "items": 47,
+      "orders": 46,
+      "salesCents": 1617792
+    },
+    {
+      "month": "2018-06",
+      "category": "livros_importados",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 46817
+    },
+    {
+      "month": "2018-06",
+      "category": "livros_interesse_geral",
+      "items": 38,
+      "orders": 32,
+      "salesCents": 327549
+    },
+    {
+      "month": "2018-06",
+      "category": "livros_tecnicos",
+      "items": 26,
+      "orders": 26,
+      "salesCents": 174743
+    },
+    {
+      "month": "2018-06",
+      "category": "malas_acessorios",
+      "items": 36,
+      "orders": 36,
+      "salesCents": 507088
+    },
+    {
+      "month": "2018-06",
+      "category": "market_place",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 55646
+    },
+    {
+      "month": "2018-06",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 29,
+      "orders": 21,
+      "salesCents": 353843
+    },
+    {
+      "month": "2018-06",
+      "category": "moveis_decoracao",
+      "items": 402,
+      "orders": 316,
+      "salesCents": 4204222
+    },
+    {
+      "month": "2018-06",
+      "category": "moveis_escritorio",
+      "items": 76,
+      "orders": 59,
+      "salesCents": 1212558
+    },
+    {
+      "month": "2018-06",
+      "category": "moveis_quarto",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 155999
+    },
+    {
+      "month": "2018-06",
+      "category": "moveis_sala",
+      "items": 29,
+      "orders": 27,
+      "salesCents": 354162
+    },
+    {
+      "month": "2018-06",
+      "category": "musica",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 10908
+    },
+    {
+      "month": "2018-06",
+      "category": "papelaria",
+      "items": 167,
+      "orders": 145,
+      "salesCents": 1285908
+    },
+    {
+      "month": "2018-06",
+      "category": "pcs",
+      "items": 13,
+      "orders": 8,
+      "salesCents": 1312700
+    },
+    {
+      "month": "2018-06",
+      "category": "perfumaria",
+      "items": 186,
+      "orders": 166,
+      "salesCents": 2696393
+    },
+    {
+      "month": "2018-06",
+      "category": "pet_shop",
+      "items": 178,
+      "orders": 151,
+      "salesCents": 1949178
+    },
+    {
+      "month": "2018-06",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 349900
+    },
+    {
+      "month": "2018-06",
+      "category": "relogios_presentes",
+      "items": 477,
+      "orders": 444,
+      "salesCents": 8502757
+    },
+    {
+      "month": "2018-06",
+      "category": "sinalizacao_e_seguranca",
+      "items": 27,
+      "orders": 18,
+      "salesCents": 586318
+    },
+    {
+      "month": "2018-06",
+      "category": "tablets_impressao_imagem",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 5000
+    },
+    {
+      "month": "2018-06",
+      "category": "telefonia",
+      "items": 216,
+      "orders": 202,
+      "salesCents": 2266986
+    },
+    {
+      "month": "2018-06",
+      "category": "telefonia_fixa",
+      "items": 17,
+      "orders": 15,
+      "salesCents": 208032
+    },
+    {
+      "month": "2018-06",
+      "category": "utilidades_domesticas",
+      "items": 577,
+      "orders": 464,
+      "salesCents": 5591261
+    },
+    {
+      "month": "2018-07",
+      "category": "Unknown",
+      "items": 47,
+      "orders": 42,
+      "salesCents": 461200
+    },
+    {
+      "month": "2018-07",
+      "category": "agro_industria_e_comercio",
+      "items": 27,
+      "orders": 26,
+      "salesCents": 666982
+    },
+    {
+      "month": "2018-07",
+      "category": "alimentos",
+      "items": 64,
+      "orders": 59,
+      "salesCents": 337817
+    },
+    {
+      "month": "2018-07",
+      "category": "alimentos_bebidas",
+      "items": 17,
+      "orders": 14,
+      "salesCents": 77873
+    },
+    {
+      "month": "2018-07",
+      "category": "artes",
+      "items": 21,
+      "orders": 21,
+      "salesCents": 184320
+    },
+    {
+      "month": "2018-07",
+      "category": "artes_e_artesanato",
+      "items": 11,
+      "orders": 10,
+      "salesCents": 65457
+    },
+    {
+      "month": "2018-07",
+      "category": "artigos_de_festas",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 5750
+    },
+    {
+      "month": "2018-07",
+      "category": "artigos_de_natal",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 50956
+    },
+    {
+      "month": "2018-07",
+      "category": "audio",
+      "items": 22,
+      "orders": 21,
+      "salesCents": 206264
+    },
+    {
+      "month": "2018-07",
+      "category": "automotivo",
+      "items": 341,
+      "orders": 324,
+      "salesCents": 4346679
+    },
+    {
+      "month": "2018-07",
+      "category": "bebes",
+      "items": 214,
+      "orders": 206,
+      "salesCents": 2183412
+    },
+    {
+      "month": "2018-07",
+      "category": "bebidas",
+      "items": 16,
+      "orders": 16,
+      "salesCents": 126017
+    },
+    {
+      "month": "2018-07",
+      "category": "beleza_saude",
+      "items": 770,
+      "orders": 699,
+      "salesCents": 10352422
+    },
+    {
+      "month": "2018-07",
+      "category": "brinquedos",
+      "items": 154,
+      "orders": 148,
+      "salesCents": 1702200
+    },
+    {
+      "month": "2018-07",
+      "category": "cama_mesa_banho",
+      "items": 617,
+      "orders": 511,
+      "salesCents": 5440523
+    },
+    {
+      "month": "2018-07",
+      "category": "casa_conforto",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 290648
+    },
+    {
+      "month": "2018-07",
+      "category": "casa_conforto_2",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 3870
+    },
+    {
+      "month": "2018-07",
+      "category": "casa_construcao",
+      "items": 60,
+      "orders": 57,
+      "salesCents": 670025
+    },
+    {
+      "month": "2018-07",
+      "category": "cine_foto",
+      "items": 7,
+      "orders": 7,
+      "salesCents": 117854
+    },
+    {
+      "month": "2018-07",
+      "category": "climatizacao",
+      "items": 17,
+      "orders": 15,
+      "salesCents": 265786
+    },
+    {
+      "month": "2018-07",
+      "category": "consoles_games",
+      "items": 49,
+      "orders": 49,
+      "salesCents": 851911
+    },
+    {
+      "month": "2018-07",
+      "category": "construcao_ferramentas_construcao",
+      "items": 115,
+      "orders": 98,
+      "salesCents": 1523747
+    },
+    {
+      "month": "2018-07",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 550120
+    },
+    {
+      "month": "2018-07",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 55,
+      "orders": 40,
+      "salesCents": 724961
+    },
+    {
+      "month": "2018-07",
+      "category": "construcao_ferramentas_jardim",
+      "items": 22,
+      "orders": 19,
+      "salesCents": 192266
+    },
+    {
+      "month": "2018-07",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 15,
+      "orders": 15,
+      "salesCents": 188895
+    },
+    {
+      "month": "2018-07",
+      "category": "cool_stuff",
+      "items": 115,
+      "orders": 113,
+      "salesCents": 2115201
+    },
+    {
+      "month": "2018-07",
+      "category": "dvds_blu_ray",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 8399
+    },
+    {
+      "month": "2018-07",
+      "category": "eletrodomesticos",
+      "items": 78,
+      "orders": 78,
+      "salesCents": 517303
+    },
+    {
+      "month": "2018-07",
+      "category": "eletrodomesticos_2",
+      "items": 23,
+      "orders": 22,
+      "salesCents": 1259732
+    },
+    {
+      "month": "2018-07",
+      "category": "eletronicos",
+      "items": 151,
+      "orders": 142,
+      "salesCents": 927095
+    },
+    {
+      "month": "2018-07",
+      "category": "eletroportateis",
+      "items": 42,
+      "orders": 35,
+      "salesCents": 816135
+    },
+    {
+      "month": "2018-07",
+      "category": "esporte_lazer",
+      "items": 460,
+      "orders": 410,
+      "salesCents": 5401589
+    },
+    {
+      "month": "2018-07",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 74,
+      "orders": 74,
+      "salesCents": 607107
+    },
+    {
+      "month": "2018-07",
+      "category": "fashion_calcados",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 82019
+    },
+    {
+      "month": "2018-07",
+      "category": "fashion_roupa_masculina",
+      "items": 5,
+      "orders": 5,
+      "salesCents": 20870
+    },
+    {
+      "month": "2018-07",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 10980
+    },
+    {
+      "month": "2018-07",
+      "category": "ferramentas_jardim",
+      "items": 177,
+      "orders": 152,
+      "salesCents": 2563988
+    },
+    {
+      "month": "2018-07",
+      "category": "flores",
+      "items": 2,
+      "orders": 2,
+      "salesCents": 4799
+    },
+    {
+      "month": "2018-07",
+      "category": "fraldas_higiene",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 12100
+    },
+    {
+      "month": "2018-07",
+      "category": "industria_comercio_e_negocios",
+      "items": 14,
+      "orders": 13,
+      "salesCents": 469721
+    },
+    {
+      "month": "2018-07",
+      "category": "informatica_acessorios",
+      "items": 418,
+      "orders": 381,
+      "salesCents": 4106331
+    },
+    {
+      "month": "2018-07",
+      "category": "instrumentos_musicais",
+      "items": 36,
+      "orders": 32,
+      "salesCents": 787193
+    },
+    {
+      "month": "2018-07",
+      "category": "livros_importados",
+      "items": 7,
+      "orders": 5,
+      "salesCents": 35779
+    },
+    {
+      "month": "2018-07",
+      "category": "livros_interesse_geral",
+      "items": 25,
+      "orders": 25,
+      "salesCents": 407745
+    },
+    {
+      "month": "2018-07",
+      "category": "livros_tecnicos",
+      "items": 26,
+      "orders": 26,
+      "salesCents": 199493
+    },
+    {
+      "month": "2018-07",
+      "category": "malas_acessorios",
+      "items": 54,
+      "orders": 53,
+      "salesCents": 582172
+    },
+    {
+      "month": "2018-07",
+      "category": "market_place",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 18678
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_colchao_e_estofado",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 12990
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 22,
+      "orders": 20,
+      "salesCents": 373695
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_decoracao",
+      "items": 436,
+      "orders": 343,
+      "salesCents": 4539359
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_escritorio",
+      "items": 80,
+      "orders": 62,
+      "salesCents": 1322528
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_quarto",
+      "items": 10,
+      "orders": 7,
+      "salesCents": 138690
+    },
+    {
+      "month": "2018-07",
+      "category": "moveis_sala",
+      "items": 54,
+      "orders": 49,
+      "salesCents": 670664
+    },
+    {
+      "month": "2018-07",
+      "category": "musica",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 84930
+    },
+    {
+      "month": "2018-07",
+      "category": "papelaria",
+      "items": 190,
+      "orders": 168,
+      "salesCents": 1721719
+    },
+    {
+      "month": "2018-07",
+      "category": "pc_gamer",
+      "items": 2,
+      "orders": 1,
+      "salesCents": 43800
+    },
+    {
+      "month": "2018-07",
+      "category": "pcs",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 1123900
+    },
+    {
+      "month": "2018-07",
+      "category": "perfumaria",
+      "items": 199,
+      "orders": 168,
+      "salesCents": 2064597
+    },
+    {
+      "month": "2018-07",
+      "category": "pet_shop",
+      "items": 158,
+      "orders": 138,
+      "salesCents": 1934385
+    },
+    {
+      "month": "2018-07",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 15,
+      "orders": 14,
+      "salesCents": 469967
+    },
+    {
+      "month": "2018-07",
+      "category": "portateis_cozinha_e_preparadores_de_alimentos",
+      "items": 8,
+      "orders": 7,
+      "salesCents": 17203
+    },
+    {
+      "month": "2018-07",
+      "category": "relogios_presentes",
+      "items": 521,
+      "orders": 507,
+      "salesCents": 9516479
+    },
+    {
+      "month": "2018-07",
+      "category": "sinalizacao_e_seguranca",
+      "items": 29,
+      "orders": 19,
+      "salesCents": 378519
+    },
+    {
+      "month": "2018-07",
+      "category": "telefonia",
+      "items": 221,
+      "orders": 202,
+      "salesCents": 2649268
+    },
+    {
+      "month": "2018-07",
+      "category": "telefonia_fixa",
+      "items": 11,
+      "orders": 8,
+      "salesCents": 931939
+    },
+    {
+      "month": "2018-07",
+      "category": "utilidades_domesticas",
+      "items": 564,
+      "orders": 462,
+      "salesCents": 6258330
+    },
+    {
+      "month": "2018-08",
+      "category": "Unknown",
+      "items": 31,
+      "orders": 29,
+      "salesCents": 219905
+    },
+    {
+      "month": "2018-08",
+      "category": "agro_industria_e_comercio",
+      "items": 18,
+      "orders": 14,
+      "salesCents": 502109
+    },
+    {
+      "month": "2018-08",
+      "category": "alimentos",
+      "items": 115,
+      "orders": 102,
+      "salesCents": 817418
+    },
+    {
+      "month": "2018-08",
+      "category": "alimentos_bebidas",
+      "items": 21,
+      "orders": 16,
+      "salesCents": 102861
+    },
+    {
+      "month": "2018-08",
+      "category": "artes",
+      "items": 18,
+      "orders": 18,
+      "salesCents": 148139
+    },
+    {
+      "month": "2018-08",
+      "category": "artes_e_artesanato",
+      "items": 9,
+      "orders": 9,
+      "salesCents": 90176
+    },
+    {
+      "month": "2018-08",
+      "category": "artigos_de_festas",
+      "items": 14,
+      "orders": 14,
+      "salesCents": 128529
+    },
+    {
+      "month": "2018-08",
+      "category": "artigos_de_natal",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 52937
+    },
+    {
+      "month": "2018-08",
+      "category": "audio",
+      "items": 26,
+      "orders": 24,
+      "salesCents": 206940
+    },
+    {
+      "month": "2018-08",
+      "category": "automotivo",
+      "items": 370,
+      "orders": 345,
+      "salesCents": 4503258
+    },
+    {
+      "month": "2018-08",
+      "category": "bebes",
+      "items": 212,
+      "orders": 201,
+      "salesCents": 2126657
+    },
+    {
+      "month": "2018-08",
+      "category": "bebidas",
+      "items": 27,
+      "orders": 24,
+      "salesCents": 142326
+    },
+    {
+      "month": "2018-08",
+      "category": "beleza_saude",
+      "items": 835,
+      "orders": 765,
+      "salesCents": 11939101
+    },
+    {
+      "month": "2018-08",
+      "category": "brinquedos",
+      "items": 165,
+      "orders": 151,
+      "salesCents": 1692375
+    },
+    {
+      "month": "2018-08",
+      "category": "cama_mesa_banho",
+      "items": 655,
+      "orders": 555,
+      "salesCents": 6089109
+    },
+    {
+      "month": "2018-08",
+      "category": "casa_conforto",
+      "items": 16,
+      "orders": 15,
+      "salesCents": 224128
+    },
+    {
+      "month": "2018-08",
+      "category": "casa_construcao",
+      "items": 48,
+      "orders": 44,
+      "salesCents": 628616
+    },
+    {
+      "month": "2018-08",
+      "category": "cine_foto",
+      "items": 9,
+      "orders": 8,
+      "salesCents": 59529
+    },
+    {
+      "month": "2018-08",
+      "category": "climatizacao",
+      "items": 21,
+      "orders": 17,
+      "salesCents": 355690
+    },
+    {
+      "month": "2018-08",
+      "category": "consoles_games",
+      "items": 59,
+      "orders": 53,
+      "salesCents": 438131
+    },
+    {
+      "month": "2018-08",
+      "category": "construcao_ferramentas_construcao",
+      "items": 162,
+      "orders": 124,
+      "salesCents": 2291716
+    },
+    {
+      "month": "2018-08",
+      "category": "construcao_ferramentas_ferramentas",
+      "items": 14,
+      "orders": 14,
+      "salesCents": 125577
+    },
+    {
+      "month": "2018-08",
+      "category": "construcao_ferramentas_iluminacao",
+      "items": 62,
+      "orders": 56,
+      "salesCents": 821253
+    },
+    {
+      "month": "2018-08",
+      "category": "construcao_ferramentas_jardim",
+      "items": 23,
+      "orders": 19,
+      "salesCents": 368876
+    },
+    {
+      "month": "2018-08",
+      "category": "construcao_ferramentas_seguranca",
+      "items": 25,
+      "orders": 21,
+      "salesCents": 397022
+    },
+    {
+      "month": "2018-08",
+      "category": "cool_stuff",
+      "items": 119,
+      "orders": 116,
+      "salesCents": 1579489
+    },
+    {
+      "month": "2018-08",
+      "category": "dvds_blu_ray",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 890
+    },
+    {
+      "month": "2018-08",
+      "category": "eletrodomesticos",
+      "items": 63,
+      "orders": 62,
+      "salesCents": 644385
+    },
+    {
+      "month": "2018-08",
+      "category": "eletrodomesticos_2",
+      "items": 14,
+      "orders": 14,
+      "salesCents": 753276
+    },
+    {
+      "month": "2018-08",
+      "category": "eletronicos",
+      "items": 119,
+      "orders": 114,
+      "salesCents": 1073957
+    },
+    {
+      "month": "2018-08",
+      "category": "eletroportateis",
+      "items": 23,
+      "orders": 23,
+      "salesCents": 616806
+    },
+    {
+      "month": "2018-08",
+      "category": "esporte_lazer",
+      "items": 471,
+      "orders": 432,
+      "salesCents": 5086018
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_bolsas_e_acessorios",
+      "items": 126,
+      "orders": 121,
+      "salesCents": 812753
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_calcados",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 47130
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_esporte",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 6990
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_roupa_feminina",
+      "items": 3,
+      "orders": 2,
+      "salesCents": 12997
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_roupa_masculina",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 38169
+    },
+    {
+      "month": "2018-08",
+      "category": "fashion_underwear_e_moda_praia",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 16000
+    },
+    {
+      "month": "2018-08",
+      "category": "ferramentas_jardim",
+      "items": 136,
+      "orders": 120,
+      "salesCents": 1631470
+    },
+    {
+      "month": "2018-08",
+      "category": "fraldas_higiene",
+      "items": 3,
+      "orders": 3,
+      "salesCents": 23189
+    },
+    {
+      "month": "2018-08",
+      "category": "industria_comercio_e_negocios",
+      "items": 10,
+      "orders": 9,
+      "salesCents": 236469
+    },
+    {
+      "month": "2018-08",
+      "category": "informatica_acessorios",
+      "items": 415,
+      "orders": 380,
+      "salesCents": 4005264
+    },
+    {
+      "month": "2018-08",
+      "category": "instrumentos_musicais",
+      "items": 41,
+      "orders": 39,
+      "salesCents": 1051934
+    },
+    {
+      "month": "2018-08",
+      "category": "livros_importados",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 74900
+    },
+    {
+      "month": "2018-08",
+      "category": "livros_interesse_geral",
+      "items": 36,
+      "orders": 34,
+      "salesCents": 156478
+    },
+    {
+      "month": "2018-08",
+      "category": "livros_tecnicos",
+      "items": 29,
+      "orders": 28,
+      "salesCents": 148379
+    },
+    {
+      "month": "2018-08",
+      "category": "malas_acessorios",
+      "items": 64,
+      "orders": 62,
+      "salesCents": 659975
+    },
+    {
+      "month": "2018-08",
+      "category": "market_place",
+      "items": 8,
+      "orders": 8,
+      "salesCents": 94927
+    },
+    {
+      "month": "2018-08",
+      "category": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+      "items": 20,
+      "orders": 19,
+      "salesCents": 201147
+    },
+    {
+      "month": "2018-08",
+      "category": "moveis_decoracao",
+      "items": 430,
+      "orders": 341,
+      "salesCents": 4116855
+    },
+    {
+      "month": "2018-08",
+      "category": "moveis_escritorio",
+      "items": 30,
+      "orders": 24,
+      "salesCents": 675887
+    },
+    {
+      "month": "2018-08",
+      "category": "moveis_quarto",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 219700
+    },
+    {
+      "month": "2018-08",
+      "category": "moveis_sala",
+      "items": 40,
+      "orders": 38,
+      "salesCents": 522334
+    },
+    {
+      "month": "2018-08",
+      "category": "musica",
+      "items": 6,
+      "orders": 6,
+      "salesCents": 49781
+    },
+    {
+      "month": "2018-08",
+      "category": "papelaria",
+      "items": 169,
+      "orders": 158,
+      "salesCents": 1544565
+    },
+    {
+      "month": "2018-08",
+      "category": "pc_gamer",
+      "items": 1,
+      "orders": 1,
+      "salesCents": 21900
+    },
+    {
+      "month": "2018-08",
+      "category": "pcs",
+      "items": 12,
+      "orders": 10,
+      "salesCents": 871150
+    },
+    {
+      "month": "2018-08",
+      "category": "perfumaria",
+      "items": 218,
+      "orders": 203,
+      "salesCents": 2483974
+    },
+    {
+      "month": "2018-08",
+      "category": "pet_shop",
+      "items": 198,
+      "orders": 166,
+      "salesCents": 2460807
+    },
+    {
+      "month": "2018-08",
+      "category": "portateis_casa_forno_e_cafe",
+      "items": 17,
+      "orders": 17,
+      "salesCents": 299672
+    },
+    {
+      "month": "2018-08",
+      "category": "portateis_cozinha_e_preparadores_de_alimentos",
+      "items": 4,
+      "orders": 4,
+      "salesCents": 180360
+    },
+    {
+      "month": "2018-08",
+      "category": "relogios_presentes",
+      "items": 411,
+      "orders": 387,
+      "salesCents": 6976706
+    },
+    {
+      "month": "2018-08",
+      "category": "sinalizacao_e_seguranca",
+      "items": 22,
+      "orders": 16,
+      "salesCents": 182559
+    },
+    {
+      "month": "2018-08",
+      "category": "telefonia",
+      "items": 271,
+      "orders": 240,
+      "salesCents": 3657291
+    },
+    {
+      "month": "2018-08",
+      "category": "telefonia_fixa",
+      "items": 10,
+      "orders": 10,
+      "salesCents": 272417
+    },
+    {
+      "month": "2018-08",
+      "category": "utilidades_domesticas",
+      "items": 616,
+      "orders": 549,
+      "salesCents": 5876336
+    }
+  ],
+  "baseline": {
+    "salesCents": 1322149811,
+    "orders": 96478,
+    "items": 110197
+  }
+}

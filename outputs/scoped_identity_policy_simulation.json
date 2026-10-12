@@ -1,0 +1,139 @@
+{
+    "EvaluationResults": [
+        {
+            "EvalActionName": "s3:GetObject",
+            "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+            "EvalDecision": "allowed",
+            "MatchedStatements": [
+                {
+                    "SourcePolicyId": "PolicyInputList.1",
+                    "SourcePolicyType": "IAM Policy",
+                    "StartPosition": {
+                        "Line": 1,
+                        "Column": 485
+                    },
+                    "EndPosition": {
+                        "Line": 1,
+                        "Column": 782
+                    }
+                }
+            ],
+            "MissingContextValues": [],
+            "EvalDecisionDetails": {},
+            "ResourceSpecificResults": [
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+                    "EvalResourceDecision": "allowed",
+                    "MatchedStatements": [
+                        {
+                            "SourcePolicyId": "PolicyInputList.1",
+                            "SourcePolicyType": "IAM Policy",
+                            "StartPosition": {
+                                "Line": 1,
+                                "Column": 485
+                            },
+                            "EndPosition": {
+                                "Line": 1,
+                                "Column": 782
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+                    "EvalResourceDecision": "allowed",
+                    "MatchedStatements": [
+                        {
+                            "SourcePolicyId": "PolicyInputList.1",
+                            "SourcePolicyType": "IAM Policy",
+                            "StartPosition": {
+                                "Line": 1,
+                                "Column": 485
+                            },
+                            "EndPosition": {
+                                "Line": 1,
+                                "Column": 782
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EvalActionName": "s3:PutObject",
+            "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+            "EvalDecision": "implicitDeny",
+            "MatchedStatements": [
+                {
+                    "SourcePolicyId": "PolicyInputList.1",
+                    "SourcePolicyType": "IAM Policy",
+                    "StartPosition": {
+                        "Line": 1,
+                        "Column": 782
+                    },
+                    "EndPosition": {
+                        "Line": 1,
+                        "Column": 1089
+                    }
+                }
+            ],
+            "MissingContextValues": [
+                "s3:prefix"
+            ],
+            "EvalDecisionDetails": {},
+            "ResourceSpecificResults": [
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+                    "EvalResourceDecision": "implicitDeny",
+                    "MissingContextValues": [
+                        "s3:prefix"
+                    ]
+                },
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+                    "EvalResourceDecision": "allowed",
+                    "MatchedStatements": [
+                        {
+                            "SourcePolicyId": "PolicyInputList.1",
+                            "SourcePolicyType": "IAM Policy",
+                            "StartPosition": {
+                                "Line": 1,
+                                "Column": 782
+                            },
+                            "EndPosition": {
+                                "Line": 1,
+                                "Column": 1089
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EvalActionName": "s3:DeleteObject",
+            "EvalResourceName": "arn:aws:s3:::${BucketName}/${KeyName}",
+            "EvalDecision": "implicitDeny",
+            "MatchedStatements": [],
+            "MissingContextValues": [
+                "s3:prefix"
+            ],
+            "EvalDecisionDetails": {},
+            "ResourceSpecificResults": [
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/olist_orders_dataset.csv",
+                    "EvalResourceDecision": "implicitDeny",
+                    "MissingContextValues": [
+                        "s3:prefix"
+                    ]
+                },
+                {
+                    "EvalResourceName": "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/permission-check/part.parquet",
+                    "EvalResourceDecision": "implicitDeny",
+                    "MissingContextValues": [
+                        "s3:prefix"
+                    ]
+                }
+            ]
+        }
+    ]
+}

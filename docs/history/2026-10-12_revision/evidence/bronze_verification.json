@@ -1,0 +1,31 @@
+{
+  "verified_at_utc": "2026-10-11T18:49:27.450438+00:00",
+  "source": "S3 download",
+  "all_passed": true,
+  "files": [
+    {
+      "name": "olist_orders_dataset.csv",
+      "size_bytes": 17654914,
+      "data_rows": 99441,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_base64": "LQkjziOObt0=",
+      "passed": true
+    },
+    {
+      "name": "olist_order_items_dataset.csv",
+      "size_bytes": 15438671,
+      "data_rows": 112650,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_base64": "EbgYRwtQD7c=",
+      "passed": true
+    },
+    {
+      "name": "olist_products_dataset.csv",
+      "size_bytes": 2379446,
+      "data_rows": 32951,
+      "checksum_algorithm": "CRC64NVME",
+      "checksum_base64": "PUUAxjGU1iI=",
+      "passed": true
+    }
+  ]
+}

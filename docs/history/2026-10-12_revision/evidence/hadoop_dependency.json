@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/zehelh/winutils/releases/tag/hadoop-3.4.1",
+  "type": "community Windows build; not an Apache binary distribution",
+  "hadoop_version": "3.4.1",
+  "sha256": "aa8098a433e6d63b865074468aa2da1aa9329ef33c9e9af799037f382ce50b82",
+  "checksum_matches_github_release_asset_digest": true,
+  "install_scope": "RetailLake project only"
+}

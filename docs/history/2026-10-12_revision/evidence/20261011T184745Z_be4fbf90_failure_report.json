@@ -1,0 +1,226 @@
+{
+  "run_id": "20261011T184745Z_be4fbf90",
+  "status": "failed",
+  "source": "verified S3 Bronze download",
+  "tables": {
+    "orders": {
+      "rows": 99441,
+      "conversion_failures": {
+        "order_purchase_timestamp": 0,
+        "order_approved_at": 0,
+        "order_delivered_carrier_date": 0,
+        "order_delivered_customer_date": 0,
+        "order_estimated_delivery_date": 0
+      },
+      "missing_required": {
+        "order_id": 0,
+        "customer_id": 0,
+        "order_status": 0,
+        "order_purchase_timestamp": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "customer_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_approved_at",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184745Z_be4fbf90\\orders"
+    },
+    "order_items": {
+      "rows": 112650,
+      "conversion_failures": {
+        "order_item_id": 0,
+        "shipping_limit_date": 0,
+        "price": 0,
+        "freight_value": 0
+      },
+      "missing_required": {
+        "order_id": 0,
+        "order_item_id": 0,
+        "product_id": 0,
+        "seller_id": 0,
+        "shipping_limit_date": 0,
+        "price": 0,
+        "freight_value": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "order_item_id",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "seller_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "timestamp_ntz",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "price",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "freight_value",
+            "type": "decimal(12,2)",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184745Z_be4fbf90\\order_items"
+    },
+    "products": {
+      "rows": 32951,
+      "conversion_failures": {
+        "product_name_lenght": 0,
+        "product_description_lenght": 0,
+        "product_photos_qty": 0,
+        "product_weight_g": 0,
+        "product_length_cm": 0,
+        "product_height_cm": 0,
+        "product_width_cm": 0
+      },
+      "missing_required": {
+        "product_id": 0
+      },
+      "duplicate_keys": 0,
+      "schema": {
+        "type": "struct",
+        "fields": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_category_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_name_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_description_lenght",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_weight_g",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_length_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_height_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          },
+          {
+            "name": "product_width_cm",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+          }
+        ]
+      },
+      "path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184745Z_be4fbf90\\products"
+    }
+  },
+  "unmatched_item_orders": 0,
+  "unmatched_item_products": 0,
+  "orders_without_items": 775,
+  "products_without_category": 610,
+  "error": "An error occurred while calling o979.load.\n: java.nio.file.AccessDeniedException: C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\silver\\runs\\20261011T184745Z_be4fbf90\\orders\\_delta_log: Permission denied\r\n\tat org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1621)\r\n\tat org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)\r\n\tat org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)\r\n\tat org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)\r\n\tat org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)\r\n\tat io.delta.storage.HadoopFileSystemLogStore.listFrom(HadoopFileSystemLogStore.java:59)\r\n\tat org.apache.spark.sql.delta.storage.LogStoreAdaptor.listFrom(LogStore.scala:497)\r\n\tat org.apache.spark.sql.delta.storage.DelegatingLogStore.listFrom(DelegatingLogStore.scala:130)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listFrom(SnapshotManagement.scala:95)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listFrom$(SnapshotManagement.scala:94)\r\n\tat org.apache.spark.sql.delta.DeltaLog.listFrom(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listFromFileSystemInternal(SnapshotManagement.scala:121)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listFromFileSystemInternal$(SnapshotManagement.scala:112)\r\n\tat org.apache.spark.sql.delta.DeltaLog.listFromFileSystemInternal(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile$1(SnapshotManagement.scala:179)\r\n\tat scala.Option.getOrElse(Option.scala:201)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile(SnapshotManagement.scala:174)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile$(SnapshotManagement.scala:168)\r\n\tat org.apache.spark.sql.delta.DeltaLog.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$listDeltaCompactedDeltaAndCheckpointFiles$1(SnapshotManagement.scala:351)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.$anonfun$recordDeltaOperationInternal$1(DeltaLogging.scala:139)\r\n\tat com.databricks.spark.util.DatabricksLogging.recordOperation(DatabricksLogging.scala:128)\r\n\tat com.databricks.spark.util.DatabricksLogging.recordOperation$(DatabricksLogging.scala:117)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordOperation(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperationInternal(DeltaLogging.scala:138)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation(DeltaLogging.scala:128)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation$(DeltaLogging.scala:118)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordDeltaOperation(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaAndCheckpointFiles(SnapshotManagement.scala:344)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaAndCheckpointFiles$(SnapshotManagement.scala:338)\r\n\tat org.apache.spark.sql.delta.DeltaLog.listDeltaCompactedDeltaAndCheckpointFiles(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment(SnapshotManagement.scala:394)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment$(SnapshotManagement.scala:377)\r\n\tat org.apache.spark.sql.delta.DeltaLog.createLogSegment(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment(SnapshotManagement.scala:410)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$updateInternal$1(SnapshotManagement.scala:1148)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.$anonfun$recordDeltaOperationInternal$1(DeltaLogging.scala:139)\r\n\tat com.databricks.spark.util.DatabricksLogging.recordOperation(DatabricksLogging.scala:128)\r\n\tat com.databricks.spark.util.DatabricksLogging.recordOperation$(DatabricksLogging.scala:117)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordOperation(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperationInternal(DeltaLogging.scala:138)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation(DeltaLogging.scala:128)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation$(DeltaLogging.scala:118)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordDeltaOperation(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.updateInternal(SnapshotManagement.scala:1141)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.updateInternal$(SnapshotManagement.scala:1138)\r\n\tat org.apache.spark.sql.delta.DeltaLog.updateInternal(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$update$3(SnapshotManagement.scala:1084)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.withSnapshotLockInterruptibly(SnapshotManagement.scala:87)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.withSnapshotLockInterruptibly$(SnapshotManagement.scala:84)\r\n\tat org.apache.spark.sql.delta.DeltaLog.withSnapshotLockInterruptibly(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$update$2(SnapshotManagement.scala:1081)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.update(SnapshotManagement.scala:1081)\r\n\tat org.apache.spark.sql.delta.SnapshotManagement.update$(SnapshotManagement.scala:1048)\r\n\tat org.apache.spark.sql.delta.DeltaLog.update(DeltaLog.scala:79)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.$anonfun$initialSnapshot$4(DeltaTableV2.scala:191)\r\n\tat scala.Option.getOrElse(Option.scala:201)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.$anonfun$initialSnapshot$1(DeltaTableV2.scala:188)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2$.withEnrichedUnsupportedTableException(DeltaTableV2.scala:513)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.initialSnapshot$lzycompute(DeltaTableV2.scala:187)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.initialSnapshot(DeltaTableV2.scala:167)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.toBaseRelation$lzycompute(DeltaTableV2.scala:287)\r\n\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.toBaseRelation(DeltaTableV2.scala:285)\r\n\tat org.apache.spark.sql.delta.sources.DeltaDataSource.$anonfun$createRelation$5(DeltaDataSource.scala:257)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\tat org.apache.spark.sql.delta.sources.DeltaDataSource.recordFrameProfile(DeltaDataSource.scala:51)\r\n\tat org.apache.spark.sql.delta.sources.DeltaDataSource.createRelation(DeltaDataSource.scala:217)\r\n\tat org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:361)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)\r\n\tat scala.Option.getOrElse(Option.scala:201)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)\r\n\tat org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)\r\n\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)\r\n\tat scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)\r\n\tat scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)\r\n\tat scala.collection.immutable.List.foldLeft(List.scala:79)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)\r\n\tat scala.collection.immutable.List.foreach(List.scala:334)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)\r\n\tat org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)\r\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)\r\n\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)\r\n\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)\r\n\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)\r\n\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)\r\n\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)\r\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)\r\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)\r\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)\r\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)\r\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)\r\n\tat org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)\r\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)\r\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)\r\n\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)\r\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)\r\n\tat scala.util.Try$.apply(Try.scala:217)\r\n\tat org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)\r\n\tat org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)\r\n\tat org.apache.spark.util.LazyTry.get(LazyTry.scala:58)\r\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)\r\n\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)\r\n\tat org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)\r\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)\r\n\tat org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)\r\n\tat org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:109)\r\n\tat org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:100)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\r\n\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)\r\n\tat py4j.Gateway.invoke(Gateway.java:282)\r\n\tat py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n\tat py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)\r\n\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)\r\n\tat java.base/java.lang.Thread.run(Thread.java:840)\r\n\tSuppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller\r\n\t\tat org.apache.hadoop.fs.FileUtil.list(FileUtil.java:1621)\r\n\t\tat org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:739)\r\n\t\tat org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2078)\r\n\t\tat org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:2122)\r\n\t\tat org.apache.hadoop.fs.ChecksumFileSystem.listStatus(ChecksumFileSystem.java:961)\r\n\t\tat io.delta.storage.HadoopFileSystemLogStore.listFrom(HadoopFileSystemLogStore.java:59)\r\n\t\tat org.apache.spark.sql.delta.storage.LogStoreAdaptor.listFrom(LogStore.scala:497)\r\n\t\tat org.apache.spark.sql.delta.storage.DelegatingLogStore.listFrom(DelegatingLogStore.scala:130)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listFrom(SnapshotManagement.scala:95)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listFrom$(SnapshotManagement.scala:94)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.listFrom(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listFromFileSystemInternal(SnapshotManagement.scala:121)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listFromFileSystemInternal$(SnapshotManagement.scala:112)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.listFromFileSystemInternal(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile$1(SnapshotManagement.scala:179)\r\n\t\tat scala.Option.getOrElse(Option.scala:201)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile(SnapshotManagement.scala:174)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile$(SnapshotManagement.scala:168)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.listDeltaCompactedDeltaCheckpointFilesAndLatestChecksumFile(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$listDeltaCompactedDeltaAndCheckpointFiles$1(SnapshotManagement.scala:351)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.$anonfun$recordDeltaOperationInternal$1(DeltaLogging.scala:139)\r\n\t\tat com.databricks.spark.util.DatabricksLogging.recordOperation(DatabricksLogging.scala:128)\r\n\t\tat com.databricks.spark.util.DatabricksLogging.recordOperation$(DatabricksLogging.scala:117)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordOperation(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperationInternal(DeltaLogging.scala:138)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation(DeltaLogging.scala:128)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation$(DeltaLogging.scala:118)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordDeltaOperation(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaAndCheckpointFiles(SnapshotManagement.scala:344)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.listDeltaCompactedDeltaAndCheckpointFiles$(SnapshotManagement.scala:338)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.listDeltaCompactedDeltaAndCheckpointFiles(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment(SnapshotManagement.scala:394)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment$(SnapshotManagement.scala:377)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.createLogSegment(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.createLogSegment(SnapshotManagement.scala:410)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$updateInternal$1(SnapshotManagement.scala:1148)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.$anonfun$recordDeltaOperationInternal$1(DeltaLogging.scala:139)\r\n\t\tat com.databricks.spark.util.DatabricksLogging.recordOperation(DatabricksLogging.scala:128)\r\n\t\tat com.databricks.spark.util.DatabricksLogging.recordOperation$(DatabricksLogging.scala:117)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordOperation(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperationInternal(DeltaLogging.scala:138)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation(DeltaLogging.scala:128)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordDeltaOperation$(DeltaLogging.scala:118)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordDeltaOperation(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.updateInternal(SnapshotManagement.scala:1141)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.updateInternal$(SnapshotManagement.scala:1138)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.updateInternal(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$update$3(SnapshotManagement.scala:1084)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.withSnapshotLockInterruptibly(SnapshotManagement.scala:87)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.withSnapshotLockInterruptibly$(SnapshotManagement.scala:84)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.withSnapshotLockInterruptibly(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.$anonfun$update$2(SnapshotManagement.scala:1081)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.recordFrameProfile(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.update(SnapshotManagement.scala:1081)\r\n\t\tat org.apache.spark.sql.delta.SnapshotManagement.update$(SnapshotManagement.scala:1048)\r\n\t\tat org.apache.spark.sql.delta.DeltaLog.update(DeltaLog.scala:79)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.$anonfun$initialSnapshot$4(DeltaTableV2.scala:191)\r\n\t\tat scala.Option.getOrElse(Option.scala:201)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.$anonfun$initialSnapshot$1(DeltaTableV2.scala:188)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2$.withEnrichedUnsupportedTableException(DeltaTableV2.scala:513)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.initialSnapshot$lzycompute(DeltaTableV2.scala:187)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.initialSnapshot(DeltaTableV2.scala:167)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.toBaseRelation$lzycompute(DeltaTableV2.scala:287)\r\n\t\tat org.apache.spark.sql.delta.catalog.DeltaTableV2.toBaseRelation(DeltaTableV2.scala:285)\r\n\t\tat org.apache.spark.sql.delta.sources.DeltaDataSource.$anonfun$createRelation$5(DeltaDataSource.scala:257)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile(DeltaLogging.scala:171)\r\n\t\tat org.apache.spark.sql.delta.metering.DeltaLogging.recordFrameProfile$(DeltaLogging.scala:169)\r\n\t\tat org.apache.spark.sql.delta.sources.DeltaDataSource.recordFrameProfile(DeltaDataSource.scala:51)\r\n\t\tat org.apache.spark.sql.delta.sources.DeltaDataSource.createRelation(DeltaDataSource.scala:217)\r\n\t\tat org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:361)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)\r\n\t\tat scala.Option.getOrElse(Option.scala:201)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)\r\n\t\tat org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)\r\n\t\tat scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)\r\n\t\tat scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)\r\n\t\tat scala.collection.immutable.List.foldLeft(List.scala:79)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)\r\n\t\tat scala.collection.immutable.List.foreach(List.scala:334)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:340)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:336)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:336)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:299)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)\r\n\t\tat org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)\r\n\t\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:330)\r\n\t\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)\r\n\t\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:330)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)\r\n\t\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)\r\n\t\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)\r\n\t\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)\r\n\t\tat scala.util.Try$.apply(Try.scala:217)\r\n\t\tat org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)\r\n\t\tat org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)\r\n\t\tat org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)\r\n\t\t... 20 more\r\n"
+}

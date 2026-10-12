@@ -1,0 +1,157 @@
+[
+  {
+    "file": "code\\build_gold.py",
+    "sha256": "ef0a71a323f6ee3e41c43a29bf9bb31daae981bc7e87a8b85749f2f5f06d8548",
+    "size_bytes": 9303
+  },
+  {
+    "file": "code\\build_silver.py",
+    "sha256": "eaab0e893d0aff04a27d894376adf78db2ff10e6a1587aefb014ee816dc15bf8",
+    "size_bytes": 8666
+  },
+  {
+    "file": "code\\download_bronze.ps1",
+    "sha256": "64e2c2a4f6af710f4223481079dbc1f467865181c5d3aa0593a61a3bd4692c6f",
+    "size_bytes": 1094
+  },
+  {
+    "file": "code\\first_spark.py",
+    "sha256": "251a736e1a4181b94a75acf058fc8a245159ee77976f3b44b25ebdd7ef277e8d",
+    "size_bytes": 374
+  },
+  {
+    "file": "code\\GOLD_README.md",
+    "sha256": "98824d30027d2ca4d59969e39719ed58b9e1817caefa090a760b328780b0387c",
+    "size_bytes": 2105
+  },
+  {
+    "file": "code\\PUBLICATION_README.md",
+    "sha256": "cab6fc85718d716c574adb5f48af10935375c03abbfa1ef170826d70cf651812",
+    "size_bytes": 2685
+  },
+  {
+    "file": "code\\publish_snapshots.py",
+    "sha256": "db475f3095c494b49d44d4f1eafe743198a205854c309ebb1468650522b2a2a3",
+    "size_bytes": 8640
+  },
+  {
+    "file": "code\\requirements.txt",
+    "sha256": "04f8f652c9e535d5c54d05bb9df09929637c02b4efef6c8c617232d43fefa31d",
+    "size_bytes": 35
+  },
+  {
+    "file": "code\\SILVER_README.md",
+    "sha256": "c0acaec11e0e472c0af32cefab5cb89c0c5612106687228ec5f45d0ba7197af5",
+    "size_bytes": 1409
+  },
+  {
+    "file": "code\\verify_bronze.py",
+    "sha256": "ff4cf4b272714a4e1a6aacc0705be0100fead922710ea9eac791a37899a8ffcc",
+    "size_bytes": 2221
+  },
+  {
+    "file": "code\\verify_published.py",
+    "sha256": "ac867f8dc3ca19c115f9c38e0f5e70802bd6cbc957638bc1ca2743cdfdc9cb7a",
+    "size_bytes": 4026
+  },
+  {
+    "file": "evidence\\20261011T184745Z_be4fbf90_failure_report.json",
+    "sha256": "8196d8a8b96df9bf12ad6bd6b4794ad7c7939be057a229b6e817ac397b7f5821",
+    "size_bytes": 34303
+  },
+  {
+    "file": "evidence\\bronze_verification.json",
+    "sha256": "62892321267c8495d3da9b41cbda0a09f024aab40746be0d90076624eca6608c",
+    "size_bytes": 806
+  },
+  {
+    "file": "evidence\\data_quality_report.txt",
+    "sha256": "f88b8b72533eba64cb25a6e021bd406d86f2c36c9c759ea58eab091b2476ee4c",
+    "size_bytes": 922
+  },
+  {
+    "file": "evidence\\first_spark_hostname_failure.txt",
+    "sha256": "845a51ae0f814e2ede5b95262fb1911b8594f91f315de0f2889d95294de2c148",
+    "size_bytes": 14505
+  },
+  {
+    "file": "evidence\\gold_latest.json",
+    "sha256": "1fb52abad5108ce4ed1cf6ae98539af10f710e09fa43fff60c3f15779e29612f",
+    "size_bytes": 7748
+  },
+  {
+    "file": "evidence\\gold_publication_manifest.json",
+    "sha256": "4d019f7038455465f156612cd829aa0b2dc98f30e0d438226f1a9b669fba07f8",
+    "size_bytes": 10775
+  },
+  {
+    "file": "evidence\\Gold_Results.md",
+    "sha256": "ab242fc27d49f6631aa9993fda14734982698e4973fee7ab45bc19b9fbc11e95",
+    "size_bytes": 1322
+  },
+  {
+    "file": "evidence\\gold_run.log",
+    "sha256": "90310c903cec4144510e78f3b4db19a35b49df2ac68bb63e38bbf11b52ca48a1",
+    "size_bytes": 23839
+  },
+  {
+    "file": "evidence\\hadoop_dependency.json",
+    "sha256": "495ba1dad619ed1cef3f1994d1e06508472030e7ecc439d9e71f20e74aa982a9",
+    "size_bytes": 363
+  },
+  {
+    "file": "evidence\\ingestion_manifest.json",
+    "sha256": "eabfcaca4fcd0b67a9c773788351e9a0c5cd586aeec724843ba8928425db48ea",
+    "size_bytes": 1158
+  },
+  {
+    "file": "evidence\\publication_latest.json",
+    "sha256": "b90c5fb9e74bcd15fd68221541c184018ca557eeba08006c85a871e9f69cca7c",
+    "size_bytes": 2080
+  },
+  {
+    "file": "evidence\\Publication_Results.md",
+    "sha256": "2b16c22914d54c26e0bc5c15f0aa9197ace77f20c98d2646bff3007f0604a8d3",
+    "size_bytes": 1964
+  },
+  {
+    "file": "evidence\\publication_run.log",
+    "sha256": "e9c4597e6b1ee4979bd3cc1314900214de9ebc20610dc43c3eb5f1ddfb874f0e",
+    "size_bytes": 151
+  },
+  {
+    "file": "evidence\\published_readback.log",
+    "sha256": "9f770d56e8e23951ba3616a1b75b7c4c65204c63e1ef7e359b48bf1bb5e3c1e8",
+    "size_bytes": 19619
+  },
+  {
+    "file": "evidence\\silver_existing_publication_manifest.json",
+    "sha256": "58b7c3e66a315f485d6ff4a850e33d1230a53af5b23a8e7b7041041b11161dc5",
+    "size_bytes": 6988
+  },
+  {
+    "file": "evidence\\silver_latest.json",
+    "sha256": "2654a30835dec9510b48e384e8a15faa915093393eb62bbefc729b7acf1b33a9",
+    "size_bytes": 6183
+  },
+  {
+    "file": "evidence\\silver_publication_manifest.json",
+    "sha256": "58b7c3e66a315f485d6ff4a850e33d1230a53af5b23a8e7b7041041b11161dc5",
+    "size_bytes": 6988
+  },
+  {
+    "file": "evidence\\silver_run.log",
+    "sha256": "0aa31e4b1010813fd4526c218222a9a33e3e921a3ab44c61326df7e3c3b74d92",
+    "size_bytes": 12643
+  },
+  {
+    "file": "previous_docs\\Local_PySpark_Plan.md",
+    "sha256": "414735b4936849c4149a92e44ed948b674eea81728118a42f48c6dee31d70e8b",
+    "size_bytes": 8004
+  },
+  {
+    "file": "previous_docs\\RetailLake_Progress_Checklist.md",
+    "sha256": "289a708a4ab774f836d02bf41d038c5cfaefe2c098cc20c50191efd9c0c5c331",
+    "size_bytes": 16580
+  }
+]

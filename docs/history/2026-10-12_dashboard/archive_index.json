@@ -1,0 +1,42 @@
+[
+  {
+    "file": "build_dashboard.py",
+    "sha256": "923ece214e7171cea8b0abc2ceddfe782e1de02ae9393c7ea0bab9f3f988172a",
+    "size_bytes": 5906
+  },
+  {
+    "file": "dashboard_export_20261012_012700.log",
+    "sha256": "a5e1b80f81b116efc2e0de5fbc41ed5a7a404240d84d8657c1655af967e99593",
+    "size_bytes": 12967
+  },
+  {
+    "file": "dashboard\\app.js",
+    "sha256": "555726fc08384af8f3e96ddf6ac9dce7e26873a64043e62e96c2cdb4e929da42",
+    "size_bytes": 13934
+  },
+  {
+    "file": "dashboard\\data.js",
+    "sha256": "5bebcb6df3ef32c43624e4d4b2483299f7fed6d6383a12f3111b6abfc4b2ef12",
+    "size_bytes": 133634
+  },
+  {
+    "file": "dashboard\\data.json",
+    "sha256": "58ff21a25eca97af18943b5b797aa3d8d56ec176acef2a4a1dc7875eb60ab411",
+    "size_bytes": 194463
+  },
+  {
+    "file": "dashboard\\index.html",
+    "sha256": "7842365cfc4c1d61be5025086e4522a451479413d729ea5c852a4dcffa780193",
+    "size_bytes": 7543
+  },
+  {
+    "file": "dashboard\\README.md",
+    "sha256": "cf001e7684202ef84acaeda501462cac70674ffcf9a6e2a1462fd5c2d3c3b007",
+    "size_bytes": 2484
+  },
+  {
+    "file": "dashboard\\styles.css",
+    "sha256": "a3b1e397e1dca7cd14bf1245100ddb2f74b7c0a24834d73608b8a492dfedb42d",
+    "size_bytes": 10874
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "updated_at_utc": "2026-10-12T09:07:46.172908+00:00",
+  "core_status": "complete",
+  "runtime": "Windows local PySpark; private AWS S3 storage",
+  "full_runs": [
+    {
+      "run_id": "20261012T084804Z_47b2a12b",
+      "profile": "retaillake",
+      "status": "completed",
+      "duration_seconds": 230.39
+    },
+    {
+      "run_id": "20261012T090359Z_60d54a11",
+      "profile": "retaillake-pipeline",
+      "status": "completed",
+      "duration_seconds": 226.23
+    }
+  ],
+  "batch_id": "ea23d41a00728ae8b14e7712bbc3b0f7305030bc26c6a7ce184c3e42ce002899",
+  "silver_run_id": "20261012T090424Z_ff68d722",
+  "gold_run_id": "20261012T090455Z_31673efe",
+  "publication_status": "verified",
+  "verified_at_utc": "2026-10-12T09:07:20.671881+00:00",
+  "delta_readback": {
+    "silver/orders": {
+      "rows": 99441,
+      "schema_matches": true
+    },
+    "silver/order_items": {
+      "rows": 112650,
+      "schema_matches": true
+    },
+    "silver/products": {
+      "rows": 32951,
+      "schema_matches": true
+    },
+    "gold/product_dim": {
+      "rows": 32951,
+      "schema_matches": true
+    },
+    "gold/item_facts": {
+      "rows": 112650,
+      "schema_matches": true
+    },
+    "gold/category_sales": {
+      "rows": 74,
+      "schema_matches": true
+    },
+    "gold/monthly_sales": {
+      "rows": 23,
+      "schema_matches": true
+    }
+  },
+  "full_sales_brl": "13221498.11",
+  "default_dashboard_sales_brl": "13181027.13",
+  "memory_bytes": 8241938432,
+  "pipeline_role": {
+    "status": "created_and_assumed",
+    "role_arn": "arn:aws:iam::037315459859:role/RetailLakeLocalPipelineRole",
+    "trust_principal": "arn:aws:iam::037315459859:role/managed/AccountFullAccessRole",
+    "policy": "RetailLakeScopedS3Pipeline",
+    "profile": "retaillake-pipeline",
+    "account": "037315459859"
+  },
+  "bucket_inventory": {
+    "objects": 76,
+    "bytes": 130396925,
+    "mib": 124.36
+  },
+  "temp_cleanup_observations": [
+    {
+      "directories": 10,
+      "bytes": 81362990
+    },
+    {
+      "directories": 6,
+      "bytes": 48817794
+    }
+  ],
+  "browser_checks": "outputs/dashboard_browser_checks.json",
+  "runtime_checks": "outputs/runtime_checks.json",
+  "remaining_blockers": [
+    "Management-account authentication: the requested management login selected project account 037315459859 again.",
+    "Saved SCP/RCP review and abandoned Databricks setup/resource cleanup require management access and dependency review before applying changes.",
+    "Current credit balance/expiry and Free Tier email preferences not confirmed: GetAccountPlanState returned ResourceNotFoundException Missing data for the project account."
+  ],
+  "future_scope": [
+    "Real changing-source feed and correction-order contract; current dataset is static and strict baseline checks are intentional.",
+    "Production incremental dependent Gold refresh/publication, automatic scheduling, destructive S3 retention, AI and AWS compute migration."
+  ],
+  "verification_assertions": {
+    "ledger_retains_three_distinct_snapshot_pairs": true,
+    "historical_completion_records": 4,
+    "publication_verified": true,
+    "dashboard_matches_latest_gold": true,
+    "runtime_checks_all_passed": true
+  }
+}

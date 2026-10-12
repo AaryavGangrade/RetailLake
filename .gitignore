@@ -27,3 +27,7 @@ tools/downloads/*.zip
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Auxiliary / draft notes
+extra/
+
