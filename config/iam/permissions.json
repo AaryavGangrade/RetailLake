@@ -8,13 +8,13 @@
         "s3:GetBucketLocation",
         "s3:GetBucketPublicAccessBlock"
       ],
-      "Resource": "arn:aws:s3:::retaillake-dev-037315459859-mumbai"
+      "Resource": "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>"
     },
     {
       "Sid": "ListOnlyPipelinePrefixes",
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::retaillake-dev-037315459859-mumbai",
+      "Resource": "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>",
       "Condition": {
         "StringLike": {
           "s3:prefix": [
@@ -31,9 +31,9 @@
       "Effect": "Allow",
       "Action": "s3:GetObject",
       "Resource": [
-        "arn:aws:s3:::retaillake-dev-037315459859-mumbai/bronze/olist/*",
-        "arn:aws:s3:::retaillake-dev-037315459859-mumbai/silver/runs/*",
-        "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/*"
+        "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>/bronze/olist/*",
+        "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>/silver/runs/*",
+        "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>/gold/runs/*"
       ]
     },
     {
@@ -41,8 +41,8 @@
       "Effect": "Allow",
       "Action": "s3:PutObject",
       "Resource": [
-        "arn:aws:s3:::retaillake-dev-037315459859-mumbai/silver/runs/*",
-        "arn:aws:s3:::retaillake-dev-037315459859-mumbai/gold/runs/*"
+        "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>/silver/runs/*",
+        "arn:aws:s3:::<RETAILLAKE_BUCKET_NAME>/gold/runs/*"
       ],
       "Condition": {
         "StringEquals": {

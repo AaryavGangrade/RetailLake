@@ -20,7 +20,7 @@
         "layer": "silver",
         "run_id": "20261012T090424Z_ff68d722",
         "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261012T090424Z_ff68d722/",
-        "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\silver\\20261012T090424Z_ff68d722",
+        "verification_path": "./data\\published_verification\\silver\\20261012T090424Z_ff68d722",
         "object_count": 9,
         "uploaded_bytes_including_manifest": 17235582,
         "downloaded_checksums_passed": true
@@ -29,7 +29,7 @@
         "layer": "gold",
         "run_id": "20261012T090455Z_31673efe",
         "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T090455Z_31673efe/",
-        "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\gold\\20261012T090455Z_31673efe",
+        "verification_path": "./data\\published_verification\\gold\\20261012T090455Z_31673efe",
         "object_count": 14,
         "uploaded_bytes_including_manifest": 14405078,
         "downloaded_checksums_passed": true
@@ -58,7 +58,7 @@
             "layer": "silver",
             "run_id": "20261011T184927Z_eb5aca1b",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261011T184927Z_eb5aca1b/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\silver\\20261011T184927Z_eb5aca1b_verify_190633",
+            "verification_path": "./data\\published_verification\\silver\\20261011T184927Z_eb5aca1b_verify_190633",
             "object_count": 9,
             "uploaded_bytes_including_manifest": 17235499,
             "downloaded_checksums_passed": true
@@ -67,7 +67,7 @@
             "layer": "gold",
             "run_id": "20261011T185542Z_b894d4ac",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261011T185542Z_b894d4ac/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\gold\\20261011T185542Z_b894d4ac",
+            "verification_path": "./data\\published_verification\\gold\\20261011T185542Z_b894d4ac",
             "object_count": 14,
             "uploaded_bytes_including_manifest": 14404995,
             "downloaded_checksums_passed": true
@@ -96,7 +96,7 @@
             "layer": "silver",
             "run_id": "20261012T084829Z_b88491c1",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261012T084829Z_b88491c1/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\silver\\20261012T084829Z_b88491c1",
+            "verification_path": "./data\\published_verification\\silver\\20261012T084829Z_b88491c1",
             "object_count": 9,
             "uploaded_bytes_including_manifest": 17235582,
             "downloaded_checksums_passed": true
@@ -105,7 +105,7 @@
             "layer": "gold",
             "run_id": "20261012T084905Z_3830941f",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T084905Z_3830941f/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\gold\\20261012T084905Z_3830941f",
+            "verification_path": "./data\\published_verification\\gold\\20261012T084905Z_3830941f",
             "object_count": 14,
             "uploaded_bytes_including_manifest": 14405078,
             "downloaded_checksums_passed": true
@@ -134,7 +134,7 @@
             "layer": "silver",
             "run_id": "20261012T084829Z_b88491c1",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/silver/runs/20261012T084829Z_b88491c1/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\silver\\20261012T084829Z_b88491c1_verify_090103",
+            "verification_path": "./data\\published_verification\\silver\\20261012T084829Z_b88491c1_verify_090103",
             "object_count": 9,
             "uploaded_bytes_including_manifest": 17235582,
             "downloaded_checksums_passed": true
@@ -143,7 +143,7 @@
             "layer": "gold",
             "run_id": "20261012T084905Z_3830941f",
             "s3_uri": "s3://retaillake-dev-037315459859-mumbai/gold/runs/20261012T084905Z_3830941f/",
-            "verification_path": "C:\\Users\\HP5CD\\Desktop\\Aaryav\\RetailLake\\data\\published_verification\\gold\\20261012T084905Z_3830941f_verify_090140",
+            "verification_path": "./data\\published_verification\\gold\\20261012T084905Z_3830941f_verify_090140",
             "object_count": 14,
             "uploaded_bytes_including_manifest": 14405078,
             "downloaded_checksums_passed": true

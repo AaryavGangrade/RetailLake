@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::037315459859:role/managed/AccountFullAccessRole"
+        "AWS": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/managed/AccountFullAccessRole"
       },
       "Action": "sts:AssumeRole"
     }
