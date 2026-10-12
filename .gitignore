@@ -28,8 +28,9 @@ tools/downloads/*.zip
 Thumbs.db
 desktop.ini
 
-# Auxiliary / draft notes
+# Auxiliary / draft notes and internal prototyping
 extra/
+databricks-s3/
 
 # Local secrets, environment configurations, and keys
 .env

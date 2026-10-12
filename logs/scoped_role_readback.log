@@ -1,243 +1,0 @@
-WARNING: Using incubator modules: jdk.incubator.vector
-:: loading settings :: url = jar:file:/C:/Users/HP5CD/Desktop/Aaryav/RetailLake/.venv/Lib/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
-Ivy Default Cache set to: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\cache
-The jars for the packages stored in: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\jars
-io.delta#delta-spark_2.13 added as a dependency
-:: resolving dependencies :: org.apache.spark#spark-submit-parent-802bd27b-4da6-42e6-950b-2773d8c3f896;1.0
-	confs: [default]
-	found io.delta#delta-spark_2.13;4.0.1 in central
-	found io.delta#delta-storage;4.0.1 in central
-	found org.antlr#antlr4-runtime;4.13.1 in central
-:: resolution report :: resolve 180ms :: artifacts dl 8ms
-	:: modules in use:
-	io.delta#delta-spark_2.13;4.0.1 from central in [default]
-	io.delta#delta-storage;4.0.1 from central in [default]
-	org.antlr#antlr4-runtime;4.13.1 from central in [default]
-	---------------------------------------------------------------------
-	|                  |            modules            ||   artifacts   |
-	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
-	---------------------------------------------------------------------
-	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
-	---------------------------------------------------------------------
-:: retrieving :: org.apache.spark#spark-submit-parent-802bd27b-4da6-42e6-950b-2773d8c3f896
-	confs: [default]
-	0 artifacts copied, 3 already retrieved (0kB/5ms)
-Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/12 14:32:37 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[Stage 3:>                                                         (0 + 2) / 50][Stage 3:==>                                                       (2 + 2) / 50][Stage 3:========>                                                 (7 + 2) / 50][Stage 3:=============>                                           (12 + 2) / 50][Stage 3:===================>                                     (17 + 2) / 50][Stage 3:=======================>                                 (21 + 2) / 50][Stage 3:=============================>                           (26 + 2) / 50][Stage 3:===================================>                     (31 + 2) / 50][Stage 3:==========================================>              (37 + 2) / 50][Stage 3:==================================================>      (44 + 2) / 50]                                                                                Published silver/orders: 99,441 rows verified
-[Stage 10:====================>                                   (18 + 2) / 50][Stage 10:=============================>                          (26 + 2) / 50][Stage 10:======================================>                 (34 + 2) / 50][Stage 10:===============================================>        (42 + 3) / 50]                                                                                Published silver/order_items: 112,650 rows verified
-[Stage 17:===================================>                    (32 + 2) / 50][Stage 17:=============================================>          (41 + 2) / 50][Stage 17:======================================================> (49 + 1) / 50]                                                                                Published silver/products: 32,951 rows verified
-[Stage 24:==========================>                             (24 + 2) / 50][Stage 24:===================================>                    (32 + 2) / 50][Stage 24:=================================================>      (44 + 2) / 50]                                                                                Published gold/product_dim: 32,951 rows verified
-[Stage 31:================================>                       (29 + 3) / 50][Stage 31:============================================>           (40 + 2) / 50]                                                                                Published gold/item_facts: 112,650 rows verified
-[Stage 38:====================================>                   (33 + 2) / 50][Stage 38:=================================================>      (44 + 2) / 50]                                                                                Published gold/category_sales: 74 rows verified
-[Stage 45:======================================>                 (34 + 2) / 50]                                                                                Published gold/monthly_sales: 23 rows verified
-[Stage 51:>                                                         (0 + 2) / 2]                                                                                [Stage 55:=================================>                      (30 + 2) / 50][Stage 55:=================================================>      (44 + 2) / 50]                                                                                All seven published Delta tables verified; sales totals match 13221498.11.
-26/10/12 14:32:55 WARN SparkEnv: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3\userFiles-b3f48d43-5712-4c2a-bcfd-081f1f5456ae
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3\userFiles-b3f48d43-5712-4c2a-bcfd-081f1f5456ae\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:131)
-	at org.apache.spark.SparkContext.$anonfun$stop$25(SparkContext.scala:2395)
-	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1300)
-	at org.apache.spark.SparkContext.stop(SparkContext.scala:2395)
-	at org.apache.spark.SparkContext.stop(SparkContext.scala:2297)
-	at org.apache.spark.api.java.JavaSparkContext.stop(JavaSparkContext.scala:552)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
-	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
-	at py4j.Gateway.invoke(Gateway.java:282)
-	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
-	at py4j.commands.CallCommand.execute(CallCommand.java:79)
-	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
-	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-26/10/12 14:32:55 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3\userFiles-b3f48d43-5712-4c2a-bcfd-081f1f5456ae
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3\userFiles-b3f48d43-5712-4c2a-bcfd-081f1f5456ae\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
-	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
-	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.util.Try$.apply(Try.scala:217)
-	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
-	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-26/10/12 14:32:55 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-dc50dc95-00b1-45da-bb7b-794086a505d3\userFiles-b3f48d43-5712-4c2a-bcfd-081f1f5456ae\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
-	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
-	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.util.Try$.apply(Try.scala:217)
-	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
-	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-WARNING: Using incubator modules: jdk.incubator.vector
-:: loading settings :: url = jar:file:/C:/Users/HP5CD/Desktop/Aaryav/RetailLake/.venv/Lib/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
-Ivy Default Cache set to: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\cache
-The jars for the packages stored in: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\ivy\jars
-io.delta#delta-spark_2.13 added as a dependency
-:: resolving dependencies :: org.apache.spark#spark-submit-parent-62677ce1-06c2-4165-ac6e-d243817c7249;1.0
-	confs: [default]
-	found io.delta#delta-spark_2.13;4.0.1 in central
-	found io.delta#delta-storage;4.0.1 in central
-	found org.antlr#antlr4-runtime;4.13.1 in central
-:: resolution report :: resolve 202ms :: artifacts dl 0ms
-	:: modules in use:
-	io.delta#delta-spark_2.13;4.0.1 from central in [default]
-	io.delta#delta-storage;4.0.1 from central in [default]
-	org.antlr#antlr4-runtime;4.13.1 from central in [default]
-	---------------------------------------------------------------------
-	|                  |            modules            ||   artifacts   |
-	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
-	---------------------------------------------------------------------
-	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
-	---------------------------------------------------------------------
-:: retrieving :: org.apache.spark#spark-submit-parent-62677ce1-06c2-4165-ac6e-d243817c7249
-	confs: [default]
-	0 artifacts copied, 3 already retrieved (0kB/0ms)
-Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/10/12 14:33:07 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[Stage 0:>                                                          (0 + 1) / 1][Stage 2:>                                                         (0 + 2) / 50][Stage 2:==>                                                       (2 + 2) / 50][Stage 2:========>                                                 (7 + 2) / 50][Stage 2:=================>                                       (15 + 2) / 50][Stage 2:=======================>                                 (21 + 2) / 50][Stage 2:==============================>                          (27 + 2) / 50][Stage 2:=====================================>                   (33 + 2) / 50][Stage 2:=================================================>       (43 + 2) / 50]                                                                                [Stage 3:>                                                          (0 + 2) / 2]                                                                                Dashboard data exported: 23 months, 74 categories, 1273 category-month rows.
-Sales/count exports reconcile with verified Gold. Simulation data excluded.
-26/10/12 14:33:13 WARN SparkEnv: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0\userFiles-da18aafb-1c8c-4bfd-af7f-504939563beb
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0\userFiles-da18aafb-1c8c-4bfd-af7f-504939563beb\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:131)
-	at org.apache.spark.SparkContext.$anonfun$stop$25(SparkContext.scala:2395)
-	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1300)
-	at org.apache.spark.SparkContext.stop(SparkContext.scala:2395)
-	at org.apache.spark.SparkContext.stop(SparkContext.scala:2297)
-	at org.apache.spark.api.java.JavaSparkContext.stop(JavaSparkContext.scala:552)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
-	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
-	at py4j.Gateway.invoke(Gateway.java:282)
-	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
-	at py4j.commands.CallCommand.execute(CallCommand.java:79)
-	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
-	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-26/10/12 14:33:14 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0\userFiles-da18aafb-1c8c-4bfd-af7f-504939563beb\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
-	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
-	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.util.Try$.apply(Try.scala:217)
-	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
-	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-26/10/12 14:33:14 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0\userFiles-da18aafb-1c8c-4bfd-af7f-504939563beb
-java.io.IOException: Failed to delete: C:\Users\HP5CD\Desktop\Aaryav\RetailLake\.cache\tmp\spark-def7e900-6272-4ba5-b022-1ac6985468c0\userFiles-da18aafb-1c8c-4bfd-af7f-504939563beb\org.antlr_antlr4-runtime-4.13.1.jar
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:155)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:138)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:124)
-	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:94)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
-	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
-	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1048)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:70)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:67)
-	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1324)
-	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:67)
-	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:231)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1937)
-	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:205)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at scala.util.Try$.apply(Try.scala:217)
-	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:205)
-	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:184)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-olist_orders_dataset.csv: rows=99,441, bytes=17,654,914, checksum=LQkjziOObt0=, passed=True
-olist_order_items_dataset.csv: rows=112,650, bytes=15,438,671, checksum=EbgYRwtQD7c=, passed=True
-olist_products_dataset.csv: rows=32,951, bytes=2,379,446, checksum=PUUAxjGU1iI=, passed=True
-All three files match the ingestion manifest.
-Verified batch recorded; previous snapshot completions retained: 2
