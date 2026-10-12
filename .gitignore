@@ -31,3 +31,31 @@ desktop.ini
 # Auxiliary / draft notes
 extra/
 
+# Local secrets, environment configurations, and keys
+.env
+.env.*
+*.env
+*.env.local
+*.secret
+*.secrets
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.pub
+
+# Cloud provider credentials, tokens, and service accounts
+.aws/
+aws/
+credentials
+credentials.json
+*service_account*.json
+*client_secret*.json
+*.token
+*.jwt
+
+# Execution logs and local diagnostic dumps
+logs/
+*.log
