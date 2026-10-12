@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checks": [
+    "January 2017 default and reset",
+    "August 2018 single-month view",
+    "metric switches and matching legends",
+    "single-category filter",
+    "empty search result",
+    "pagination",
+    "Top 20 rankings",
+    "item-count descending sort",
+    "data notes open/close",
+    "current Gold provenance after versioned asset links",
+    "category CSV download"
+  ],
+  "default_period": {
+    "from": "2017-01",
+    "through": "2018-08",
+    "sales_brl": "13181027.13",
+    "orders": 96211,
+    "items": 109880
+  },
+  "category_check": {
+    "category": "beleza_saude",
+    "sales_brl": "1229557.50"
+  },
+  "single_month": {
+    "month": "2018-08",
+    "sales_brl": "838576.64",
+    "orders": 6351
+  },
+  "export_path": "C:/Users/HP5CD/Downloads/RetailLake_categories_2017-01_2018-08.csv",
+  "screenshot": "docs/history/2026-10-12_completion/dashboard_verified.png"
+}
